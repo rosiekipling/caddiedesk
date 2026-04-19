@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Caddie Desk — Golf, Read Properly</title>
+<meta name="description" content="Dispatches from the links. Home of Pardle, the daily golf puzzle, and data-driven writing about the game." />
+
+<link rel="icon" type="image/png" href="/favicon-light.png" media="(prefers-color-scheme: light)" />
+<link rel="icon" type="image/png" href="/favicon-dark.png" media="(prefers-color-scheme: dark)" />
+<link rel="apple-touch-icon" href="/favicon-light.png" />
+<meta name="theme-color" content="#363334" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #363334;
+    --paper: #fff0f0;
+    --paper-shade: #f3e1e1;
+    --ink-mute: rgba(54, 51, 52, 0.6);
+    --ink-line: rgba(54, 51, 52, 0.18);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Fraunces', serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 2;
+    opacity: .18;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  .wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 40px 80px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .masthead {
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+    padding: 14px 0 10px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .masthead .issue, .masthead .date {
+    font-family: 'Archivo', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+  }
+
+  .title-bar {
+    padding: 48px 0 32px;
+    text-align: center;
+  }
+  .kicker-above {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .35em;
+    font-size: 11px;
+    color: var(--ink-mute);
+    margin-bottom: 8px;
+  }
+  h1.logo {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(72px, 14vw, 180px);
+    letter-spacing: -0.035em;
+    line-height: 0.88;
+    font-variation-settings: "opsz" 144;
+  }
+  .tagline {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-size: 11px;
+    margin-top: 18px;
+    color: var(--ink-mute);
+  }
+
+  .hero {
+    padding: 48px 0 64px;
+    text-align: center;
+    border-bottom: 1px solid var(--ink);
+  }
+  .hero-lead {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(22px, 3vw, 32px);
+    line-height: 1.3;
+    font-weight: 300;
+    max-width: 680px;
+    margin: 0 auto;
+    letter-spacing: -0.01em;
+  }
+  .hero-lead em {
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  .kicker {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    font-size: 10px;
+    letter-spacing: .28em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 24px;
+    display: inline-block;
+    padding-bottom: 6px;
+    border-bottom: 1.5px solid var(--ink);
+  }
+
+  .feature {
+    padding: 64px 0;
+    border-bottom: 1px solid var(--ink);
+  }
+  .feature-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: center;
+  }
+  .feature-text h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(56px, 7vw, 96px);
+    line-height: 0.95;
+    letter-spacing: -0.035em;
+    font-variation-settings: "opsz" 144;
+    margin-bottom: 20px;
+  }
+  .feature-text p {
+    font-family: 'Fraunces', serif;
+    font-size: 19px;
+    line-height: 1.55;
+    margin-bottom: 28px;
+    color: var(--ink);
+    opacity: 0.85;
+    max-width: 440px;
+  }
+  .feature-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    padding: 16px 24px;
+    background: var(--ink);
+    color: var(--paper);
+    transition: all .25s ease;
+  }
+  .feature-cta:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 var(--ink);
+  }
+  .feature-cta .arrow { transition: transform .2s ease; }
+  .feature-cta:hover .arrow { transform: translateX(4px); }
+
+  .scorecard-preview {
+    background: var(--paper);
+    border: 1.5px solid var(--ink);
+    padding: 24px;
+    box-shadow: 10px 10px 0 var(--ink);
+  }
+  .sp-kicker {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 8px;
+  }
+  .sp-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .sp-title em { font-style: italic; }
+  .sp-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .sp-cell { padding: 12px 10px; }
+  .sp-cell .lbl {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 9px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 6px;
+  }
+  .sp-cell .val {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1;
+    font-variation-settings: "opsz" 144;
+  }
+  .sp-cell.hidden {
+    background: repeating-linear-gradient(
+      45deg,
+      var(--paper-shade),
+      var(--paper-shade) 4px,
+      var(--paper) 4px,
+      var(--paper) 8px
+    );
+  }
+  .sp-cell.hidden .lbl, .sp-cell.hidden .val { color: transparent; }
+
+  .writing { padding: 64px 0; }
+  .writing-intro {
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--ink-mute);
+    max-width: 640px;
+    margin-bottom: 40px;
+  }
+  .article-list { display: grid; gap: 0; }
+  .article {
+    display: grid;
+    grid-template-columns: 60px 1fr 40px;
+    gap: 24px;
+    padding: 28px 0;
+    border-top: 1px solid var(--ink-line);
+    align-items: start;
+    transition: transform .25s ease;
+  }
+  .article:last-child { border-bottom: 1px solid var(--ink-line); }
+  .article:hover { transform: translateX(6px); }
+  .article-num {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: .18em;
+    color: var(--ink-mute);
+    padding-top: 6px;
+  }
+  .article-body h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: clamp(22px, 2.4vw, 28px);
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-bottom: 8px;
+  }
+  .article-body h3 em { font-style: italic; font-weight: 700; }
+  .article-meta {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 8px;
+  }
+  .article-body p {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--ink-mute);
+    max-width: 520px;
+  }
+  .article-arrow {
+    font-family: 'Fraunces', serif;
+    font-size: 26px;
+    opacity: 0.4;
+    transition: all .2s ease;
+    padding-top: 8px;
+    text-align: right;
+  }
+  .article:hover .article-arrow {
+    transform: translateX(6px);
+    opacity: 1;
+  }
+
+  .about {
+    padding: 56px 0 40px;
+    border-top: 1px solid var(--ink);
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 56px;
+  }
+  .about h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 14px;
+  }
+  .about h3 em { font-style: italic; }
+  .about p {
+    font-family: 'Fraunces', serif;
+    font-size: 17px;
+    line-height: 1.55;
+    opacity: 0.8;
+  }
+  .about-links {
+    font-family: 'Archivo', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+  }
+  .about-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+    border-bottom: 1.5px solid var(--ink);
+    transition: all .2s ease;
+  }
+  .about-links a:hover {
+    padding-left: 6px;
+    letter-spacing: .2em;
+  }
+
+  footer {
+    margin-top: 32px;
+    padding-top: 20px;
+    border-top: 1px solid var(--ink-line);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    animation: fadeUp 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  }
+  .reveal-1 { animation-delay: 0.1s; }
+  .reveal-2 { animation-delay: 0.25s; }
+  .reveal-3 { animation-delay: 0.4s; }
+  .reveal-4 { animation-delay: 0.55s; }
+  @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+
+  @media (max-width: 860px) {
+    .wrap { padding: 20px 22px 60px; }
+    .feature-inner { grid-template-columns: 1fr; gap: 40px; }
+    .about { grid-template-columns: 1fr; gap: 28px; }
+    .article { grid-template-columns: 40px 1fr; gap: 12px; }
+    .article-arrow { display: none; }
+    .scorecard-preview { box-shadow: 6px 6px 0 var(--ink); }
+    .title-bar { padding: 28px 0 20px; }
+    .hero { padding: 32px 0 48px; }
+    .feature, .writing { padding: 48px 0; }
+  }
+
+  @media (max-width: 500px) {
+    .masthead { flex-direction: column; align-items: center; gap: 4px; }
+    h1.logo { font-size: 80px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="issue">Vol. I — Est. 2026</div>
+    <div class="date" id="date">—</div>
+  </header>
+
+  <section class="title-bar reveal reveal-1">
+    <div class="kicker-above">The</div>
+    <h1 class="logo">Caddie Desk</h1>
+    <p class="tagline">Golf, Read Properly</p>
+  </section>
+
+  <section class="hero reveal reveal-2">
+    <p class="hero-lead">
+      A small publication for people who take golf <em>seriously</em> — the
+      numbers, the patterns, the stories behind the scorecard.
+    </p>
+  </section>
+
+  <section class="feature reveal reveal-3">
+    <div class="feature-inner">
+      <div class="feature-text">
+        <div class="kicker">Today's Puzzle</div>
+        <h2>Pardle.</h2>
+        <p>
+          A daily game. Six stats, one Tour pro. Read the numbers — can you
+          name the player behind the scorecard? New puzzle every day.
+        </p>
+        <a href="https://pardle.caddiedesk.com" class="feature-cta" target="_blank" rel="noopener">
+          Play Today's Round <span class="arrow">→</span>
+        </a>
+      </div>
+
+      <div class="scorecard-preview" aria-hidden="true">
+        <div class="sp-kicker">◆ Mystery Player No. 001</div>
+        <div class="sp-title">Whose <em>scorecard</em>?</div>
+        <div class="sp-grid">
+          <div class="sp-cell">
+            <div class="lbl">SG: Total</div>
+            <div class="val">+2.54</div>
+          </div>
+          <div class="sp-cell">
+            <div class="lbl">Driving Dist.</div>
+            <div class="val">320.7y</div>
+          </div>
+          <div class="sp-cell">
+            <div class="lbl">SG: Approach</div>
+            <div class="val">+0.89</div>
+          </div>
+          <div class="sp-cell hidden">
+            <div class="lbl">SG: Putting</div>
+            <div class="val">—</div>
+          </div>
+          <div class="sp-cell hidden">
+            <div class="lbl">SG: Around G.</div>
+            <div class="val">—</div>
+          </div>
+          <div class="sp-cell hidden">
+            <div class="lbl">Driving Acc.</div>
+            <div class="val">—</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="writing reveal reveal-4">
+    <div class="kicker">From the Archive</div>
+    <p class="writing-intro">
+      Long-form analysis of men's professional golf. Data-driven, but written
+      for the curious rather than the quants.
+    </p>
+
+    <div class="article-list">
+      <a class="article" href="https://medium.com/analytics-vidhya/predicting-a-pga-tour-winner-part-1-exploration-and-regression-models-e19a25351c75" target="_blank" rel="noopener">
+        <div class="article-num">№ 01</div>
+        <div class="article-body">
+          <div class="article-meta">Essay · Part One</div>
+          <h3>Predicting a PGA Tour Winner: <em>Exploration &amp; Regression</em></h3>
+          <p>
+            A first pass through the data — which stats actually matter
+            when you're trying to pick a winner before the tournament tees off.
+          </p>
+        </div>
+        <div class="article-arrow">→</div>
+      </a>
+
+      <a class="article" href="https://medium.com/@rosiekipling/predicting-a-pga-tour-winner-part-2-k-means-clustering-decision-trees-prediction-72b42c788c55" target="_blank" rel="noopener">
+        <div class="article-num">№ 02</div>
+        <div class="article-body">
+          <div class="article-meta">Essay · Part Two</div>
+          <h3>Predicting a PGA Tour Winner: <em>Clustering &amp; Decision Trees</em></h3>
+          <p>
+            Building on the exploration — grouping players by playing style,
+            and using decision trees to forecast who rises on any given week.
+          </p>
+        </div>
+        <div class="article-arrow">→</div>
+      </a>
+    </div>
+  </section>
+
+  <section class="about">
+    <div>
+      <h3>About the <em>Desk</em></h3>
+      <p>
+        The Caddie Desk is a one-person publication covering men's professional
+        golf through data and careful reading. Home of Pardle, the daily
+        guess-the-player puzzle, and the occasional long-form essay.
+      </p>
+    </div>
+    <div class="about-links">
+      <a href="https://pardle.caddiedesk.com" target="_blank" rel="noopener">
+        Pardle — play today →
+      </a>
+      <a href="https://instagram.com/caddiedesk" target="_blank" rel="noopener">
+        @caddiedesk →
+      </a>
+      <a href="mailto:hello@caddiedesk.com">
+        hello@caddiedesk.com →
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div>© 2026 The Caddie Desk · Pressed in North Yorkshire</div>
+    <div>All rounds count</div>
+  </footer>
+
+</div>
+
+<script>
+  const today = new Date().toLocaleDateString("en-GB", {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+  document.getElementById("date").textContent = today;
+</script>
+</body>
+</html>
