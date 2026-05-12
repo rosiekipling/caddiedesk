@@ -96,15 +96,26 @@
   <div class="article-list" id="article-list"></div>
 
   <script>
+    function formatDate(isoDate) {
+      if (!isoDate) return "";
+      const d = new Date(isoDate);
+      return d.toLocaleDateString("en-GB", {
+        month: "long",
+        year: "numeric",
+      });
+    }
+  
     fetch("/articles.json")
       .then(r => r.json())
       .then(articles => {
         const list = document.getElementById("article-list");
-        list.innerHTML = articles.map(a => `
+        list.innerHTML = articles
+          .sort((a, b) => (b.published || "").localeCompare(a.published || ""))
+          .map(a => `
           <a class="article" href="${a.url}" target="_blank" rel="noopener">
             <div class="article-num">№ ${a.num}</div>
             <div class="article-body">
-              <div class="article-meta">${a.type} · ${a.subtitle}</div>
+              <div class="article-meta">${a.type} · ${a.subtitle}${a.published ? ` · ${formatDate(a.published)}` : ""}</div>
               <h3>${a.title.replace(a.titleHighlight, `<em>${a.titleHighlight}</em>`)}</h3>
               <p>${a.blurb}</p>
             </div>
