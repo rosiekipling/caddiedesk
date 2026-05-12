@@ -1,0 +1,37 @@
+[
+
+    {
+        "num": "03",
+        "type": "Essay",
+        "subtitle": "Tour Pulse",
+        "title": "What the Driving Stats Tell Us About the PGA Championship",
+        "titleHighlight": "Driving Stats",
+        "blurb": "A look at who's gaining strokes off the tee heading into Quail Hollow — and what it means for picks this weekend.",
+        "url": "https://medium.com/@rosiekipling/...",
+        "published": "2026-05-15"
+      },
+
+
+    {
+        "num": "02",
+        "type": "Essay",
+        "subtitle": "Part Two",
+        "title": "Predicting a PGA Tour Winner: Clustering &amp; Decision Trees",
+        "titleHighlight": "Clustering &amp; Decision Trees",
+        "blurb": "Building on the exploration — grouping players by playing style, and using decision trees to forecast who rises on any given week.",
+        "url": "https://medium.com/analytics-vidhya/predicting-a-pga-tour-winner-part-2-k-means-clustering-decision-trees-prediction-72b42c788c55",
+        "published": "2020-04-22"
+      },
+
+      {
+        "num": "01",
+        "type": "Essay",
+        "subtitle": "Part One",
+        "title": "Predicting a PGA Tour Winner: Exploration &amp; Regression",
+        "titleHighlight": "Exploration &amp; Regression",
+        "blurb": "A first pass through the data — which stats actually matter when you're trying to pick a winner before the tournament tees off.",
+        "url": "https://medium.com/analytics-vidhya/predicting-a-pga-tour-winner-part-1-exploration-and-regression-models-e19a25351c75.",
+        "published": "2020-04-19"
+      }
+
+  ]

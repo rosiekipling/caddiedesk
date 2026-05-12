@@ -93,34 +93,26 @@
       for the curious.
     </p>
 
-    <div class="article-list">
-      <a class="article" href="https://medium.com/analytics-vidhya/predicting-a-pga-tour-winner-part-1-exploration-and-regression-models-e19a25351c75" target="_blank" rel="noopener">
-        <div class="article-num">№ 01</div>
-        <div class="article-body">
-          <div class="article-meta">Essay · Part One</div>
-          <h3>Predicting a PGA Tour Winner: <em>Exploration &amp; Regression</em></h3>
-          <p>
-            A first pass through the data — which stats actually matter
-            when you're trying to pick a winner before the tournament tees off.
-          </p>
-        </div>
-        <div class="article-arrow">→</div>
-      </a>
+  <div class="article-list" id="article-list"></div>
 
-      <a class="article" href="https://medium.com/@rosiekipling/predicting-a-pga-tour-winner-part-2-k-means-clustering-decision-trees-prediction-72b42c788c55" target="_blank" rel="noopener">
-        <div class="article-num">№ 02</div>
-        <div class="article-body">
-          <div class="article-meta">Essay · Part Two</div>
-          <h3>Predicting a PGA Tour Winner: <em>Clustering &amp; Decision Trees</em></h3>
-          <p>
-            Building on the exploration — grouping players by playing style,
-            and using decision trees to forecast who rises on any given week.
-          </p>
-        </div>
-        <div class="article-arrow">→</div>
-      </a>
-    </div>
-  </section>
+  <script>
+    fetch("/articles.json")
+      .then(r => r.json())
+      .then(articles => {
+        const list = document.getElementById("article-list");
+        list.innerHTML = articles.map(a => `
+          <a class="article" href="${a.url}" target="_blank" rel="noopener">
+            <div class="article-num">№ ${a.num}</div>
+            <div class="article-body">
+              <div class="article-meta">${a.type} · ${a.subtitle}</div>
+              <h3>${a.title.replace(a.titleHighlight, `<em>${a.titleHighlight}</em>`)}</h3>
+              <p>${a.blurb}</p>
+            </div>
+            <div class="article-arrow">→</div>
+          </a>
+        `).join("");
+      });
+  </script>
 
   <section class="about">
     <div>
