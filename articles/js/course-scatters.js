@@ -1,5 +1,5 @@
 (function() {
-  d3.json("/posts/data/course-scatters.json").then(initScrollyScatters);
+  d3.json("/articles/data/course-scatters.json").then(initScrollyScatters);
 
   const INK = "#363334";
   const yardageColors = ["#f4e4c1", "#c19a6b", "#5b3924"];

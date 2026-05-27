@@ -11,7 +11,7 @@
       const container = document.getElementById("expected-strokes-putting-chart");
       if (!container) return;
   
-      d3.json("/posts/data/expected-strokes.json").then(drawChart);
+      d3.json("/articles/data/expected-strokes.json").then(drawChart);
     }
   
   

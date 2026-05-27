@@ -1,5 +1,5 @@
 (function() {
-    d3.json("/posts/data/course-scatters.json").then(initScrollyScatter);
+    d3.json("/articles/data/course-scatters.json").then(initScrollyScatter);
     
     const INK = "#363334";
     

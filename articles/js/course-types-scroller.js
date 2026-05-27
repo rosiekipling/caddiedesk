@@ -1,6 +1,6 @@
 (function() {
 
-  d3.json("/posts/data/course-types.json").then(initScrollers);
+  d3.json("/articles/data/course-types.json").then(initScrollers);
 
   let allData = {};
 

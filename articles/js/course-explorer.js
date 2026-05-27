@@ -1,7 +1,7 @@
 (function() {
 
   // Load the data
-  d3.json("/posts/data/course-explorer.json").then(initExplorer);
+  d3.json("/articles/data/course-explorer.json").then(initExplorer);
 
   function initExplorer(courses) {
     // Set up search
