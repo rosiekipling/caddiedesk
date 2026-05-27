@@ -1,0 +1,14 @@
+# Existing entries...
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+analysis/.env
+
+# Misc
+.DS_Store

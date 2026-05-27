@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{TITLE}} — The Caddie Desk</title>
+  <meta name="description" content="{{BLURB}}" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon-light.png" media="(prefers-color-scheme: light)" />
+  <link rel="icon" type="image/png" href="/favicon-dark.png" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f9f8f3" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/posts/_template-styles.css" />
+
+  <!-- Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://unpkg.com/scrollama@3"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{TITLE}}" />
+  <meta property="og:description" content="{{BLURB}}" />
+  <meta property="og:image" content="{{OG_IMAGE}}" />
+  <meta property="og:type" content="article" />
+</head>
+<body>
+  <div class="article-progress"></div>
+  <div class="article-page">
+
+    <nav class="article-nav">
+      <a class="brand" href="/">The Caddie Desk</a>
+      <a href="https://pardle.caddiedesk.com">Play Pardle →</a>
+    </nav>
+
+    <article>
+      <header class="article-header">
+        <div class="article-kicker">{{KICKER}}</div>
+        <h1 class="article-title">{{TITLE_HTML}}</h1>
+        <div class="article-meta-line">{{META}}</div>
+      </header>
+
+      <p class="article-lead">{{LEAD}}</p>
+
+      <div class="article-content">
+
+        {{CONTENT}}
+
+      </div>
+
+      <div class="pardle-promo">
+        <div class="kicker">Today's Puzzle</div>
+        <h3>Test the stats yourself.</h3>
+        <p>Play Pardle — guess the Tour pro from six stats.</p>
+        <a href="https://pardle.caddiedesk.com">Play Today's Round →</a>
+      </div>
+
+      <div class="article-footer">
+        <a href="/" class="back-link">← Back to The Caddie Desk</a>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- Shared scrolly behaviour -->
+  <script src="/posts/_template-script.js"></script>
+
+  <!-- Article-specific JS -->
+  <!-- <script src="/posts/js/[article-slug].js"></script> -->
+
+</body>
+</html>

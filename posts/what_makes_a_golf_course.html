@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What makes a golf course? — The Caddie Desk</title>
+  <meta name="description" content="{{BLURB}}" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon-light.png" media="(prefers-color-scheme: light)" />
+  <link rel="icon" type="image/png" href="/favicon-dark.png" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f9f8f3" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/posts/what_makes_a_golf_course.css" />
+
+  <!-- Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://unpkg.com/scrollama@3"></script>
+
+  <!-- Before </body> -->
+  <script src="/posts/js/course-types-scroller.js"></script>
+  <script src="/posts/js/course-explorer.js"></script>
+  <script src="/posts/js/course-scatters.js"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="What makes a golf course" />
+  <meta property="og:description" content="{{BLURB}}" />
+  <meta property="og:image" content="{{OG_IMAGE}}" />
+  <meta property="og:type" content="article" />
+</head>
+<body>
+  <div class="article-page">
+
+    <nav class="article-nav">
+      <a class="brand" href="/">The Caddie Desk</a>
+      <a href="https://pardle.caddiedesk.com">Play Pardle →</a>
+    </nav>
+
+    <article>
+      <header class="article-header">
+        <div class="article-kicker">Essay · Courses</div>
+        <h1 class="article-title">What <em>makes</em> a golf course?</h1>
+        <div class="article-meta-line">560 words · June 2026 · Rosie Kipling</div>
+      </header>
+
+      <!-- <p class="article-lead">Which skills are most important at which courses?</p> -->
+
+      <div class="article-content">
+
+        <p>Watch enough PGA Tour golf and you start to feel which courses reward which skills. Augusta is where short game matters. The Open is where long hitters thrive. Plantation Course at Kapalua is where birdies pile up faster than at any other event on tour.
+          But that's all feel. What does the data say?</p>
+      
+        <p>We trained a model on 287,000 player-rounds from 2012-2025 to learn what predicts good play. Then we measured how much each skill matters at each course. Here's what we found.</p>
+
+        <h2>Course Types: What's the difference?</h2>
+      
+        <!-- SCROLLER 1: Course types -->
+        <div class="scrolly" id="scrolly-course-types">
+          <div class="scrolly-graphic">
+            <svg id="course-type-radar" viewBox="0 0 600 600"></svg>
+            <div class="radar-caption">
+              <span class="kicker" id="current-kicker">Course Type</span>
+              <h3 id="current-type-name">Parkland</h3>
+              <p id="current-type-count">67 courses</p>
+            </div>
+          </div>
+          
+          <div class="scrolly-steps">
+            <div class="scrolly-step" data-step="parkland">
+              <h4>Parkland</h4>
+              <p>The default. With 67 courses in our dataset, parkland defines what 'average' looks like — close to the baseline on every stat. Most PGA Tour stops are some variation of parkland.</p>
+            </div>
+            
+            <div class="scrolly-step" data-step="stadium">
+              <h4>Stadium</h4>
+              <p>Pete Dye-designed TPC courses pull approach play <em>up</em> and driving accuracy <em>down</em>. Wide fairways for galleries, demanding pins for TV drama. The Players Championship lives here.</p>
+            </div>
+            
+            <div class="scrolly-step" data-step="coastal">
+              <h4>Coastal</h4>
+              <p>These courses reward driving distance, approach shots & scrambling from around the green. 
+                Firmer fairways add runout on drives and the course style creates strategic openings for long hitters.
+                Wind exposure and smaller greens, mean that this is the time for pin-seekers, and if not we scramble.</p>
+            </div>
+            
+            <div class="scrolly-step" data-step="links">
+              <h4>Links</h4>
+              <p>Links rewards distance more than the average tour stop. Firm fairways add runout, wide corridors invite aggressive driving, and wind gives longer hitters more options.
+                Approach play matters less — links approaches often aren't approach shots at all. Players bump it on from 20 yards short, a skill closer to chipping than iron play.</p>
+            </div>
+
+            <div class="scrolly-spacer"></div>
+
+          </div>
+        </div>
+        <!-- END SCROLLER 1 -->
+
+        
+        <div class="section-divider">Inside the categories</div>
+      
+      
+        <h2>Inside parkland: <em>three eras</em> of design</h2>
+      
+        <p>Parkland is too broad a category to be interesting on its own. But split it by when the course was designed, and a clear pattern emerges.</p>
+      
+        <!-- SCROLLER 2: Parkland eras -->
+        <div class="scrolly" id="scrolly-parkland-eras">
+          <div class="scrolly-graphic">
+            <svg id="parkland-era-radar" viewBox="0 0 600 600"></svg>
+            <div class="radar-caption">
+              <span class="kicker" id="era-kicker">Parkland Era</span>
+              <h3 id="era-name">Golden Age</h3>
+              <p id="era-count">N courses</p>
+            </div>
+          </div>
+          
+          <div class="scrolly-steps">
+            <div class="scrolly-step" data-step="golden_age">
+              <h4>The Golden Age</h4>
+              <p>Pre-1940 designs by Ross, MacKenzie, Tillinghast. These courses pre-date the modern bomber — they reward positional play and creative approaches. Distance plays a smaller role than at any other parkland era.</p>
+            </div>
+            
+            <div class="scrolly-step" data-step="modern">
+              <h4>The Modern Era</h4>
+              <p>1940-1990. Robert Trent Jones Sr, Pete Dye, Jack Nicklaus. Courses get longer and more demanding. Driving distance starts to matter more, but approach play remains king.</p>
+            </div>
+            
+            <div class="scrolly-step" data-step="contemporary">
+              <h4>The Contemporary Era</h4>
+              <p>Post-1990. Coore &amp; Crenshaw, Tom Doak, Kyle Phillips bring back Golden Age principles — but with longer yardage to combat modern equipment. The result: a hybrid profile.</p>
+            </div>
+
+            <div class="scrolly-spacer"></div>
+
+          </div>
+        </div>
+      
+        <div class="section-divider">The outliers</div>
+
+        <h2>The outliers: What makes a <em>legend</em>?</h2>
+
+        <p>Some courses refuse to fit a category.
+        Three of them are the most interesting tests in golf.</p>
+
+        <!-- Pullquote transition
+        <div style="margin: 120px 0;">
+          <aside class="pullquote">
+            Some courses refuse to fit a category.<br><br>
+            Three of them are the most interesting tests in golf.
+          </aside>
+        </div> -->
+      
+        <!-- SCROLLER 3: Outliers -->
+        <div class="scrolly" id="scrolly-outliers">
+          <div class="scrolly-graphic">
+            <svg id="outlier-radar" viewBox="0 0 600 600"></svg>
+            <div class="radar-caption">
+              <span class="kicker" id="outlier-kicker">Outlier</span>
+              <h3 id="outlier-name">Augusta National</h3>
+              <p id="outlier-meta"></p>
+            </div>
+          </div>
+          
+          <div class="scrolly-steps">
+            <div class="scrolly-step" data-step="augusta">
+              <h4>Augusta National</h4>
+              <p>Augusta rewards two skills above all: driving accuracy (the fairways look wide, but position is everything) and around-the-green play (the slopes and false fronts demand creative recovery). Putting matters less than expected — at the Masters the field is so concentrated that individual putting skill is hard for any model to isolate.</p>
+            </div>
+            
+            <div class="scrolly-step" data-step="kapalua">
+              <h4>Plantation Course</h4>
+              <p>Kapalua tests <em>almost</em> every part of the game. With winners averaging 23-under, the differentiator isn't grinding out pars. It's making birdies, and lots of them. Short game is rarely a differentiator as the best players don't miss the notoriously large greens.</p>
+            </div>
+      
+            <div class="scrolly-step" data-step="standrews">
+              <h4>The Old Course</h4>
+              <p>The Old Course is a paradox: hit it long, miss it however you want, then hole the putts. Wide fairways and no rough remove the penalty for poor accuracy. Massive, undulating greens — some over 80 yards across — make lag putting the decisive skill. SG: Approach barely matters because links approaches aren't typical approach shots: players bump it 30 yards short and let the ball run on.</p>
+            </div>
+
+            <div class="scrolly-spacer"></div>
+
+          </div>
+        </div>
+        <!-- END SCROLLER 3 -->
+  <!-- Course explorer (separate from scrollers) -->
+
+      <div class="section-divider">Your turn</div>
+
+
+        <h2>See how your favourite course compares:</h2>
+      
+        <div class="course-explorer">
+          <h3>Build your own course profile</h3>
+          <input 
+            type="text" 
+            id="course-search" 
+            placeholder="Search for a course..."
+            autocomplete="off"
+          />
+          <div id="course-suggestions"></div>
+          <div class="course-info">
+            <h4 id="selected-course-name"></h4>
+            <div id="course-meta"></div>
+          </div>
+          <svg id="course-radar" viewBox="0 0 600 600"></svg>
+        </div>
+      
+      </div>
+
+      <div class="pardle-promo">
+        <div class="kicker">Today's Puzzle</div>
+        <h3>Test the stats yourself.</h3>
+        <p>Play Pardle — guess the Tour pro from six stats.</p>
+        <a href="https://pardle.caddiedesk.com">Play Today's Round →</a>
+      </div>
+
+      <div class="article-footer">
+        <a href="/" class="back-link">← Back to The Caddie Desk</a>
+      </div>
+    </article>
+
+  </div>
+
+
+</body>
+</html>

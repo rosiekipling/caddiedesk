@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What makes a golf course? — The Caddie Desk</title>
+  <meta name="description" content="{{BLURB}}" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon-light.png" media="(prefers-color-scheme: light)" />
+  <link rel="icon" type="image/png" href="/favicon-dark.png" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f9f8f3" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/posts/what_makes_a_golf_course.css" />
+
+  <!-- Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://unpkg.com/scrollama@3"></script>
+
+  <!-- Before </body> -->
+  <script src="/posts/js/course-types-scroller.js"></script>
+  <script src="/posts/js/course-explorer.js"></script>
+  <script src="/posts/js/course-scatters.js"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="What makes a golf course" />
+  <meta property="og:description" content="{{BLURB}}" />
+  <meta property="og:image" content="{{OG_IMAGE}}" />
+  <meta property="og:type" content="article" />
+</head>
+<body>
+  <div class="article-page">
+
+    <nav class="article-nav">
+      <a class="brand" href="/">The Caddie Desk</a>
+      <a href="https://pardle.caddiedesk.com">Play Pardle →</a>
+    </nav>
+
+    <article>
+      <header class="article-header">
+        <div class="article-kicker">Essay · Golf Course Deepdive</div>
+        <h1 class="article-title">What <em>makes</em> a golf course?</h1>
+        <div class="article-meta-line">729 words · June 2026 · Rosie Kipling</div>
+      </header>
+
+      <!-- <p class="article-lead">Which skills are most important at which courses?</p> -->
+
+      <div class="article-content">
+
+        <p>Watch enough PGA Tour golf and you start to feel which courses reward which skills. Augusta is where short irons matter. The Open is where wind makes everyone vulnerable. Plantation Course at Kapalua is where birdies pile up faster than at any other event on tour.
+          But that's all feel. What does the data say?</p>
+      
+        <p>We trained a model on 287,000 player-rounds from 2012-2025 to learn what predicts good play. Then we measured how much each skill matters at each course. Here's what we found.</p>
+
+        <h2>How <em>every</em> course compares</h2>
+      
+        <p>We start with the picture of the data. Each dot is one course, positioned by how much two specific skills mattered for predicting score. Hover any course to see its details.</p>
+      
+        <!-- SCROLLER: Driving distance vs accuracy scatter -->
+        <div class="scrolly scrolly--scatter" id="scrolly-scatter-driving">
+          <div class="scrolly-graphic">
+            <div class="scatter-header">
+              <span class="kicker">Figure 1</span>
+              <h3>What matters off the tee</h3>
+            </div>
+            <div class="scatter-chart-wrap">
+              <svg id="scatter-driving" viewBox="0 0 800 600"></svg>
+            </div>
+          </div>
+          
+          <div class="scrolly-steps">
+            <div class="scrolly-step" 
+                 data-highlight="parkland" 
+                 data-annotate=none>
+              <h4>Parkland Distance over Accuracy</h4>
+              <p>Parkland courses tend to cluster in the middle.</p>
+              <p>Where we have outliers, most of the time driving distance gives an edge over driving accuracy.</p>
+            </div>
+            
+            <div class="scrolly-step" 
+                 data-highlight="coastal"
+                 data-annotate="Pebble Beach Golf Links,Harbour Town Golf Links,Sea Island Golf Club (Seaside Course), Plantation Course at Kapalua">
+              <h4>Coastal courses pull right</h4>
+              <p>Wind on tight corridors makes both distance AND accuracy matter more than at typical inland venues.</p>
+            </div>
+            
+            <div class="scrolly-step" 
+                 data-highlight="links"
+                 data-annotate="Old Course at St Andrews,Royal Liverpool,Royal Troon,Royal Portrush Golf Club, Trinity Forest Golf Club, The Renaissance Club, Whistling Straits">
+              <h4>Links Courses</h4>
+              <p>The newer Trinity Forest Golf Club rewards Driving Accuracy more than a traditional links course.</p>
+              <br>
+              <p>Interestingly, The Old Course at St Andrews rewards driving distance at the expense of driving accuracy. </p>
+            </div>
+            
+            <div class="scrolly-step" 
+                 data-highlight="kapalua"
+                 data-annotate="Plantation Course at Kapalua">
+              <h4>The outlier</h4>
+              <p>Plantation Course at Kapalua...</p>
+            </div>
+          
+            <div class="scrolly-spacer"></div>
+          </div>
+        </div>
+        <!-- END SCROLLER 1 -->
+      
+      
+        <!-- SCROLLER: Approach vs putting scatter -->
+        <div class="scrolly scrolly--scatter" id="scrolly-scatter-approach">
+          <div class="scrolly-graphic">
+            <div class="scatter-header">
+              <span class="kicker">Figure 2</span>
+              <h3>Approach or putt?</h3>
+            </div>
+            <div class="scatter-chart-wrap">
+              <svg id="scatter-approach" viewBox="0 0 800 600"></svg>
+            </div>
+          </div>
+          
+          <div class="scrolly-steps">
+            <div class="scrolly-step" 
+            data-highlight="none"
+            data-annotate="Old Course at St Andrews,Royal Troon,Augusta National Golf Club,Le Golf National,Whistling Straits,Plantation Course at Kapalua">>
+              <h4>The shorter game</h4>
+              <p>If course character emerges anywhere, it's around the green. The spread here is wider — courses are more distinguishable on the approach/putting axis than on the driving axis.</p>
+            </div>
+            
+            <div class="scrolly-step" 
+            data-highlight="legolfnational"
+            data-annotate="Le Golf National">
+              <h4>Le Golf National</h4>
+              <p>The venue for the 2018 Ryder Cup is the most demanding test of approach play AND putting on tour. The narrowest target, the trickiest greens.</p>
+            </div>
+            
+            <div class="scrolly-step" 
+            data-highlight="augusta"
+            data-annotate="Augusta National Golf Club">
+              <h4>Augusta National</h4>
+              <p>Augusta sits in the bottom-left — surprising for a course famous for its putting. But the field is so tight at the Masters that no single stat clearly separates winners from losers. The differentiation happens elsewhere.</p>
+            </div>
+      
+            <div class="scrolly-spacer"></div>
+          </div>
+        </div>
+        <!-- END SCROLLER 2 -->
+      
+      
+        <!-- SCROLLER: Yardage vs distance importance scatter -->
+        <div class="scrolly scrolly--scatter" id="scrolly-scatter-yardage">
+          <div class="scrolly-graphic">
+            <div class="scatter-header">
+              <span class="kicker">Figure 3</span>
+              <h3>Does longer mean bombers win?</h3>
+            </div>
+            <div class="scatter-chart-wrap">
+              <svg id="scatter-yardage" viewBox="0 0 800 600"></svg>
+            </div>
+          </div>
+          
+          <div class="scrolly-steps">
+            <div class="scrolly-step" 
+            data-highlight="none"
+            data-annotate="Old Course at St Andrews,Royal Liverpool,Royal Troon,Royal Portrush Golf Club,Plantation Course at Kapalua,TPC Sawgrass,Augusta National Golf Club">>
+              <h4>Logic vs data</h4>
+              <p>Logic says: longer course = bombers' paradise. The data says: not really.</p>
+            </div>
+            
+            <div class="scrolly-step" 
+            data-highlight="none"
+            data-annotate="Plantation Course at Kapalua,Augusta National Golf Club,TPC Sawgrass">
+              <h4>The flat line</h4>
+              <p>Among well-sampled tour venues, course yardage explains almost nothing about how much driving distance matters (r = 0.04). The line is nearly flat.</p>
+            </div>
+            
+            <div class="scrolly-step" 
+            data-highlight="augusta"
+            data-annotate="Augusta National Golf Club">
+              <h4>Augusta is long but not for bombers</h4>
+              <p>The longest courses on tour aren't where bombers thrive — Augusta National is 7,545 yards and rewards distance less than most short courses.</p>
+            </div>
+            
+            <div class="scrolly-step" 
+            data-highlight="none"
+            data-annotate="Plantation Course at Kapalua,TPC Sawgrass,Augusta National Golf Club,Quail Hollow Club,TPC Scottsdale">
+              <h4>The conclusion</h4>
+              <p>What predicts whether bombers win at a course isn't its length. It's everything else.</p>
+            </div>
+      
+            <div class="scrolly-spacer"></div>
+          </div>
+        </div>
+        <!-- END SCROLLER 3 -->
+
+      <div class="pardle-promo">
+        <div class="kicker">Today's Puzzle</div>
+        <h3>Test the stats yourself.</h3>
+        <p>Play Pardle — guess the Tour pro from six stats.</p>
+        <a href="https://pardle.caddiedesk.com">Play Today's Round →</a>
+      </div>
+
+      <div class="article-footer">
+        <a href="/" class="back-link">← Back to The Caddie Desk</a>
+      </div>
+    </article>
+
+  </div>
+
+
+</body>
+</html>

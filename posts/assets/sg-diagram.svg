@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Strokes gained worked example">
+  
+  <!-- Expected strokes labels at top (more spacing) -->
+  <text x="100" y="40" text-anchor="middle" font-family="Archivo, sans-serif" font-size="9" letter-spacing="1.5" fill="#666">EXPECTED STROKES</text>
+  <text x="100" y="72" text-anchor="middle" font-family="Fraunces, serif" font-size="28" font-weight="700" fill="#363334">3.02</text>
+  <text x="100" y="98" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10" letter-spacing="1" fill="#666">165 YDS OUT</text>
+  
+  <text x="588" y="40" text-anchor="middle" font-family="Archivo, sans-serif" font-size="9" letter-spacing="1.5" fill="#666">EXPECTED STROKES</text>
+  <text x="588" y="72" text-anchor="middle" font-family="Fraunces, serif" font-size="28" font-weight="700" fill="#363334">1.66</text>
+  <text x="588" y="98" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10" letter-spacing="1" fill="#666">12 FT FROM PIN</text>
+  
+  <!-- Fairway -->
+  <rect x="40" y="180" width="500" height="40" fill="#a3a380" opacity="0.3" rx="4"/>
+  <text x="290" y="280" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10" letter-spacing="1.5" fill="#666">FAIRWAY</text>
+  
+  <!-- Green -->
+  <ellipse cx="600" cy="200" rx="55" ry="38" fill="#3a7d44" opacity="0.4"/>
+  <text x="600" y="280" text-anchor="middle" font-family="Archivo, sans-serif" font-size="10" letter-spacing="1.5" fill="#666">GREEN</text>
+  
+  <!-- Hole & flag -->
+  <circle cx="610" cy="195" r="4" fill="#363334"/>
+  <line x1="610" y1="195" x2="610" y2="160" stroke="#363334" stroke-width="1.5"/>
+  <polygon points="610,160 624,165 610,170" fill="#c1666b"/>
+  
+  <!-- Ball start position -->
+  <circle cx="100" cy="200" r="6" fill="#f9f8f3" stroke="#363334" stroke-width="2"/>
+  
+  <!-- Shot trajectory arc -->
+  <path d="M 106 200 Q 350 60 590 200" fill="none" stroke="#363334" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.5"/>
+  
+  <!-- Ball end position -->
+  <circle cx="588" cy="200" r="5" fill="#363334"/>
+  
+</svg>

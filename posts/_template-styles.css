@@ -1,0 +1,349 @@
+/* posts/_template-styles.css
+ * Caddie Desk article page styles
+ * Extends /style.css with article-specific layout & typography
+ */
+
+/* --- Article container --- */
+.article-page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 40px 80px;
+  }
+  
+  /* --- Top nav strip --- */
+  .article-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--ink);
+  }
+  .article-nav a {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink);
+    transition: color 0.2s;
+  }
+  .article-nav a:hover { color: var(--ink-mute); }
+  .article-nav .brand {
+    font-weight: 800;
+    letter-spacing: 0.28em;
+  }
+  
+  /* --- Header --- */
+  .article-header {
+    padding: 56px 0 32px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 40px;
+  }
+  .article-kicker {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 12px;
+  }
+  .article-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(36px, 5vw, 56px);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    font-variation-settings: "opsz" 144;
+    margin-bottom: 18px;
+  }
+  .article-title em { font-style: italic; }
+  
+  .article-meta-line {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+  }
+  
+  /* --- Body --- */
+  .article-lead {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: clamp(20px, 2.5vw, 26px);
+    line-height: 1.4;
+    color: var(--ink);
+    opacity: 0.85;
+    margin: 24px 0 36px;
+    padding-bottom: 24px;
+    border-bottom: 1px dotted var(--ink-line);
+  }
+  
+  .article-content {
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    line-height: 1.65;
+  }
+  
+  .article-content > * {
+    margin-bottom: 22px;
+  }
+  
+  .article-content h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(28px, 3vw, 36px);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin: 56px 0 16px;
+  }
+  .article-content h2 em { font-style: italic; }
+  
+  .article-content h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 36px 0 12px;
+    letter-spacing: -0.01em;
+  }
+  
+  .article-content em { font-style: italic; }
+  .article-content strong { font-weight: 700; }
+  
+  .article-content a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1.5px solid var(--ink-line);
+    transition: border-color 0.2s;
+  }
+  .article-content a:hover { border-color: var(--ink); }
+  
+  .article-content blockquote {
+    margin: 28px 0;
+    padding-left: 24px;
+    border-left: 3px solid var(--ink);
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.5;
+    opacity: 0.9;
+  }
+
+  .article-content .lead-line {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: clamp(22px, 2.8vw, 28px);
+    line-height: 1.3;
+    text-align: center;
+    color: var(--ink);
+    margin: 56px auto;
+    padding: 24px 0;
+    max-width: 600px;
+    letter-spacing: -0.01em;
+    border-top: 1px solid var(--ink-line);
+    border-bottom: 1px solid var(--ink-line);
+  }
+  
+  .article-content ul, .article-content ol {
+    margin: 0 0 22px 24px;
+  }
+  .article-content li { margin-bottom: 8px; }
+  
+  /* --- Figures (static charts/images) --- */
+  .figure {
+    margin: 40px 0;
+  }
+  .figure img,
+  .figure svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .figure figcaption {
+    margin-top: 12px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    text-align: center;
+  }
+  
+  /* --- Scrollytelling sections --- */
+  .scrolly {
+    margin: 64px 0;
+    position: relative;
+  }
+  
+  .scrolly-narrative {
+    margin-bottom: 40px;
+  }
+  
+  .scrolly-step {
+    min-height: 50vh;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    border-top: 1px dotted var(--ink-line);
+  }
+  .scrolly-step:first-child { border-top: none; padding-top: 30px; }
+  .scrolly-step p {
+    font-family: 'Fraunces', serif;
+    font-size: 19px;
+    line-height: 1.55;
+    margin: 0;
+  }
+  
+  .scrolly-viz {
+    position: sticky;
+    top: 60px;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32px 0;
+  }
+  .scrolly-viz svg {
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+  }
+  
+  /* --- D3 chart defaults --- */
+  .chart-text {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    fill: var(--ink-mute);
+  }
+  .chart-axis path,
+  .chart-axis line {
+    stroke: var(--ink);
+    stroke-opacity: 0.4;
+  }
+  .chart-axis text {
+    font-family: 'Archivo', sans-serif;
+    font-size: 11px;
+    fill: var(--ink-mute);
+  }
+  .chart-dot {
+    fill: var(--ink);
+    stroke: var(--paper);
+    stroke-width: 1.5;
+  }
+  .chart-dot.highlighted {
+    fill: var(--ink);
+    stroke-width: 3;
+  }
+  
+  /* --- Pardle promo block --- */
+  .pardle-promo {
+    margin: 64px 0 0;
+    padding: 32px;
+    background: var(--ink);
+    color: var(--paper);
+    text-align: center;
+  }
+  .pardle-promo .kicker {
+    border-color: var(--paper);
+    color: var(--paper);
+    opacity: 0.8;
+  }
+  .pardle-promo h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 32px;
+    margin: 12px 0 16px;
+    color: var(--paper);
+  }
+  .pardle-promo p {
+    font-family: 'Fraunces', serif;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    opacity: 0.85;
+  }
+  .pardle-promo a {
+    display: inline-block;
+    padding: 14px 24px;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    border: none;
+    transition: all 0.2s ease;
+  }
+  .pardle-promo a:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 var(--paper);
+  }
+  
+  /* --- Footer --- */
+  .article-footer {
+    margin-top: 64px;
+    padding-top: 28px;
+    border-top: 2px solid var(--ink);
+    text-align: center;
+  }
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink);
+    padding-bottom: 4px;
+    border-bottom: 1.5px solid var(--ink);
+  }
+  .scrolly-step {
+    opacity: 0.4;
+    transition: opacity 0.6s ease;
+  }
+  .scrolly-step.is-active {
+    opacity: 1;
+  }
+  .article-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background: var(--ink);
+    z-index: 100;
+    width: 0%;
+    transition: width 0.2s ease;
+  }
+  .pullquote {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: clamp(28px, 4vw, 42px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 48px -20px;
+    padding: 24px;
+    border-top: 3px solid var(--ink);
+    border-bottom: 3px solid var(--ink);
+  }
+  
+  /* --- Mobile --- */
+  @media (max-width: 600px) {
+    .article-page { padding: 20px 22px 60px; }
+    .article-header { padding: 32px 0 24px; }
+    .article-lead { margin: 16px 0 28px; }
+    .scrolly-step { min-height: auto; padding: 32px 0; }
+    .scrolly-viz { position: static; height: auto; min-height: 50vh; }
+  }

@@ -1,0 +1,2168 @@
+[
+  {
+    "name": "ACCORDIA GOLF Narashino Country Club",
+    "country": "Japan",
+    "yardage": 7011,
+    "designer": "Kinya Fujita",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 78,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.299,
+      "sg_arg": 6.9769,
+      "sg_putt": 12.8374,
+      "driving_dist": 1.9704,
+      "driving_acc": 24.7722,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Albany Golf Club",
+    "country": "Bahamas",
+    "yardage": 7400,
+    "designer": "Ernie Els",
+    "course_type": "coastal",
+    "coastal": true,
+    "n_events": 2,
+    "n_player_events": 40,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.8986,
+      "sg_arg": 8.4063,
+      "sg_putt": 11.5639,
+      "driving_dist": 3.6337,
+      "driving_acc": 16.882,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Aronimink Golf Club",
+    "country": "United States",
+    "yardage": 7394,
+    "designer": "Donald Ross",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 225,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.684,
+      "sg_arg": 7.021,
+      "sg_putt": 13.9429,
+      "driving_dist": 3.1625,
+      "driving_acc": 30.1005,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Augusta National Golf Club",
+    "country": "United States",
+    "yardage": 7565,
+    "designer": "Alister MacKenzie",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 6,
+    "n_player_events": 538,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.4014,
+      "sg_arg": 9.46,
+      "sg_putt": 13.7349,
+      "driving_dist": 3.0645,
+      "driving_acc": 26.8392,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Baltusrol Golf Club",
+    "country": "United States",
+    "yardage": 7575,
+    "designer": "A.W. Tillinghast",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.3186,
+      "sg_arg": 7.3593,
+      "sg_putt": 13.1323,
+      "driving_dist": 3.3432,
+      "driving_acc": 30.8241,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Bay Hill Club & Lodge",
+    "country": "United States",
+    "yardage": 7409,
+    "designer": "Dick Wilson",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 12,
+    "n_player_events": 1299,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.3747,
+      "sg_arg": 8.4291,
+      "sg_putt": 13.6924,
+      "driving_dist": 2.741,
+      "driving_acc": 31.6755,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Bellerive Country Club",
+    "country": "United States",
+    "yardage": 7547,
+    "designer": "Robert Trent Jones Sr.",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.1631,
+      "sg_arg": 7.239,
+      "sg_putt": 14.3584,
+      "driving_dist": 2.4843,
+      "driving_acc": 29.8112,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Bethpage Black",
+    "country": "United States",
+    "yardage": 7468,
+    "designer": "A.W. Tillinghast",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 275,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.1439,
+      "sg_arg": 7.5989,
+      "sg_putt": 14.1189,
+      "driving_dist": 2.616,
+      "driving_acc": 33.8392,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Black Desert Resort",
+    "country": "United States",
+    "yardage": 7500,
+    "designer": "Tom Weiskopf",
+    "course_type": "desert",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 262,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 16.2816,
+      "sg_arg": 8.9606,
+      "sg_putt": 16.8104,
+      "driving_dist": 3.704,
+      "driving_acc": 16.9963,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Bolingbrook Golf Club",
+    "country": "United States",
+    "yardage": 7104,
+    "designer": "Arthur Hills",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 54,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 7.3811,
+      "sg_arg": 5.7305,
+      "sg_putt": 8.4837,
+      "driving_dist": 7.9878,
+      "driving_acc": 13.1519,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Castle Pines Golf Club",
+    "country": "United States",
+    "yardage": 7559,
+    "designer": "Jack Nicklaus",
+    "course_type": "mountain",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 50,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.219,
+      "sg_arg": 4.4973,
+      "sg_putt": 9.3853,
+      "driving_dist": 6.9995,
+      "driving_acc": 28.1068,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Caves Valley Golf Club",
+    "country": "United States",
+    "yardage": 6974,
+    "designer": "Tom Fazio",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 118,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.6957,
+      "sg_arg": 5.8326,
+      "sg_putt": 9.5493,
+      "driving_dist": 2.4716,
+      "driving_acc": 33.6383,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Club de Golf Chapultepec",
+    "country": "Mexico",
+    "yardage": 7267,
+    "designer": "Willie Smith",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 6,
+    "n_player_events": 397,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.7765,
+      "sg_arg": 6.1165,
+      "sg_putt": 9.5473,
+      "driving_dist": 5.4679,
+      "driving_acc": 32.6281,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Colonial CC",
+    "country": "United States",
+    "yardage": 7209,
+    "designer": "Perry Maxwell",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 4,
+    "n_player_events": 485,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.7072,
+      "sg_arg": 7.2953,
+      "sg_putt": 12.6439,
+      "driving_dist": 4.9854,
+      "driving_acc": 34.4044,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Colonial Country Club",
+    "country": "United States",
+    "yardage": 7209,
+    "designer": "Perry Maxwell",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 7,
+    "n_player_events": 896,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.296,
+      "sg_arg": 7.3238,
+      "sg_putt": 14.0994,
+      "driving_dist": 2.986,
+      "driving_acc": 33.1395,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Congaree Golf Club",
+    "country": "United States",
+    "yardage": 7685,
+    "designer": "Tom Fazio",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 234,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.861,
+      "sg_arg": 8.5479,
+      "sg_putt": 12.947,
+      "driving_dist": 3.5321,
+      "driving_acc": 29.1331,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Congressional CC (Blue)",
+    "country": "United States",
+    "yardage": 7569,
+    "designer": "Devereux Emmet",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 119,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.6117,
+      "sg_arg": 7.1763,
+      "sg_putt": 13.4958,
+      "driving_dist": 2.34,
+      "driving_acc": 33.2926,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Conway Farms GC",
+    "country": "United States",
+    "yardage": 7233,
+    "designer": "Tom Fazio",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 138,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.5853,
+      "sg_arg": 5.2851,
+      "sg_putt": 11.2975,
+      "driving_dist": 2.9829,
+      "driving_acc": 34.0892,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Country Club of Jackson",
+    "country": "United States",
+    "yardage": 7461,
+    "designer": "Dick Wilson",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 11,
+    "n_player_events": 1509,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.4545,
+      "sg_arg": 7.6549,
+      "sg_putt": 14.2352,
+      "driving_dist": 3.8145,
+      "driving_acc": 33.712,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Crooked Stick Golf Club",
+    "country": "United States",
+    "yardage": 7159,
+    "designer": "Pete Dye",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 69,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.3079,
+      "sg_arg": 6.4432,
+      "sg_putt": 11.3452,
+      "driving_dist": 2.019,
+      "driving_acc": 33.2476,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Detroit Golf Club",
+    "country": "United States",
+    "yardage": 7370,
+    "designer": "Donald Ross",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 7,
+    "n_player_events": 1091,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.1484,
+      "sg_arg": 7.3541,
+      "sg_putt": 13.9526,
+      "driving_dist": 3.0687,
+      "driving_acc": 28.1729,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Dunes Golf and Beach Club",
+    "country": "United States",
+    "yardage": 7450,
+    "designer": "Robert Trent Jones",
+    "course_type": "parkland",
+    "coastal": true,
+    "n_events": 3,
+    "n_player_events": 387,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.6929,
+      "sg_arg": 7.1419,
+      "sg_putt": 13.7936,
+      "driving_dist": 2.4632,
+      "driving_acc": 33.145,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Eagle Point Golf Club",
+    "country": "United States",
+    "yardage": 7099,
+    "designer": "Robert Trent Jones Jr.",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.7696,
+      "sg_arg": 8.7902,
+      "sg_putt": 14.9821,
+      "driving_dist": 3.3366,
+      "driving_acc": 32.0056,
+      "gir": 0
+    }
+  },
+  {
+    "name": "East Lake Golf Club",
+    "country": "United States",
+    "yardage": 7455,
+    "designer": "Donald Ross",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 11,
+    "n_player_events": 327,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.5377,
+      "sg_arg": 6.2627,
+      "sg_putt": 10.7359,
+      "driving_dist": 3.6055,
+      "driving_acc": 33.8733,
+      "gir": 0
+    }
+  },
+  {
+    "name": "El Camaleon Golf Club",
+    "country": "Mexico",
+    "yardage": 7024,
+    "designer": "Greg Norman",
+    "course_type": "coastal",
+    "coastal": true,
+    "n_events": 1,
+    "n_player_events": 54,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 9.6798,
+      "sg_arg": 6.6303,
+      "sg_putt": 9.7082,
+      "driving_dist": 8.1336,
+      "driving_acc": 21.6135,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Firestone CC (South)",
+    "country": "United States",
+    "yardage": 7400,
+    "designer": "Bert Way",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 4,
+    "n_player_events": 283,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.8685,
+      "sg_arg": 6.1077,
+      "sg_putt": 11.4605,
+      "driving_dist": 5.3097,
+      "driving_acc": 33.9569,
+      "gir": 0
+    }
+  },
+  {
+    "name": "GC of Houston",
+    "country": "United States",
+    "yardage": 7425,
+    "designer": "Rees Jones",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 4,
+    "n_player_events": 576,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.6225,
+      "sg_arg": 7.2757,
+      "sg_putt": 14.0354,
+      "driving_dist": 3.5357,
+      "driving_acc": 29.6126,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Glen Abbey Golf Club",
+    "country": "Canada",
+    "yardage": 7273,
+    "designer": "Jack Nicklaus",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 4,
+    "n_player_events": 620,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.4053,
+      "sg_arg": 8.3612,
+      "sg_putt": 13.1507,
+      "driving_dist": 4.0503,
+      "driving_acc": 32.4312,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Glen Oaks Club",
+    "country": "United States",
+    "yardage": 6998,
+    "designer": "Joe Finger",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 120,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.8735,
+      "sg_arg": 7.7053,
+      "sg_putt": 14.9007,
+      "driving_dist": 2.1649,
+      "driving_acc": 29.1643,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Golf Club of Houston",
+    "country": "United States",
+    "yardage": 7425,
+    "designer": "Rees Jones",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 196,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.5657,
+      "sg_arg": 6.9456,
+      "sg_putt": 13.4642,
+      "driving_dist": 3.5464,
+      "driving_acc": 28.1892,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Hamilton Golf & Country Club",
+    "country": "Canada",
+    "yardage": 6928,
+    "designer": "Harry S. Colt",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 312,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.0456,
+      "sg_arg": 7.8848,
+      "sg_putt": 14.5792,
+      "driving_dist": 2.8297,
+      "driving_acc": 32.6098,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Harbour Town Golf Links",
+    "country": "United States",
+    "yardage": 7213,
+    "designer": "Pete Dye",
+    "course_type": "coastal",
+    "coastal": true,
+    "n_events": 12,
+    "n_player_events": 1439,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.3305,
+      "sg_arg": 7.5156,
+      "sg_putt": 12.9161,
+      "driving_dist": 4.733,
+      "driving_acc": 32.2099,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Hong Kong Golf Club",
+    "country": "China (Hong Kong SAR)",
+    "yardage": 6246,
+    "designer": null,
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 3,
+    "n_player_events": 165,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.4707,
+      "sg_arg": 5.93,
+      "sg_putt": 10.5593,
+      "driving_dist": 3.3977,
+      "driving_acc": 19.6427,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Hurstbourne Country Club",
+    "country": "United States",
+    "yardage": 7007,
+    "designer": "Chick Adams",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.0905,
+      "sg_arg": 10.1738,
+      "sg_putt": 12.9229,
+      "driving_dist": 3.2737,
+      "driving_acc": 30.6935,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Innisbrook Resort (Copperhead)",
+    "country": "United States",
+    "yardage": 7340,
+    "designer": "Lawrence Packard",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 11,
+    "n_player_events": 1603,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.2114,
+      "sg_arg": 8.8739,
+      "sg_putt": 14.7619,
+      "driving_dist": 4.4729,
+      "driving_acc": 23.1622,
+      "gir": 0
+    }
+  },
+  {
+    "name": "JCB Golf and Country Club",
+    "country": "England",
+    "yardage": 7433,
+    "designer": "Robin Hiseman",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 108,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.0879,
+      "sg_arg": 6.2896,
+      "sg_putt": 11.7587,
+      "driving_dist": 4.0237,
+      "driving_acc": 16.586,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Jack Nicklaus Golf Course",
+    "country": "United States",
+    "yardage": 7381,
+    "designer": "Jack Nicklaus",
+    "course_type": "desert",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 54,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.6197,
+      "sg_arg": 7.7277,
+      "sg_putt": 13.9198,
+      "driving_dist": 1.6241,
+      "driving_acc": 13.9259,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Keene Trace Golf Club",
+    "country": "United States",
+    "yardage": 7328,
+    "designer": "Arthur Hills",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 4,
+    "n_player_events": 550,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.5123,
+      "sg_arg": 7.395,
+      "sg_putt": 13.2947,
+      "driving_dist": 2.7048,
+      "driving_acc": 32.0815,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Keene Trace Golf Club (Champions Course)",
+    "country": "United States",
+    "yardage": 7328,
+    "designer": "Arthur Hills",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 311,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.8389,
+      "sg_arg": 7.2702,
+      "sg_putt": 13.7455,
+      "driving_dist": 4.5468,
+      "driving_acc": 30.4415,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Las Vegas Country Club",
+    "country": "United States",
+    "yardage": 7203,
+    "designer": "Edmund B. Ault",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 54,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.3654,
+      "sg_arg": 6.6256,
+      "sg_putt": 10.3532,
+      "driving_dist": 5.4733,
+      "driving_acc": 13.9239,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Le Golf National",
+    "country": "France",
+    "yardage": 7331,
+    "designer": "Hubert Chesneau",
+    "course_type": "stadium",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 60,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.5889,
+      "sg_arg": 5.6276,
+      "sg_putt": 10.7927,
+      "driving_dist": 1.9999,
+      "driving_acc": 39.2326,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Liberty National Golf Club",
+    "country": "United States",
+    "yardage": 7400,
+    "designer": "Tom Kite and Bob Cupp",
+    "course_type": "coastal",
+    "coastal": true,
+    "n_events": 2,
+    "n_player_events": 243,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.6585,
+      "sg_arg": 7.9852,
+      "sg_putt": 12.7504,
+      "driving_dist": 1.7808,
+      "driving_acc": 30.4154,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Maridoe Golf Club",
+    "country": "United States",
+    "yardage": 7800,
+    "designer": "Steve Smyers",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 54,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.3954,
+      "sg_arg": 6.9421,
+      "sg_putt": 10.106,
+      "driving_dist": 3.7861,
+      "driving_acc": 15.2384,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Medinah Country Club",
+    "country": "United States",
+    "yardage": 7657,
+    "designer": "Tom Bendelow",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 69,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 9.8322,
+      "sg_arg": 5.3732,
+      "sg_putt": 11.0134,
+      "driving_dist": 2.4774,
+      "driving_acc": 35.2793,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Memorial Park Golf Course",
+    "country": "United States",
+    "yardage": 7292,
+    "designer": "John Bredemus",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 6,
+    "n_player_events": 828,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.9471,
+      "sg_arg": 8.9902,
+      "sg_putt": 13.6081,
+      "driving_dist": 3.6475,
+      "driving_acc": 22.5071,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Montreux Golf & Country Club",
+    "country": "United States",
+    "yardage": 7552,
+    "designer": "Jack Nicklaus",
+    "course_type": "mountain",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 130,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 15.8945,
+      "sg_arg": 9.454,
+      "sg_putt": 15.5208,
+      "driving_dist": 5.0213,
+      "driving_acc": 21.4958,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Muirfield Village Golf Club",
+    "country": "United States",
+    "yardage": 7221,
+    "designer": "Jack Nicklaus",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 12,
+    "n_player_events": 1388,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.2029,
+      "sg_arg": 8.6921,
+      "sg_putt": 13.6893,
+      "driving_dist": 2.0987,
+      "driving_acc": 30.7613,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Oak Hill Country Club",
+    "country": "United States",
+    "yardage": 7360,
+    "designer": "Donald Ross",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.2306,
+      "sg_arg": 8.6207,
+      "sg_putt": 12.8111,
+      "driving_dist": 2.8507,
+      "driving_acc": 36.4453,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Oakdale Golf & Country Club",
+    "country": "Canada",
+    "yardage": 6970,
+    "designer": "Stanley Thompson",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.463,
+      "sg_arg": 8.3461,
+      "sg_putt": 13.0359,
+      "driving_dist": 4.2224,
+      "driving_acc": 29.1039,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Oakmont Country Club",
+    "country": "United States",
+    "yardage": 7372,
+    "designer": "Henry Clay Fownes",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.9152,
+      "sg_arg": 10.0871,
+      "sg_putt": 13.423,
+      "driving_dist": 2.8559,
+      "driving_acc": 31.8874,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Ocean Course at Kiawah Island",
+    "country": "United States",
+    "yardage": 7876,
+    "designer": "Pete Dye",
+    "course_type": "coastal",
+    "coastal": true,
+    "n_events": 1,
+    "n_player_events": 155,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 15.2352,
+      "sg_arg": 10.8351,
+      "sg_putt": 12.6668,
+      "driving_dist": 2.4764,
+      "driving_acc": 29.3201,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Old Course at St Andrews",
+    "country": "Scotland",
+    "yardage": 7305,
+    "designer": "Old Tom Morris",
+    "course_type": "links",
+    "coastal": true,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.6152,
+      "sg_arg": 8.4518,
+      "sg_putt": 14.5907,
+      "driving_dist": 3.6365,
+      "driving_acc": 25.5577,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Olympia Fields Country Club (North)",
+    "country": "United States",
+    "yardage": 7355,
+    "designer": "Willie Park Jr.",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 119,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.8656,
+      "sg_arg": 6.131,
+      "sg_putt": 10.8345,
+      "driving_dist": 3.5804,
+      "driving_acc": 33.8992,
+      "gir": 0
+    }
+  },
+  {
+    "name": "PGA National (Champion)",
+    "country": "United States",
+    "yardage": 7123,
+    "designer": "Tom Fazio",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 12,
+    "n_player_events": 1699,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.1519,
+      "sg_arg": 8.1903,
+      "sg_putt": 14.0324,
+      "driving_dist": 3.8118,
+      "driving_acc": 31.6311,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Pebble Beach Golf Links",
+    "country": "United States",
+    "yardage": 6828,
+    "designer": "Jack Neville and Douglas Grant",
+    "course_type": "coastal",
+    "coastal": true,
+    "n_events": 3,
+    "n_player_events": 315,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.392,
+      "sg_arg": 8.4332,
+      "sg_putt": 12.1112,
+      "driving_dist": 4.3151,
+      "driving_acc": 23.3739,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Pete Dye Stadium Course",
+    "country": "United States",
+    "yardage": 7300,
+    "designer": "Pete Dye",
+    "course_type": "stadium",
+    "coastal": false,
+    "n_events": 3,
+    "n_player_events": 432,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 16.261,
+      "sg_arg": 9.9625,
+      "sg_putt": 15.6192,
+      "driving_dist": 2.624,
+      "driving_acc": 37.3565,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Pinehurst Resort & Country Club (Course No. 2)",
+    "country": "United States",
+    "yardage": 7588,
+    "designer": "Donald Ross",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.8888,
+      "sg_arg": 12.204,
+      "sg_putt": 13.3803,
+      "driving_dist": 2.5323,
+      "driving_acc": 28.3862,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Plainfield Country Club",
+    "country": "United States",
+    "yardage": 6865,
+    "designer": "Donald Ross",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 119,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.9374,
+      "sg_arg": 7.5975,
+      "sg_putt": 14.7372,
+      "driving_dist": 2.6084,
+      "driving_acc": 34.2476,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Plantation Course at Kapalua",
+    "country": "United States",
+    "yardage": 7596,
+    "designer": "Bill Coore and Ben Crenshaw",
+    "course_type": "coastal",
+    "coastal": true,
+    "n_events": 11,
+    "n_player_events": 436,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.6551,
+      "sg_arg": 6.6041,
+      "sg_putt": 11.5903,
+      "driving_dist": 3.7929,
+      "driving_acc": 22.8879,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Quail Hollow Club",
+    "country": "United States",
+    "yardage": 7626,
+    "designer": "George Cobb",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 10,
+    "n_player_events": 1385,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.818,
+      "sg_arg": 8.4913,
+      "sg_putt": 12.8942,
+      "driving_dist": 3.9104,
+      "driving_acc": 31.4271,
+      "gir": 0
+    }
+  },
+  {
+    "name": "RTJ Trail (Grand National)",
+    "country": "United States",
+    "yardage": 7149,
+    "designer": "Robert Trent Jones Sr.",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 3,
+    "n_player_events": 394,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.7684,
+      "sg_arg": 7.2843,
+      "sg_putt": 13.7408,
+      "driving_dist": 3.12,
+      "driving_acc": 27.9919,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Ridgewood CC",
+    "country": "United States",
+    "yardage": 7190,
+    "designer": "A.W. Tillinghast",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 119,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.533,
+      "sg_arg": 7.7857,
+      "sg_putt": 14.8356,
+      "driving_dist": 2.7288,
+      "driving_acc": 32.1771,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Riviera Country Club",
+    "country": "United States",
+    "yardage": 6950,
+    "designer": "George C. Thomas Jr.",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 11,
+    "n_player_events": 1350,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.8019,
+      "sg_arg": 8.5818,
+      "sg_putt": 14.0335,
+      "driving_dist": 3.3566,
+      "driving_acc": 34.0073,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Riyadh Golf Club",
+    "country": "Saudi Arabia",
+    "yardage": 7000,
+    "designer": "Duncan Thomson",
+    "course_type": "desert",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 111,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.4643,
+      "sg_arg": 6.2485,
+      "sg_putt": 10.4097,
+      "driving_dist": 6.0087,
+      "driving_acc": 24.5939,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Robert Trent Jones Golf Club",
+    "country": "United States",
+    "yardage": 7425,
+    "designer": "Robert Trent Jones Sr.",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 174,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.6912,
+      "sg_arg": 6.6415,
+      "sg_putt": 13.1627,
+      "driving_dist": 3.4153,
+      "driving_acc": 27.46,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Royal Greens Golf & Country Club",
+    "country": "Saudi Arabia",
+    "yardage": 7000,
+    "designer": "Dave Sampson (European Golf Design)",
+    "course_type": "desert",
+    "coastal": true,
+    "n_events": 1,
+    "n_player_events": 54,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.2477,
+      "sg_arg": 6.2948,
+      "sg_putt": 11.1837,
+      "driving_dist": 6.9558,
+      "driving_acc": 19.8406,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Royal Liverpool",
+    "country": "England",
+    "yardage": 7252,
+    "designer": "Robert Chambers and George Morris",
+    "course_type": "links",
+    "coastal": true,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.9252,
+      "sg_arg": 9.9312,
+      "sg_putt": 13.7295,
+      "driving_dist": 5.1672,
+      "driving_acc": 32.2402,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Royal Portrush Golf Club",
+    "country": "Northern Ireland",
+    "yardage": 7337,
+    "designer": "Harry Colt",
+    "course_type": "links",
+    "coastal": true,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.3011,
+      "sg_arg": 7.9785,
+      "sg_putt": 13.6985,
+      "driving_dist": 2.7087,
+      "driving_acc": 33.6593,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Royal Troon",
+    "country": "Scotland",
+    "yardage": 7208,
+    "designer": "Charlie Hunter",
+    "course_type": "links",
+    "coastal": true,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.3616,
+      "sg_arg": 7.8187,
+      "sg_putt": 13.4434,
+      "driving_dist": 4.6787,
+      "driving_acc": 34.7702,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Sea Island Golf Club (Seaside Course)",
+    "country": "United States",
+    "yardage": 6945,
+    "designer": "C.H. Alison",
+    "course_type": "coastal",
+    "coastal": true,
+    "n_events": 3,
+    "n_player_events": 441,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.3821,
+      "sg_arg": 7.8712,
+      "sg_putt": 15.1689,
+      "driving_dist": 3.4604,
+      "driving_acc": 30.5232,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Sedgefield Country Club",
+    "country": "United States",
+    "yardage": 7117,
+    "designer": "Donald Ross",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 11,
+    "n_player_events": 1712,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.9472,
+      "sg_arg": 7.4863,
+      "sg_putt": 14.7371,
+      "driving_dist": 2.6509,
+      "driving_acc": 30.9435,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Sentosa Golf Club",
+    "country": "Singapore",
+    "yardage": 7300,
+    "designer": "Ron Fream",
+    "course_type": "coastal",
+    "coastal": true,
+    "n_events": 3,
+    "n_player_events": 165,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.6638,
+      "sg_arg": 5.959,
+      "sg_putt": 11.1269,
+      "driving_dist": 4.4956,
+      "driving_acc": 21.7693,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Shadow Creek Golf Course",
+    "country": "United States",
+    "yardage": 7560,
+    "designer": "Tom Fazio",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 78,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.1503,
+      "sg_arg": 6.5356,
+      "sg_putt": 9.4729,
+      "driving_dist": 3.3185,
+      "driving_acc": 35.5579,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Sherwood Country Club",
+    "country": "United States",
+    "yardage": 7025,
+    "designer": "Jack Nicklaus",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 77,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.2553,
+      "sg_arg": 7.2943,
+      "sg_putt": 13.3111,
+      "driving_dist": 2.8227,
+      "driving_acc": 20.164,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Silverado Resort (North)",
+    "country": "United States",
+    "yardage": 6793,
+    "designer": "Robert Trent Jones Sr.",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 11,
+    "n_player_events": 1619,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.0906,
+      "sg_arg": 8.0641,
+      "sg_putt": 14.2133,
+      "driving_dist": 3.2856,
+      "driving_acc": 34.2607,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Southern Hills Country Club",
+    "country": "United States",
+    "yardage": 7481,
+    "designer": "Perry Maxwell",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.8781,
+      "sg_arg": 8.3278,
+      "sg_putt": 12.968,
+      "driving_dist": 4.0877,
+      "driving_acc": 30.0575,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Spyglass Hill Golf Course",
+    "country": "United States",
+    "yardage": 6960,
+    "designer": "Robert Trent Jones Sr.",
+    "course_type": "coastal",
+    "coastal": true,
+    "n_events": 2,
+    "n_player_events": 160,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.7603,
+      "sg_arg": 14.8142,
+      "sg_putt": 14.6992,
+      "driving_dist": 3.8251,
+      "driving_acc": 49.6928,
+      "gir": 0
+    }
+  },
+  {
+    "name": "St. George's G&CC",
+    "country": "Canada",
+    "yardage": 7025,
+    "designer": "Stanley Thompson",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 155,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.042,
+      "sg_arg": 8.1296,
+      "sg_putt": 14.2548,
+      "driving_dist": 2.8325,
+      "driving_acc": 19.7831,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC Boston",
+    "country": "United States",
+    "yardage": 7261,
+    "designer": "Arnold Palmer",
+    "course_type": "stadium",
+    "coastal": false,
+    "n_events": 5,
+    "n_player_events": 509,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.2925,
+      "sg_arg": 7.1836,
+      "sg_putt": 13.3834,
+      "driving_dist": 1.8353,
+      "driving_acc": 31.7536,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC Craig Ranch",
+    "country": "United States",
+    "yardage": 7438,
+    "designer": "Tom Weiskopf",
+    "course_type": "stadium",
+    "coastal": false,
+    "n_events": 5,
+    "n_player_events": 780,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.6582,
+      "sg_arg": 7.526,
+      "sg_putt": 13.8382,
+      "driving_dist": 2.7826,
+      "driving_acc": 30.2495,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC Deere Run",
+    "country": "United States",
+    "yardage": 7258,
+    "designer": "D.A. Weibring",
+    "course_type": "stadium",
+    "coastal": false,
+    "n_events": 10,
+    "n_player_events": 1554,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.7484,
+      "sg_arg": 7.8324,
+      "sg_putt": 14.7185,
+      "driving_dist": 2.8036,
+      "driving_acc": 26.167,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC Four Seasons Resort",
+    "country": "United States",
+    "yardage": 7166,
+    "designer": "Jay Morrish",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 312,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.2171,
+      "sg_arg": 8.1307,
+      "sg_putt": 13.7663,
+      "driving_dist": 3.5549,
+      "driving_acc": 33.682,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC Harding Park",
+    "country": "United States",
+    "yardage": 7154,
+    "designer": "Willie Watson and Sam Whiting",
+    "course_type": "parkland",
+    "coastal": true,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.1511,
+      "sg_arg": 8.0552,
+      "sg_putt": 12.8498,
+      "driving_dist": 3.2796,
+      "driving_acc": 34.3161,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC Potomac at Avenel Farm",
+    "country": "United States",
+    "yardage": 7139,
+    "designer": "Ault, Clark & Associates",
+    "course_type": "stadium",
+    "coastal": false,
+    "n_events": 3,
+    "n_player_events": 393,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.0418,
+      "sg_arg": 8.271,
+      "sg_putt": 12.9269,
+      "driving_dist": 3.7207,
+      "driving_acc": 32.3163,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC River Highlands",
+    "country": "United States",
+    "yardage": 6841,
+    "designer": "Robert J. Ross",
+    "course_type": "stadium",
+    "coastal": false,
+    "n_events": 11,
+    "n_player_events": 1543,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.3881,
+      "sg_arg": 8.1099,
+      "sg_putt": 14.7595,
+      "driving_dist": 2.4813,
+      "driving_acc": 28.7116,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC San Antonio (Oaks)",
+    "country": "United States",
+    "yardage": 7435,
+    "designer": "Greg Norman",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 11,
+    "n_player_events": 1612,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.1846,
+      "sg_arg": 8.7075,
+      "sg_putt": 13.6391,
+      "driving_dist": 3.1344,
+      "driving_acc": 32.5661,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC Sawgrass",
+    "country": "United States",
+    "yardage": 7271,
+    "designer": "Pete Dye",
+    "course_type": "stadium",
+    "coastal": true,
+    "n_events": 11,
+    "n_player_events": 1568,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.2705,
+      "sg_arg": 8.3585,
+      "sg_putt": 13.6536,
+      "driving_dist": 2.6944,
+      "driving_acc": 31.6287,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC Scottsdale",
+    "country": "United States",
+    "yardage": 7261,
+    "designer": "Jay Morrish and Tom Weiskopf",
+    "course_type": "stadium",
+    "coastal": false,
+    "n_events": 12,
+    "n_player_events": 1574,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.757,
+      "sg_arg": 7.5466,
+      "sg_putt": 13.1349,
+      "driving_dist": 4.3597,
+      "driving_acc": 31.8163,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC Southwind",
+    "country": "United States",
+    "yardage": 7244,
+    "designer": "Ron Prichard",
+    "course_type": "stadium",
+    "coastal": false,
+    "n_events": 11,
+    "n_player_events": 1159,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.2654,
+      "sg_arg": 7.6007,
+      "sg_putt": 12.3669,
+      "driving_dist": 2.4011,
+      "driving_acc": 33.7908,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC Summerlin",
+    "country": "United States",
+    "yardage": 7243,
+    "designer": "Bobby Weed",
+    "course_type": "stadium",
+    "coastal": false,
+    "n_events": 10,
+    "n_player_events": 1412,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.3298,
+      "sg_arg": 8.1565,
+      "sg_putt": 13.9123,
+      "driving_dist": 3.1533,
+      "driving_acc": 30.1016,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC Toronto at Osprey Valley (North Course)",
+    "country": "Canada",
+    "yardage": 7151,
+    "designer": "Doug Carrick",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 155,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.0036,
+      "sg_arg": 7.3106,
+      "sg_putt": 14.4912,
+      "driving_dist": 2.9457,
+      "driving_acc": 27.5312,
+      "gir": 0
+    }
+  },
+  {
+    "name": "TPC Twin Cities",
+    "country": "United States",
+    "yardage": 7468,
+    "designer": "Arnold Palmer",
+    "course_type": "stadium",
+    "coastal": false,
+    "n_events": 7,
+    "n_player_events": 1088,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 15.3915,
+      "sg_arg": 7.415,
+      "sg_putt": 14.1,
+      "driving_dist": 2.2789,
+      "driving_acc": 29.2378,
+      "gir": 0
+    }
+  },
+  {
+    "name": "The Club at Chatham Hills",
+    "country": "United States",
+    "yardage": 7215,
+    "designer": "Pete Dye",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 54,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 9.4472,
+      "sg_arg": 4.0013,
+      "sg_putt": 7.7901,
+      "driving_dist": 7.2767,
+      "driving_acc": 15.4114,
+      "gir": 0
+    }
+  },
+  {
+    "name": "The Club at Steyn City",
+    "country": "South Africa",
+    "yardage": 7054,
+    "designer": "Jack Nicklaus",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 57,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.2626,
+      "sg_arg": 5.362,
+      "sg_putt": 9.4496,
+      "driving_dist": 3.0775,
+      "driving_acc": 33.8343,
+      "gir": 0
+    }
+  },
+  {
+    "name": "The Concession Golf Club",
+    "country": "United States",
+    "yardage": 7474,
+    "designer": "Jack Nicklaus",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 72,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 9.9787,
+      "sg_arg": 8.9632,
+      "sg_putt": 13.9298,
+      "driving_dist": 1.8319,
+      "driving_acc": 30.4853,
+      "gir": 0
+    }
+  },
+  {
+    "name": "The Country Club",
+    "country": "United States",
+    "yardage": 7373,
+    "designer": "Willie Campbell",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.1591,
+      "sg_arg": 10.0442,
+      "sg_putt": 13.0943,
+      "driving_dist": 5.0802,
+      "driving_acc": 30.7663,
+      "gir": 0
+    }
+  },
+  {
+    "name": "The Grange Golf Club",
+    "country": "Australia",
+    "yardage": null,
+    "designer": "Cargie Rymill",
+    "course_type": "parkland",
+    "coastal": true,
+    "n_events": 3,
+    "n_player_events": 165,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 9.3463,
+      "sg_arg": 7.9407,
+      "sg_putt": 11.9797,
+      "driving_dist": 3.6287,
+      "driving_acc": 22.3028,
+      "gir": 0
+    }
+  },
+  {
+    "name": "The Grove",
+    "country": "United States",
+    "yardage": 7368,
+    "designer": "Greg Norman",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 54,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.1911,
+      "sg_arg": 6.6645,
+      "sg_putt": 10.7168,
+      "driving_dist": 5.1052,
+      "driving_acc": 14.6262,
+      "gir": 0
+    }
+  },
+  {
+    "name": "The Los Angeles Country Club (North Course)",
+    "country": "United States",
+    "yardage": 7530,
+    "designer": "George C. Thomas Jr.",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.9254,
+      "sg_arg": 9.4654,
+      "sg_putt": 15.7655,
+      "driving_dist": 2.6562,
+      "driving_acc": 17.657,
+      "gir": 0
+    }
+  },
+  {
+    "name": "The Old White TPC",
+    "country": "United States",
+    "yardage": 7287,
+    "designer": "Charles Blair Macdonald",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 5,
+    "n_player_events": 676,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.278,
+      "sg_arg": 7.5505,
+      "sg_putt": 14.0955,
+      "driving_dist": 2.898,
+      "driving_acc": 27.1039,
+      "gir": 0
+    }
+  },
+  {
+    "name": "The Philadelphia Cricket Club (Wissahickon Course)",
+    "country": "United States",
+    "yardage": 7119,
+    "designer": "A.W. Tillinghast",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 72,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.867,
+      "sg_arg": 5.7332,
+      "sg_putt": 10.0017,
+      "driving_dist": 3.3015,
+      "driving_acc": 33.466,
+      "gir": 0
+    }
+  },
+  {
+    "name": "The Renaissance Club",
+    "country": "Scotland",
+    "yardage": 7237,
+    "designer": "Tom Doak",
+    "course_type": "links",
+    "coastal": true,
+    "n_events": 4,
+    "n_player_events": 626,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.8501,
+      "sg_arg": 8.3935,
+      "sg_putt": 15.289,
+      "driving_dist": 3.4727,
+      "driving_acc": 24.3033,
+      "gir": 0
+    }
+  },
+  {
+    "name": "The Summit Club",
+    "country": "United States",
+    "yardage": 7457,
+    "designer": "Tom Fazio",
+    "course_type": "desert",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 78,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.6223,
+      "sg_arg": 6.104,
+      "sg_putt": 11.1677,
+      "driving_dist": 2.9372,
+      "driving_acc": 31.2405,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Torrey Pines Golf Course (South Course)",
+    "country": "United States",
+    "yardage": 7804,
+    "designer": "William F. Bell",
+    "course_type": "coastal",
+    "coastal": true,
+    "n_events": 5,
+    "n_player_events": 680,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.0479,
+      "sg_arg": 8.7681,
+      "sg_putt": 14.7303,
+      "driving_dist": 3.511,
+      "driving_acc": 33.2241,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Trinity Forest Golf Club",
+    "country": "United States",
+    "yardage": 7450,
+    "designer": "Bill Coore & Ben Crenshaw",
+    "course_type": "links",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 311,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.6058,
+      "sg_arg": 8.9151,
+      "sg_putt": 17.9508,
+      "driving_dist": 2.5301,
+      "driving_acc": 19.1386,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Trump National Doral",
+    "country": "United States",
+    "yardage": 7608,
+    "designer": "Dick Wilson",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 5,
+    "n_player_events": 319,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 11.175,
+      "sg_arg": 6.821,
+      "sg_putt": 11.4397,
+      "driving_dist": 4.4592,
+      "driving_acc": 29.4036,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Trump National Washington",
+    "country": "United States",
+    "yardage": 7793,
+    "designer": "Tom Fazio",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 57,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 8.9803,
+      "sg_arg": 6.3172,
+      "sg_putt": 10.8573,
+      "driving_dist": 4.2688,
+      "driving_acc": 34.713,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Valderrama Golf Club",
+    "country": "Spain",
+    "yardage": 6392,
+    "designer": "Robert Trent Jones",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 2,
+    "n_player_events": 108,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.3225,
+      "sg_arg": 6.9413,
+      "sg_putt": 10.3228,
+      "driving_dist": 6.5844,
+      "driving_acc": 18.9767,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Valhalla Golf Club",
+    "country": "United States",
+    "yardage": 7609,
+    "designer": "Jack Nicklaus",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 14.7883,
+      "sg_arg": 7.9457,
+      "sg_putt": 14.0637,
+      "driving_dist": 2.1443,
+      "driving_acc": 28.1157,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Vidanta Vallarta",
+    "country": "Mexico",
+    "yardage": 7200,
+    "designer": "Greg Norman",
+    "course_type": "coastal",
+    "coastal": true,
+    "n_events": 4,
+    "n_player_events": 552,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 15.018,
+      "sg_arg": 8.8945,
+      "sg_putt": 14.1495,
+      "driving_dist": 2.8263,
+      "driving_acc": 19.4853,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Waialae Country Club",
+    "country": "United States",
+    "yardage": 7125,
+    "designer": "Seth Raynor",
+    "course_type": "coastal",
+    "coastal": true,
+    "n_events": 12,
+    "n_player_events": 1703,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 13.0997,
+      "sg_arg": 7.2461,
+      "sg_putt": 13.9855,
+      "driving_dist": 2.5878,
+      "driving_acc": 31.4139,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Whistling Straits",
+    "country": "United States",
+    "yardage": 7790,
+    "designer": "Pete Dye",
+    "course_type": "links",
+    "coastal": true,
+    "n_events": 1,
+    "n_player_events": 156,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.7897,
+      "sg_arg": 10.0541,
+      "sg_putt": 15.0683,
+      "driving_dist": 2.8937,
+      "driving_acc": 30.5748,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Wilmington Country Club",
+    "country": "United States",
+    "yardage": 7334,
+    "designer": "Robert Trent Jones Sr.",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 68,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 10.4736,
+      "sg_arg": 6.4151,
+      "sg_putt": 12.6081,
+      "driving_dist": 6.96,
+      "driving_acc": 32.3364,
+      "gir": 0
+    }
+  },
+  {
+    "name": "Winged Foot GC",
+    "country": "United States",
+    "yardage": 7477,
+    "designer": "A.W. Tillinghast",
+    "course_type": "parkland",
+    "coastal": false,
+    "n_events": 1,
+    "n_player_events": 144,
+    "shap": {
+      "sg_ott": 0,
+      "sg_app": 12.2851,
+      "sg_arg": 9.5728,
+      "sg_putt": 14.9461,
+      "driving_dist": 3.2163,
+      "driving_acc": 33.5529,
+      "gir": 0
+    }
+  }
+]

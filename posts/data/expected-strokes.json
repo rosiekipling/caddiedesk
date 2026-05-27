@@ -1,0 +1,1969 @@
+{
+  "tee": [
+    {
+      "distance": 100.0,
+      "expected_strokes": 2.92
+    },
+    {
+      "distance": 105.6,
+      "expected_strokes": 2.954
+    },
+    {
+      "distance": 111.1,
+      "expected_strokes": 2.982
+    },
+    {
+      "distance": 116.7,
+      "expected_strokes": 3.007
+    },
+    {
+      "distance": 122.3,
+      "expected_strokes": 3.027
+    },
+    {
+      "distance": 127.8,
+      "expected_strokes": 3.044
+    },
+    {
+      "distance": 133.4,
+      "expected_strokes": 3.058
+    },
+    {
+      "distance": 139.0,
+      "expected_strokes": 3.069
+    },
+    {
+      "distance": 144.6,
+      "expected_strokes": 3.077
+    },
+    {
+      "distance": 150.1,
+      "expected_strokes": 3.084
+    },
+    {
+      "distance": 155.7,
+      "expected_strokes": 3.089
+    },
+    {
+      "distance": 161.3,
+      "expected_strokes": 3.093
+    },
+    {
+      "distance": 166.8,
+      "expected_strokes": 3.096
+    },
+    {
+      "distance": 172.4,
+      "expected_strokes": 3.099
+    },
+    {
+      "distance": 178.0,
+      "expected_strokes": 3.101
+    },
+    {
+      "distance": 183.5,
+      "expected_strokes": 3.105
+    },
+    {
+      "distance": 189.1,
+      "expected_strokes": 3.108
+    },
+    {
+      "distance": 194.7,
+      "expected_strokes": 3.114
+    },
+    {
+      "distance": 200.3,
+      "expected_strokes": 3.12
+    },
+    {
+      "distance": 205.8,
+      "expected_strokes": 3.129
+    },
+    {
+      "distance": 211.4,
+      "expected_strokes": 3.14
+    },
+    {
+      "distance": 217.0,
+      "expected_strokes": 3.154
+    },
+    {
+      "distance": 222.5,
+      "expected_strokes": 3.171
+    },
+    {
+      "distance": 228.1,
+      "expected_strokes": 3.192
+    },
+    {
+      "distance": 233.7,
+      "expected_strokes": 3.217
+    },
+    {
+      "distance": 239.2,
+      "expected_strokes": 3.246
+    },
+    {
+      "distance": 244.8,
+      "expected_strokes": 3.279
+    },
+    {
+      "distance": 250.4,
+      "expected_strokes": 3.317
+    },
+    {
+      "distance": 255.9,
+      "expected_strokes": 3.358
+    },
+    {
+      "distance": 261.5,
+      "expected_strokes": 3.402
+    },
+    {
+      "distance": 267.1,
+      "expected_strokes": 3.448
+    },
+    {
+      "distance": 272.7,
+      "expected_strokes": 3.494
+    },
+    {
+      "distance": 278.2,
+      "expected_strokes": 3.541
+    },
+    {
+      "distance": 283.8,
+      "expected_strokes": 3.587
+    },
+    {
+      "distance": 289.4,
+      "expected_strokes": 3.632
+    },
+    {
+      "distance": 294.9,
+      "expected_strokes": 3.674
+    },
+    {
+      "distance": 300.5,
+      "expected_strokes": 3.713
+    },
+    {
+      "distance": 306.1,
+      "expected_strokes": 3.749
+    },
+    {
+      "distance": 311.6,
+      "expected_strokes": 3.782
+    },
+    {
+      "distance": 317.2,
+      "expected_strokes": 3.811
+    },
+    {
+      "distance": 322.8,
+      "expected_strokes": 3.836
+    },
+    {
+      "distance": 328.4,
+      "expected_strokes": 3.859
+    },
+    {
+      "distance": 333.9,
+      "expected_strokes": 3.88
+    },
+    {
+      "distance": 339.5,
+      "expected_strokes": 3.898
+    },
+    {
+      "distance": 345.1,
+      "expected_strokes": 3.913
+    },
+    {
+      "distance": 350.6,
+      "expected_strokes": 3.927
+    },
+    {
+      "distance": 356.2,
+      "expected_strokes": 3.938
+    },
+    {
+      "distance": 361.8,
+      "expected_strokes": 3.949
+    },
+    {
+      "distance": 367.3,
+      "expected_strokes": 3.957
+    },
+    {
+      "distance": 372.9,
+      "expected_strokes": 3.965
+    },
+    {
+      "distance": 378.5,
+      "expected_strokes": 3.971
+    },
+    {
+      "distance": 384.1,
+      "expected_strokes": 3.977
+    },
+    {
+      "distance": 389.6,
+      "expected_strokes": 3.982
+    },
+    {
+      "distance": 395.2,
+      "expected_strokes": 3.986
+    },
+    {
+      "distance": 400.8,
+      "expected_strokes": 3.991
+    },
+    {
+      "distance": 406.3,
+      "expected_strokes": 3.995
+    },
+    {
+      "distance": 411.9,
+      "expected_strokes": 4.0
+    },
+    {
+      "distance": 417.5,
+      "expected_strokes": 4.005
+    },
+    {
+      "distance": 423.0,
+      "expected_strokes": 4.011
+    },
+    {
+      "distance": 428.6,
+      "expected_strokes": 4.017
+    },
+    {
+      "distance": 434.2,
+      "expected_strokes": 4.025
+    },
+    {
+      "distance": 439.7,
+      "expected_strokes": 4.034
+    },
+    {
+      "distance": 445.3,
+      "expected_strokes": 4.044
+    },
+    {
+      "distance": 450.9,
+      "expected_strokes": 4.056
+    },
+    {
+      "distance": 456.5,
+      "expected_strokes": 4.071
+    },
+    {
+      "distance": 462.0,
+      "expected_strokes": 4.087
+    },
+    {
+      "distance": 467.6,
+      "expected_strokes": 4.105
+    },
+    {
+      "distance": 473.2,
+      "expected_strokes": 4.126
+    },
+    {
+      "distance": 478.7,
+      "expected_strokes": 4.15
+    },
+    {
+      "distance": 484.3,
+      "expected_strokes": 4.176
+    },
+    {
+      "distance": 489.9,
+      "expected_strokes": 4.206
+    },
+    {
+      "distance": 495.4,
+      "expected_strokes": 4.239
+    },
+    {
+      "distance": 501.0,
+      "expected_strokes": 4.276
+    },
+    {
+      "distance": 506.6,
+      "expected_strokes": 4.316
+    },
+    {
+      "distance": 512.2,
+      "expected_strokes": 4.361
+    },
+    {
+      "distance": 517.7,
+      "expected_strokes": 4.41
+    },
+    {
+      "distance": 523.3,
+      "expected_strokes": 4.463
+    },
+    {
+      "distance": 528.9,
+      "expected_strokes": 4.52
+    },
+    {
+      "distance": 534.4,
+      "expected_strokes": 4.583
+    },
+    {
+      "distance": 540.0,
+      "expected_strokes": 4.65
+    }
+  ],
+  "fairway": [
+    {
+      "distance": 20.0,
+      "expected_strokes": 2.4
+    },
+    {
+      "distance": 26.6,
+      "expected_strokes": 2.448
+    },
+    {
+      "distance": 33.2,
+      "expected_strokes": 2.492
+    },
+    {
+      "distance": 39.7,
+      "expected_strokes": 2.533
+    },
+    {
+      "distance": 46.3,
+      "expected_strokes": 2.571
+    },
+    {
+      "distance": 52.9,
+      "expected_strokes": 2.606
+    },
+    {
+      "distance": 59.5,
+      "expected_strokes": 2.639
+    },
+    {
+      "distance": 66.1,
+      "expected_strokes": 2.669
+    },
+    {
+      "distance": 72.7,
+      "expected_strokes": 2.698
+    },
+    {
+      "distance": 79.2,
+      "expected_strokes": 2.725
+    },
+    {
+      "distance": 85.8,
+      "expected_strokes": 2.75
+    },
+    {
+      "distance": 92.4,
+      "expected_strokes": 2.774
+    },
+    {
+      "distance": 99.0,
+      "expected_strokes": 2.797
+    },
+    {
+      "distance": 105.6,
+      "expected_strokes": 2.819
+    },
+    {
+      "distance": 112.2,
+      "expected_strokes": 2.84
+    },
+    {
+      "distance": 118.7,
+      "expected_strokes": 2.861
+    },
+    {
+      "distance": 125.3,
+      "expected_strokes": 2.882
+    },
+    {
+      "distance": 131.9,
+      "expected_strokes": 2.903
+    },
+    {
+      "distance": 138.5,
+      "expected_strokes": 2.925
+    },
+    {
+      "distance": 145.1,
+      "expected_strokes": 2.947
+    },
+    {
+      "distance": 151.6,
+      "expected_strokes": 2.97
+    },
+    {
+      "distance": 158.2,
+      "expected_strokes": 2.995
+    },
+    {
+      "distance": 164.8,
+      "expected_strokes": 3.02
+    },
+    {
+      "distance": 171.4,
+      "expected_strokes": 3.047
+    },
+    {
+      "distance": 178.0,
+      "expected_strokes": 3.076
+    },
+    {
+      "distance": 184.6,
+      "expected_strokes": 3.107
+    },
+    {
+      "distance": 191.1,
+      "expected_strokes": 3.141
+    },
+    {
+      "distance": 197.7,
+      "expected_strokes": 3.177
+    },
+    {
+      "distance": 204.3,
+      "expected_strokes": 3.216
+    },
+    {
+      "distance": 210.9,
+      "expected_strokes": 3.257
+    },
+    {
+      "distance": 217.5,
+      "expected_strokes": 3.3
+    },
+    {
+      "distance": 224.1,
+      "expected_strokes": 3.344
+    },
+    {
+      "distance": 230.6,
+      "expected_strokes": 3.388
+    },
+    {
+      "distance": 237.2,
+      "expected_strokes": 3.432
+    },
+    {
+      "distance": 243.8,
+      "expected_strokes": 3.475
+    },
+    {
+      "distance": 250.4,
+      "expected_strokes": 3.516
+    },
+    {
+      "distance": 257.0,
+      "expected_strokes": 3.556
+    },
+    {
+      "distance": 263.5,
+      "expected_strokes": 3.594
+    },
+    {
+      "distance": 270.1,
+      "expected_strokes": 3.631
+    },
+    {
+      "distance": 276.7,
+      "expected_strokes": 3.667
+    },
+    {
+      "distance": 283.3,
+      "expected_strokes": 3.701
+    },
+    {
+      "distance": 289.9,
+      "expected_strokes": 3.733
+    },
+    {
+      "distance": 296.5,
+      "expected_strokes": 3.764
+    },
+    {
+      "distance": 303.0,
+      "expected_strokes": 3.793
+    },
+    {
+      "distance": 309.6,
+      "expected_strokes": 3.821
+    },
+    {
+      "distance": 316.2,
+      "expected_strokes": 3.847
+    },
+    {
+      "distance": 322.8,
+      "expected_strokes": 3.872
+    },
+    {
+      "distance": 329.4,
+      "expected_strokes": 3.896
+    },
+    {
+      "distance": 335.9,
+      "expected_strokes": 3.919
+    },
+    {
+      "distance": 342.5,
+      "expected_strokes": 3.94
+    },
+    {
+      "distance": 349.1,
+      "expected_strokes": 3.961
+    },
+    {
+      "distance": 355.7,
+      "expected_strokes": 3.982
+    },
+    {
+      "distance": 362.3,
+      "expected_strokes": 4.001
+    },
+    {
+      "distance": 368.9,
+      "expected_strokes": 4.021
+    },
+    {
+      "distance": 375.4,
+      "expected_strokes": 4.04
+    },
+    {
+      "distance": 382.0,
+      "expected_strokes": 4.059
+    },
+    {
+      "distance": 388.6,
+      "expected_strokes": 4.077
+    },
+    {
+      "distance": 395.2,
+      "expected_strokes": 4.096
+    },
+    {
+      "distance": 401.8,
+      "expected_strokes": 4.115
+    },
+    {
+      "distance": 408.4,
+      "expected_strokes": 4.134
+    },
+    {
+      "distance": 414.9,
+      "expected_strokes": 4.154
+    },
+    {
+      "distance": 421.5,
+      "expected_strokes": 4.175
+    },
+    {
+      "distance": 428.1,
+      "expected_strokes": 4.196
+    },
+    {
+      "distance": 434.7,
+      "expected_strokes": 4.217
+    },
+    {
+      "distance": 441.3,
+      "expected_strokes": 4.24
+    },
+    {
+      "distance": 447.8,
+      "expected_strokes": 4.264
+    },
+    {
+      "distance": 454.4,
+      "expected_strokes": 4.289
+    },
+    {
+      "distance": 461.0,
+      "expected_strokes": 4.316
+    },
+    {
+      "distance": 467.6,
+      "expected_strokes": 4.343
+    },
+    {
+      "distance": 474.2,
+      "expected_strokes": 4.373
+    },
+    {
+      "distance": 480.8,
+      "expected_strokes": 4.404
+    },
+    {
+      "distance": 487.3,
+      "expected_strokes": 4.437
+    },
+    {
+      "distance": 493.9,
+      "expected_strokes": 4.471
+    },
+    {
+      "distance": 500.5,
+      "expected_strokes": 4.508
+    },
+    {
+      "distance": 507.1,
+      "expected_strokes": 4.547
+    },
+    {
+      "distance": 513.7,
+      "expected_strokes": 4.589
+    },
+    {
+      "distance": 520.3,
+      "expected_strokes": 4.633
+    },
+    {
+      "distance": 526.8,
+      "expected_strokes": 4.679
+    },
+    {
+      "distance": 533.4,
+      "expected_strokes": 4.728
+    },
+    {
+      "distance": 540.0,
+      "expected_strokes": 4.78
+    }
+  ],
+  "rough": [
+    {
+      "distance": 20.0,
+      "expected_strokes": 2.59
+    },
+    {
+      "distance": 26.6,
+      "expected_strokes": 2.638
+    },
+    {
+      "distance": 33.2,
+      "expected_strokes": 2.683
+    },
+    {
+      "distance": 39.7,
+      "expected_strokes": 2.726
+    },
+    {
+      "distance": 46.3,
+      "expected_strokes": 2.766
+    },
+    {
+      "distance": 52.9,
+      "expected_strokes": 2.803
+    },
+    {
+      "distance": 59.5,
+      "expected_strokes": 2.839
+    },
+    {
+      "distance": 66.1,
+      "expected_strokes": 2.872
+    },
+    {
+      "distance": 72.7,
+      "expected_strokes": 2.904
+    },
+    {
+      "distance": 79.2,
+      "expected_strokes": 2.934
+    },
+    {
+      "distance": 85.8,
+      "expected_strokes": 2.962
+    },
+    {
+      "distance": 92.4,
+      "expected_strokes": 2.99
+    },
+    {
+      "distance": 99.0,
+      "expected_strokes": 3.016
+    },
+    {
+      "distance": 105.6,
+      "expected_strokes": 3.041
+    },
+    {
+      "distance": 112.2,
+      "expected_strokes": 3.066
+    },
+    {
+      "distance": 118.7,
+      "expected_strokes": 3.09
+    },
+    {
+      "distance": 125.3,
+      "expected_strokes": 3.114
+    },
+    {
+      "distance": 131.9,
+      "expected_strokes": 3.138
+    },
+    {
+      "distance": 138.5,
+      "expected_strokes": 3.162
+    },
+    {
+      "distance": 145.1,
+      "expected_strokes": 3.186
+    },
+    {
+      "distance": 151.6,
+      "expected_strokes": 3.21
+    },
+    {
+      "distance": 158.2,
+      "expected_strokes": 3.235
+    },
+    {
+      "distance": 164.8,
+      "expected_strokes": 3.261
+    },
+    {
+      "distance": 171.4,
+      "expected_strokes": 3.288
+    },
+    {
+      "distance": 178.0,
+      "expected_strokes": 3.316
+    },
+    {
+      "distance": 184.6,
+      "expected_strokes": 3.345
+    },
+    {
+      "distance": 191.1,
+      "expected_strokes": 3.376
+    },
+    {
+      "distance": 197.7,
+      "expected_strokes": 3.408
+    },
+    {
+      "distance": 204.3,
+      "expected_strokes": 3.443
+    },
+    {
+      "distance": 210.9,
+      "expected_strokes": 3.479
+    },
+    {
+      "distance": 217.5,
+      "expected_strokes": 3.516
+    },
+    {
+      "distance": 224.1,
+      "expected_strokes": 3.553
+    },
+    {
+      "distance": 230.6,
+      "expected_strokes": 3.59
+    },
+    {
+      "distance": 237.2,
+      "expected_strokes": 3.625
+    },
+    {
+      "distance": 243.8,
+      "expected_strokes": 3.659
+    },
+    {
+      "distance": 250.4,
+      "expected_strokes": 3.692
+    },
+    {
+      "distance": 257.0,
+      "expected_strokes": 3.723
+    },
+    {
+      "distance": 263.5,
+      "expected_strokes": 3.752
+    },
+    {
+      "distance": 270.1,
+      "expected_strokes": 3.78
+    },
+    {
+      "distance": 276.7,
+      "expected_strokes": 3.808
+    },
+    {
+      "distance": 283.3,
+      "expected_strokes": 3.834
+    },
+    {
+      "distance": 289.9,
+      "expected_strokes": 3.86
+    },
+    {
+      "distance": 296.5,
+      "expected_strokes": 3.886
+    },
+    {
+      "distance": 303.0,
+      "expected_strokes": 3.912
+    },
+    {
+      "distance": 309.6,
+      "expected_strokes": 3.937
+    },
+    {
+      "distance": 316.2,
+      "expected_strokes": 3.963
+    },
+    {
+      "distance": 322.8,
+      "expected_strokes": 3.989
+    },
+    {
+      "distance": 329.4,
+      "expected_strokes": 4.015
+    },
+    {
+      "distance": 335.9,
+      "expected_strokes": 4.041
+    },
+    {
+      "distance": 342.5,
+      "expected_strokes": 4.067
+    },
+    {
+      "distance": 349.1,
+      "expected_strokes": 4.093
+    },
+    {
+      "distance": 355.7,
+      "expected_strokes": 4.119
+    },
+    {
+      "distance": 362.3,
+      "expected_strokes": 4.145
+    },
+    {
+      "distance": 368.9,
+      "expected_strokes": 4.172
+    },
+    {
+      "distance": 375.4,
+      "expected_strokes": 4.199
+    },
+    {
+      "distance": 382.0,
+      "expected_strokes": 4.225
+    },
+    {
+      "distance": 388.6,
+      "expected_strokes": 4.253
+    },
+    {
+      "distance": 395.2,
+      "expected_strokes": 4.28
+    },
+    {
+      "distance": 401.8,
+      "expected_strokes": 4.307
+    },
+    {
+      "distance": 408.4,
+      "expected_strokes": 4.335
+    },
+    {
+      "distance": 414.9,
+      "expected_strokes": 4.363
+    },
+    {
+      "distance": 421.5,
+      "expected_strokes": 4.392
+    },
+    {
+      "distance": 428.1,
+      "expected_strokes": 4.42
+    },
+    {
+      "distance": 434.7,
+      "expected_strokes": 4.449
+    },
+    {
+      "distance": 441.3,
+      "expected_strokes": 4.479
+    },
+    {
+      "distance": 447.8,
+      "expected_strokes": 4.508
+    },
+    {
+      "distance": 454.4,
+      "expected_strokes": 4.539
+    },
+    {
+      "distance": 461.0,
+      "expected_strokes": 4.569
+    },
+    {
+      "distance": 467.6,
+      "expected_strokes": 4.6
+    },
+    {
+      "distance": 474.2,
+      "expected_strokes": 4.631
+    },
+    {
+      "distance": 480.8,
+      "expected_strokes": 4.663
+    },
+    {
+      "distance": 487.3,
+      "expected_strokes": 4.695
+    },
+    {
+      "distance": 493.9,
+      "expected_strokes": 4.728
+    },
+    {
+      "distance": 500.5,
+      "expected_strokes": 4.761
+    },
+    {
+      "distance": 507.1,
+      "expected_strokes": 4.794
+    },
+    {
+      "distance": 513.7,
+      "expected_strokes": 4.828
+    },
+    {
+      "distance": 520.3,
+      "expected_strokes": 4.863
+    },
+    {
+      "distance": 526.8,
+      "expected_strokes": 4.898
+    },
+    {
+      "distance": 533.4,
+      "expected_strokes": 4.934
+    },
+    {
+      "distance": 540.0,
+      "expected_strokes": 4.97
+    }
+  ],
+  "sand": [
+    {
+      "distance": 20.0,
+      "expected_strokes": 2.53
+    },
+    {
+      "distance": 24.8,
+      "expected_strokes": 2.605
+    },
+    {
+      "distance": 29.6,
+      "expected_strokes": 2.676
+    },
+    {
+      "distance": 34.4,
+      "expected_strokes": 2.74
+    },
+    {
+      "distance": 39.2,
+      "expected_strokes": 2.8
+    },
+    {
+      "distance": 44.1,
+      "expected_strokes": 2.856
+    },
+    {
+      "distance": 48.9,
+      "expected_strokes": 2.906
+    },
+    {
+      "distance": 53.7,
+      "expected_strokes": 2.953
+    },
+    {
+      "distance": 58.5,
+      "expected_strokes": 2.995
+    },
+    {
+      "distance": 63.3,
+      "expected_strokes": 3.034
+    },
+    {
+      "distance": 68.1,
+      "expected_strokes": 3.069
+    },
+    {
+      "distance": 72.9,
+      "expected_strokes": 3.101
+    },
+    {
+      "distance": 77.7,
+      "expected_strokes": 3.13
+    },
+    {
+      "distance": 82.5,
+      "expected_strokes": 3.156
+    },
+    {
+      "distance": 87.3,
+      "expected_strokes": 3.179
+    },
+    {
+      "distance": 92.2,
+      "expected_strokes": 3.2
+    },
+    {
+      "distance": 97.0,
+      "expected_strokes": 3.219
+    },
+    {
+      "distance": 101.8,
+      "expected_strokes": 3.236
+    },
+    {
+      "distance": 106.6,
+      "expected_strokes": 3.251
+    },
+    {
+      "distance": 111.4,
+      "expected_strokes": 3.265
+    },
+    {
+      "distance": 116.2,
+      "expected_strokes": 3.278
+    },
+    {
+      "distance": 121.0,
+      "expected_strokes": 3.29
+    },
+    {
+      "distance": 125.8,
+      "expected_strokes": 3.301
+    },
+    {
+      "distance": 130.6,
+      "expected_strokes": 3.311
+    },
+    {
+      "distance": 135.4,
+      "expected_strokes": 3.321
+    },
+    {
+      "distance": 140.3,
+      "expected_strokes": 3.332
+    },
+    {
+      "distance": 145.1,
+      "expected_strokes": 3.342
+    },
+    {
+      "distance": 149.9,
+      "expected_strokes": 3.353
+    },
+    {
+      "distance": 154.7,
+      "expected_strokes": 3.364
+    },
+    {
+      "distance": 159.5,
+      "expected_strokes": 3.377
+    },
+    {
+      "distance": 164.3,
+      "expected_strokes": 3.39
+    },
+    {
+      "distance": 169.1,
+      "expected_strokes": 3.405
+    },
+    {
+      "distance": 173.9,
+      "expected_strokes": 3.422
+    },
+    {
+      "distance": 178.7,
+      "expected_strokes": 3.44
+    },
+    {
+      "distance": 183.5,
+      "expected_strokes": 3.461
+    },
+    {
+      "distance": 188.4,
+      "expected_strokes": 3.484
+    },
+    {
+      "distance": 193.2,
+      "expected_strokes": 3.509
+    },
+    {
+      "distance": 198.0,
+      "expected_strokes": 3.537
+    },
+    {
+      "distance": 202.8,
+      "expected_strokes": 3.568
+    },
+    {
+      "distance": 207.6,
+      "expected_strokes": 3.602
+    },
+    {
+      "distance": 212.4,
+      "expected_strokes": 3.638
+    },
+    {
+      "distance": 217.2,
+      "expected_strokes": 3.675
+    },
+    {
+      "distance": 222.0,
+      "expected_strokes": 3.712
+    },
+    {
+      "distance": 226.8,
+      "expected_strokes": 3.748
+    },
+    {
+      "distance": 231.6,
+      "expected_strokes": 3.784
+    },
+    {
+      "distance": 236.5,
+      "expected_strokes": 3.817
+    },
+    {
+      "distance": 241.3,
+      "expected_strokes": 3.848
+    },
+    {
+      "distance": 246.1,
+      "expected_strokes": 3.875
+    },
+    {
+      "distance": 250.9,
+      "expected_strokes": 3.899
+    },
+    {
+      "distance": 255.7,
+      "expected_strokes": 3.921
+    },
+    {
+      "distance": 260.5,
+      "expected_strokes": 3.94
+    },
+    {
+      "distance": 265.3,
+      "expected_strokes": 3.957
+    },
+    {
+      "distance": 270.1,
+      "expected_strokes": 3.972
+    },
+    {
+      "distance": 274.9,
+      "expected_strokes": 3.985
+    },
+    {
+      "distance": 279.7,
+      "expected_strokes": 3.997
+    },
+    {
+      "distance": 284.6,
+      "expected_strokes": 4.008
+    },
+    {
+      "distance": 289.4,
+      "expected_strokes": 4.019
+    },
+    {
+      "distance": 294.2,
+      "expected_strokes": 4.028
+    },
+    {
+      "distance": 299.0,
+      "expected_strokes": 4.038
+    },
+    {
+      "distance": 303.8,
+      "expected_strokes": 4.048
+    },
+    {
+      "distance": 308.6,
+      "expected_strokes": 4.058
+    },
+    {
+      "distance": 313.4,
+      "expected_strokes": 4.068
+    },
+    {
+      "distance": 318.2,
+      "expected_strokes": 4.08
+    },
+    {
+      "distance": 323.0,
+      "expected_strokes": 4.092
+    },
+    {
+      "distance": 327.8,
+      "expected_strokes": 4.107
+    },
+    {
+      "distance": 332.7,
+      "expected_strokes": 4.123
+    },
+    {
+      "distance": 337.5,
+      "expected_strokes": 4.141
+    },
+    {
+      "distance": 342.3,
+      "expected_strokes": 4.161
+    },
+    {
+      "distance": 347.1,
+      "expected_strokes": 4.184
+    },
+    {
+      "distance": 351.9,
+      "expected_strokes": 4.21
+    },
+    {
+      "distance": 356.7,
+      "expected_strokes": 4.239
+    },
+    {
+      "distance": 361.5,
+      "expected_strokes": 4.272
+    },
+    {
+      "distance": 366.3,
+      "expected_strokes": 4.308
+    },
+    {
+      "distance": 371.1,
+      "expected_strokes": 4.348
+    },
+    {
+      "distance": 375.9,
+      "expected_strokes": 4.393
+    },
+    {
+      "distance": 380.8,
+      "expected_strokes": 4.442
+    },
+    {
+      "distance": 385.6,
+      "expected_strokes": 4.496
+    },
+    {
+      "distance": 390.4,
+      "expected_strokes": 4.555
+    },
+    {
+      "distance": 395.2,
+      "expected_strokes": 4.62
+    },
+    {
+      "distance": 400.0,
+      "expected_strokes": 4.69
+    }
+  ],
+  "recovery": [
+    {
+      "distance": 100.0,
+      "expected_strokes": 3.8
+    },
+    {
+      "distance": 105.6,
+      "expected_strokes": 3.797
+    },
+    {
+      "distance": 111.1,
+      "expected_strokes": 3.795
+    },
+    {
+      "distance": 116.7,
+      "expected_strokes": 3.794
+    },
+    {
+      "distance": 122.3,
+      "expected_strokes": 3.794
+    },
+    {
+      "distance": 127.8,
+      "expected_strokes": 3.794
+    },
+    {
+      "distance": 133.4,
+      "expected_strokes": 3.795
+    },
+    {
+      "distance": 139.0,
+      "expected_strokes": 3.797
+    },
+    {
+      "distance": 144.6,
+      "expected_strokes": 3.8
+    },
+    {
+      "distance": 150.1,
+      "expected_strokes": 3.804
+    },
+    {
+      "distance": 155.7,
+      "expected_strokes": 3.808
+    },
+    {
+      "distance": 161.3,
+      "expected_strokes": 3.813
+    },
+    {
+      "distance": 166.8,
+      "expected_strokes": 3.819
+    },
+    {
+      "distance": 172.4,
+      "expected_strokes": 3.825
+    },
+    {
+      "distance": 178.0,
+      "expected_strokes": 3.833
+    },
+    {
+      "distance": 183.5,
+      "expected_strokes": 3.841
+    },
+    {
+      "distance": 189.1,
+      "expected_strokes": 3.85
+    },
+    {
+      "distance": 194.7,
+      "expected_strokes": 3.86
+    },
+    {
+      "distance": 200.3,
+      "expected_strokes": 3.871
+    },
+    {
+      "distance": 205.8,
+      "expected_strokes": 3.882
+    },
+    {
+      "distance": 211.4,
+      "expected_strokes": 3.894
+    },
+    {
+      "distance": 217.0,
+      "expected_strokes": 3.907
+    },
+    {
+      "distance": 222.5,
+      "expected_strokes": 3.921
+    },
+    {
+      "distance": 228.1,
+      "expected_strokes": 3.936
+    },
+    {
+      "distance": 233.7,
+      "expected_strokes": 3.951
+    },
+    {
+      "distance": 239.2,
+      "expected_strokes": 3.968
+    },
+    {
+      "distance": 244.8,
+      "expected_strokes": 3.985
+    },
+    {
+      "distance": 250.4,
+      "expected_strokes": 4.003
+    },
+    {
+      "distance": 255.9,
+      "expected_strokes": 4.022
+    },
+    {
+      "distance": 261.5,
+      "expected_strokes": 4.041
+    },
+    {
+      "distance": 267.1,
+      "expected_strokes": 4.062
+    },
+    {
+      "distance": 272.7,
+      "expected_strokes": 4.083
+    },
+    {
+      "distance": 278.2,
+      "expected_strokes": 4.105
+    },
+    {
+      "distance": 283.8,
+      "expected_strokes": 4.128
+    },
+    {
+      "distance": 289.4,
+      "expected_strokes": 4.152
+    },
+    {
+      "distance": 294.9,
+      "expected_strokes": 4.177
+    },
+    {
+      "distance": 300.5,
+      "expected_strokes": 4.202
+    },
+    {
+      "distance": 306.1,
+      "expected_strokes": 4.229
+    },
+    {
+      "distance": 311.6,
+      "expected_strokes": 4.256
+    },
+    {
+      "distance": 317.2,
+      "expected_strokes": 4.284
+    },
+    {
+      "distance": 322.8,
+      "expected_strokes": 4.312
+    },
+    {
+      "distance": 328.4,
+      "expected_strokes": 4.341
+    },
+    {
+      "distance": 333.9,
+      "expected_strokes": 4.371
+    },
+    {
+      "distance": 339.5,
+      "expected_strokes": 4.401
+    },
+    {
+      "distance": 345.1,
+      "expected_strokes": 4.432
+    },
+    {
+      "distance": 350.6,
+      "expected_strokes": 4.463
+    },
+    {
+      "distance": 356.2,
+      "expected_strokes": 4.495
+    },
+    {
+      "distance": 361.8,
+      "expected_strokes": 4.526
+    },
+    {
+      "distance": 367.3,
+      "expected_strokes": 4.559
+    },
+    {
+      "distance": 372.9,
+      "expected_strokes": 4.591
+    },
+    {
+      "distance": 378.5,
+      "expected_strokes": 4.623
+    },
+    {
+      "distance": 384.1,
+      "expected_strokes": 4.656
+    },
+    {
+      "distance": 389.6,
+      "expected_strokes": 4.689
+    },
+    {
+      "distance": 395.2,
+      "expected_strokes": 4.722
+    },
+    {
+      "distance": 400.8,
+      "expected_strokes": 4.754
+    },
+    {
+      "distance": 406.3,
+      "expected_strokes": 4.787
+    },
+    {
+      "distance": 411.9,
+      "expected_strokes": 4.82
+    },
+    {
+      "distance": 417.5,
+      "expected_strokes": 4.852
+    },
+    {
+      "distance": 423.0,
+      "expected_strokes": 4.884
+    },
+    {
+      "distance": 428.6,
+      "expected_strokes": 4.916
+    },
+    {
+      "distance": 434.2,
+      "expected_strokes": 4.948
+    },
+    {
+      "distance": 439.7,
+      "expected_strokes": 4.979
+    },
+    {
+      "distance": 445.3,
+      "expected_strokes": 5.01
+    },
+    {
+      "distance": 450.9,
+      "expected_strokes": 5.04
+    },
+    {
+      "distance": 456.5,
+      "expected_strokes": 5.07
+    },
+    {
+      "distance": 462.0,
+      "expected_strokes": 5.099
+    },
+    {
+      "distance": 467.6,
+      "expected_strokes": 5.128
+    },
+    {
+      "distance": 473.2,
+      "expected_strokes": 5.156
+    },
+    {
+      "distance": 478.7,
+      "expected_strokes": 5.183
+    },
+    {
+      "distance": 484.3,
+      "expected_strokes": 5.209
+    },
+    {
+      "distance": 489.9,
+      "expected_strokes": 5.235
+    },
+    {
+      "distance": 495.4,
+      "expected_strokes": 5.26
+    },
+    {
+      "distance": 501.0,
+      "expected_strokes": 5.283
+    },
+    {
+      "distance": 506.6,
+      "expected_strokes": 5.306
+    },
+    {
+      "distance": 512.2,
+      "expected_strokes": 5.328
+    },
+    {
+      "distance": 517.7,
+      "expected_strokes": 5.349
+    },
+    {
+      "distance": 523.3,
+      "expected_strokes": 5.368
+    },
+    {
+      "distance": 528.9,
+      "expected_strokes": 5.387
+    },
+    {
+      "distance": 534.4,
+      "expected_strokes": 5.404
+    },
+    {
+      "distance": 540.0,
+      "expected_strokes": 5.42
+    }
+  ],
+  "putting": [
+    {
+      "distance": 3.0,
+      "expected_strokes": 1.04
+    },
+    {
+      "distance": 5.2,
+      "expected_strokes": 1.256
+    },
+    {
+      "distance": 7.5,
+      "expected_strokes": 1.458
+    },
+    {
+      "distance": 9.7,
+      "expected_strokes": 1.595
+    },
+    {
+      "distance": 11.9,
+      "expected_strokes": 1.693
+    },
+    {
+      "distance": 14.2,
+      "expected_strokes": 1.772
+    },
+    {
+      "distance": 16.4,
+      "expected_strokes": 1.832
+    },
+    {
+      "distance": 18.6,
+      "expected_strokes": 1.878
+    },
+    {
+      "distance": 20.8,
+      "expected_strokes": 1.911
+    },
+    {
+      "distance": 23.1,
+      "expected_strokes": 1.936
+    },
+    {
+      "distance": 25.3,
+      "expected_strokes": 1.953
+    },
+    {
+      "distance": 27.5,
+      "expected_strokes": 1.967
+    },
+    {
+      "distance": 29.8,
+      "expected_strokes": 1.979
+    },
+    {
+      "distance": 32.0,
+      "expected_strokes": 1.992
+    },
+    {
+      "distance": 34.2,
+      "expected_strokes": 2.007
+    },
+    {
+      "distance": 36.5,
+      "expected_strokes": 2.023
+    },
+    {
+      "distance": 38.7,
+      "expected_strokes": 2.04
+    },
+    {
+      "distance": 40.9,
+      "expected_strokes": 2.058
+    },
+    {
+      "distance": 43.2,
+      "expected_strokes": 2.077
+    },
+    {
+      "distance": 45.4,
+      "expected_strokes": 2.097
+    },
+    {
+      "distance": 47.6,
+      "expected_strokes": 2.118
+    },
+    {
+      "distance": 49.8,
+      "expected_strokes": 2.139
+    },
+    {
+      "distance": 52.1,
+      "expected_strokes": 2.16
+    },
+    {
+      "distance": 54.3,
+      "expected_strokes": 2.181
+    },
+    {
+      "distance": 56.5,
+      "expected_strokes": 2.202
+    },
+    {
+      "distance": 58.8,
+      "expected_strokes": 2.223
+    },
+    {
+      "distance": 61.0,
+      "expected_strokes": 2.243
+    },
+    {
+      "distance": 63.2,
+      "expected_strokes": 2.263
+    },
+    {
+      "distance": 65.5,
+      "expected_strokes": 2.282
+    },
+    {
+      "distance": 67.7,
+      "expected_strokes": 2.301
+    },
+    {
+      "distance": 69.9,
+      "expected_strokes": 2.318
+    },
+    {
+      "distance": 72.2,
+      "expected_strokes": 2.334
+    },
+    {
+      "distance": 74.4,
+      "expected_strokes": 2.349
+    },
+    {
+      "distance": 76.6,
+      "expected_strokes": 2.362
+    },
+    {
+      "distance": 78.8,
+      "expected_strokes": 2.373
+    },
+    {
+      "distance": 81.1,
+      "expected_strokes": 2.383
+    },
+    {
+      "distance": 83.3,
+      "expected_strokes": 2.391
+    },
+    {
+      "distance": 85.5,
+      "expected_strokes": 2.396
+    },
+    {
+      "distance": 87.8,
+      "expected_strokes": 2.399
+    },
+    {
+      "distance": 90.0,
+      "expected_strokes": 2.4
+    }
+  ],
+  "annotations": [
+    {
+      "distance": 165,
+      "expected_strokes": 3.02,
+      "label": "165 yds from fairway",
+      "lie": "fairway"
+    }
+  ],
+  "anchors": {
+    "tee": [
+      {
+        "distance": 100,
+        "expected_strokes": 2.92
+      },
+      {
+        "distance": 200,
+        "expected_strokes": 3.12
+      },
+      {
+        "distance": 240,
+        "expected_strokes": 3.25
+      },
+      {
+        "distance": 300,
+        "expected_strokes": 3.71
+      },
+      {
+        "distance": 400,
+        "expected_strokes": 3.99
+      },
+      {
+        "distance": 540,
+        "expected_strokes": 4.65
+      }
+    ],
+    "fairway": [
+      {
+        "distance": 20,
+        "expected_strokes": 2.4
+      },
+      {
+        "distance": 100,
+        "expected_strokes": 2.8
+      },
+      {
+        "distance": 200,
+        "expected_strokes": 3.19
+      },
+      {
+        "distance": 240,
+        "expected_strokes": 3.45
+      },
+      {
+        "distance": 300,
+        "expected_strokes": 3.78
+      },
+      {
+        "distance": 400,
+        "expected_strokes": 4.11
+      },
+      {
+        "distance": 540,
+        "expected_strokes": 4.78
+      }
+    ],
+    "rough": [
+      {
+        "distance": 20,
+        "expected_strokes": 2.59
+      },
+      {
+        "distance": 100,
+        "expected_strokes": 3.02
+      },
+      {
+        "distance": 200,
+        "expected_strokes": 3.42
+      },
+      {
+        "distance": 240,
+        "expected_strokes": 3.64
+      },
+      {
+        "distance": 300,
+        "expected_strokes": 3.9
+      },
+      {
+        "distance": 400,
+        "expected_strokes": 4.3
+      },
+      {
+        "distance": 540,
+        "expected_strokes": 4.97
+      }
+    ],
+    "sand": [
+      {
+        "distance": 20,
+        "expected_strokes": 2.53
+      },
+      {
+        "distance": 100,
+        "expected_strokes": 3.23
+      },
+      {
+        "distance": 200,
+        "expected_strokes": 3.55
+      },
+      {
+        "distance": 240,
+        "expected_strokes": 3.84
+      },
+      {
+        "distance": 300,
+        "expected_strokes": 4.04
+      },
+      {
+        "distance": 400,
+        "expected_strokes": 4.69
+      }
+    ],
+    "recovery": [
+      {
+        "distance": 100,
+        "expected_strokes": 3.8
+      },
+      {
+        "distance": 200,
+        "expected_strokes": 3.87
+      },
+      {
+        "distance": 240,
+        "expected_strokes": 3.97
+      },
+      {
+        "distance": 300,
+        "expected_strokes": 4.2
+      },
+      {
+        "distance": 400,
+        "expected_strokes": 4.75
+      },
+      {
+        "distance": 540,
+        "expected_strokes": 5.42
+      }
+    ],
+    "putting": [
+      {
+        "distance": 3,
+        "expected_strokes": 1.04
+      },
+      {
+        "distance": 4,
+        "expected_strokes": 1.13
+      },
+      {
+        "distance": 5,
+        "expected_strokes": 1.23
+      },
+      {
+        "distance": 6,
+        "expected_strokes": 1.34
+      },
+      {
+        "distance": 7,
+        "expected_strokes": 1.42
+      },
+      {
+        "distance": 8,
+        "expected_strokes": 1.5
+      },
+      {
+        "distance": 9,
+        "expected_strokes": 1.56
+      },
+      {
+        "distance": 10,
+        "expected_strokes": 1.61
+      },
+      {
+        "distance": 30,
+        "expected_strokes": 1.98
+      },
+      {
+        "distance": 50,
+        "expected_strokes": 2.14
+      },
+      {
+        "distance": 90,
+        "expected_strokes": 2.4
+      }
+    ]
+  },
+  "source": "Broadie, Every Shot Counts (2014), PGA Tour data 2004-2012"
+}

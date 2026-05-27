@@ -1,0 +1,494 @@
+/* posts/_template-styles.css
+ * Caddie Desk article page styles
+ */
+
+/* --- Article container --- */
+.article-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 40px 80px;
+}
+
+/* --- Top nav strip --- */
+.article-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--ink);
+}
+.article-nav a {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink);
+  transition: color 0.2s;
+}
+.article-nav a:hover { color: var(--ink-mute); }
+.article-nav .brand {
+  font-weight: 800;
+  letter-spacing: 0.28em;
+}
+
+/* --- Header --- */
+.article-header {
+  padding: 56px 0 32px;
+  border-bottom: 2px solid var(--ink);
+  margin-bottom: 40px;
+}
+.article-kicker {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-bottom: 12px;
+}
+.article-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: clamp(36px, 5vw, 56px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  font-variation-settings: "opsz" 144;
+  margin-bottom: 18px;
+}
+.article-title em { font-style: italic; }
+
+.article-meta-line {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+
+/* --- Body --- */
+.article-lead {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: clamp(20px, 2.5vw, 26px);
+  line-height: 1.4;
+  color: var(--ink);
+  opacity: 0.85;
+  margin: 24px 0 36px;
+  padding-bottom: 24px;
+  border-bottom: 1px dotted var(--ink-line);
+}
+
+.article-content {
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.article-content > * {
+  margin-bottom: 22px;
+}
+
+.article-content h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: clamp(28px, 3vw, 36px);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin: 56px 0 16px;
+}
+.article-content h2 em { font-style: italic; }
+
+.article-content h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 22px;
+  margin: 36px 0 12px;
+  letter-spacing: -0.01em;
+}
+
+.article-content em { font-style: italic; }
+.article-content strong { font-weight: 700; }
+
+.article-content a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--ink-line);
+  transition: border-color 0.2s;
+}
+.article-content a:hover { border-color: var(--ink); }
+
+/* --- Section divider --- */
+.section-divider {
+  margin: 100px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 720px;
+  border-top: 3px solid var(--ink);
+  border-bottom: 3px solid var(--ink);
+  padding: 18px 0;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: var(--paper);
+  position: relative;
+  z-index: 2;
+}
+
+/* --- Strokes Gained explainer section --- */
+.sg-explainer {
+  margin: 48px 0 80px;
+}
+
+.sg-explainer p {
+  margin-bottom: 22px;
+}
+
+.sg-explainer p:last-child {
+  margin-bottom: 0;
+}
+
+.sg-explainer-lead {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(20px, 2vw, 24px);
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--ink);
+  margin: 0 0 48px;
+  padding-left: 24px;
+  border-left: 3px solid var(--ink);
+}
+
+.sg-explainer h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 24px;
+  margin: 48px 0 16px;
+  letter-spacing: -0.01em;
+}
+
+/* SG diagram (the worked example illustration) */
+.sg-diagram {
+  margin: 40px 0;
+  padding: 24px;
+  background: rgba(54, 51, 52, 0.03);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.sg-diagram img {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* SG calculation breakdown box */
+.sg-calc {
+  margin: 32px 0;
+  padding: 24px;
+  background: var(--paper-shade);
+  border: 1px solid var(--ink-line);
+  border-radius: 4px;
+}
+
+.sg-calc-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 0;
+  border-bottom: 1px dotted var(--ink-line);
+}
+
+.sg-calc-row:last-child {
+  border-bottom: none;
+}
+
+.sg-calc-label {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+
+.sg-calc-value {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.sg-calc-total {
+  margin-top: 8px;
+  padding-top: 16px;
+  border-top: 2px solid var(--ink);
+  border-bottom: none;
+}
+
+.sg-calc-total .sg-calc-label {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.sg-calc-total .sg-calc-value {
+  font-size: 28px;
+  font-style: italic;
+}
+
+/* --- Expected strokes table --- */
+.es-table {
+  margin: 28px 0 32px;
+  padding: 20px 24px;
+  background: var(--paper-shade);
+  border: 1px solid var(--ink-line);
+  border-radius: 4px;
+}
+
+.es-table-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 0;
+  border-bottom: 1px dotted var(--ink-line);
+}
+
+.es-table-row:last-child {
+  border-bottom: none;
+}
+
+.es-table-row span:first-child {
+  font-family: 'Fraunces', serif;
+  font-size: 16px;
+  color: var(--ink);
+}
+
+.es-table-row span:last-child {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.es-table-header {
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 12px;
+  margin-bottom: 4px;
+}
+
+.es-table-header span {
+  font-family: 'Archivo', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 11px !important;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-mute) !important;
+}
+
+/* --- Expected strokes D3 chart --- */
+.es-chart {
+  margin: 40px 0;
+  padding: 24px 24px 40px;
+  background: rgba(54, 51, 52, 0.03);
+  border-radius: 4px;
+  position: relative;
+}
+
+.es-chart svg {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.es-chart-caption {
+  margin: 16px auto 32px;
+  max-width: 600px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 11px;
+  line-height: 1.6;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  text-align: center;
+}
+
+.es-chart-caption em {
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* Chart hover tooltip */
+.es-tooltip {
+  position: absolute;
+  background: var(--paper);
+  border: 1.5px solid var(--ink);
+  padding: 12px 16px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  font-family: 'Archivo', sans-serif;
+  font-size: 12px;
+  color: var(--ink);
+  z-index: 100;
+  box-shadow: 4px 4px 0 var(--ink);
+  min-width: 160px;
+}
+
+.es-tooltip-dist {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--ink-line);
+}
+
+.es-tooltip-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 3px 0;
+}
+
+.es-tooltip-lie {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.es-tooltip-value {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+/* --- Article aside (the "fine print" callout) --- */
+.article-aside {
+  margin: 48px 0;
+  padding: 28px 32px;
+  background: var(--paper-shade);
+  border-left: 4px solid var(--ink);
+  border-radius: 0 4px 4px 0;
+}
+
+.article-aside .aside-kicker {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-bottom: 8px;
+}
+
+.article-aside p {
+  font-family: 'Fraunces', serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 14px;
+  color: var(--ink);
+}
+
+.article-aside p:last-child {
+  margin-bottom: 0;
+}
+
+.article-aside p strong {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink);
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* --- Pardle promo --- */
+.pardle-promo {
+  margin: 64px 0 0;
+  padding: 32px;
+  background: var(--ink);
+  color: var(--paper);
+  text-align: center;
+}
+.pardle-promo .kicker {
+  border-color: var(--paper);
+  color: var(--paper);
+  opacity: 0.8;
+}
+.pardle-promo h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 32px;
+  margin: 12px 0 16px;
+  color: var(--paper);
+}
+.pardle-promo p {
+  font-family: 'Fraunces', serif;
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  opacity: 0.85;
+}
+.pardle-promo a {
+  display: inline-block;
+  padding: 14px 24px;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.2s ease;
+}
+.pardle-promo a:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--paper);
+}
+
+/* --- Footer --- */
+.article-footer {
+  margin-top: 64px;
+  padding-top: 28px;
+  border-top: 2px solid var(--ink);
+  text-align: center;
+}
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding-bottom: 4px;
+  border-bottom: 1.5px solid var(--ink);
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+  .article-page { padding: 20px 22px 60px; }
+  .article-header { padding: 32px 0 24px; }
+  .article-lead { margin: 16px 0 28px; }
+  .section-divider { margin: 60px auto; }
+}

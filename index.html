@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>The Caddie Desk — Golf, Read Properly</title>
-<meta name="description" content="Dispatches from the links. Home of Pardle, the daily golf puzzle, and data-driven writing about the game." />
+<meta name="description" content="Dispatches from the links. Data-driven writing about professional golf, and home of Pardle, the daily golf puzzle." />
 
 <link rel="icon" type="image/png" href="/favicon-light.png" media="(prefers-color-scheme: light)" />
 <link rel="icon" type="image/png" href="/favicon-dark.png" media="(prefers-color-scheme: dark)" />
@@ -39,93 +39,42 @@
     </p>
   </section>
 
-  <section class="feature reveal reveal-3">
-    <div class="feature-inner">
-      <div class="feature-text">
+  <!-- ARTICLES: the main event -->
+  <section class="writing reveal reveal-3">
+    <div class="section-kicker">The Writing</div>
+    <h2 class="section-title">Read <em>recent</em> dispatches</h2>
+    <div class="article-list" id="article-list"></div>
+  </section>
+
+  <!-- PARDLE: smaller, secondary promo -->
+  <section class="pardle-promo reveal reveal-4">
+    <div class="pardle-promo-inner">
+      <div class="pardle-promo-text">
         <div class="kicker">Today's Puzzle</div>
-        <h2>Par<em>dle</em></h2>
-        <p>
-          A daily game. Six stats, one Tour pro. Read the numbers — can you
-          name the player behind the scorecard? New puzzle every day.
-        </p>
-        <a href="https://pardle.caddiedesk.com" class="feature-cta" target="_blank" rel="noopener">
-          Play Today's Round <span class="arrow">→</span>
+        <h3>Par<em>dle</em></h3>
+        <p>Six stats, one Tour pro. New puzzle every day.</p>
+        <a href="https://pardle.caddiedesk.com" class="pardle-promo-cta" target="_blank" rel="noopener">
+          Play Today's Round →
         </a>
       </div>
-
-      <div class="scorecard-preview" aria-hidden="true">
-        <div class="sp-kicker">◆ Mystery Player No. 001</div>
-        <div class="sp-title">Whose <em>scorecard</em>?</div>
-        <div class="sp-grid">
-          <div class="sp-cell">
-            <div class="lbl">SG: Total</div>
-            <div class="val">+2.54</div>
-          </div>
-          <div class="sp-cell">
-            <div class="lbl">Driving Dist.</div>
-            <div class="val">320.7y</div>
-          </div>
-          <div class="sp-cell">
-            <div class="lbl">SG: Approach</div>
-            <div class="val">+0.89</div>
-          </div>
-          <div class="sp-cell hidden">
-            <div class="lbl">SG: Putting</div>
-            <div class="val">—</div>
-          </div>
-          <div class="sp-cell hidden">
-            <div class="lbl">SG: Around G.</div>
-            <div class="val">—</div>
-          </div>
-          <div class="sp-cell hidden">
-            <div class="lbl">Driving Acc.</div>
-            <div class="val">—</div>
-          </div>
+      <div class="pardle-promo-mini" aria-hidden="true">
+        <div class="mini-stat">
+          <div class="lbl">SG: Total</div>
+          <div class="val">+2.54</div>
+        </div>
+        <div class="mini-stat">
+          <div class="lbl">Drive Dist</div>
+          <div class="val">320.7y</div>
+        </div>
+        <div class="mini-stat">
+          <div class="lbl">SG: APP</div>
+          <div class="val">+0.89</div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="writing reveal reveal-4">
-    <div class="kicker">From the Archive</div>
-    <p class="writing-intro">
-      Long-form analysis of professional golf. <br> Data-driven, written
-      for the curious.
-    </p>
-
-  <div class="article-list" id="article-list"></div>
-
-  <script>
-    function formatDate(isoDate) {
-      if (!isoDate) return "";
-      const d = new Date(isoDate);
-      return d.toLocaleDateString("en-GB", {
-        month: "long",
-        year: "numeric",
-      });
-    }
-  
-    fetch("/articles.json")
-      .then(r => r.json())
-      .then(articles => {
-        const list = document.getElementById("article-list");
-        list.innerHTML = articles
-          .sort((a, b) => (b.published || "").localeCompare(a.published || ""))
-          .map(a => `
-          <a class="article" href="${a.url}" target="_blank" rel="noopener">
-            <div class="article-num">№ ${a.num}</div>
-            <div class="article-body">
-              <div class="article-meta">${a.type} · ${a.subtitle}${a.published ? ` · ${formatDate(a.published)}` : ""}</div>
-              <h3>${a.title.replace(a.titleHighlight, `<em>${a.titleHighlight}</em>`)}</h3>
-              <p>${a.blurb}</p>
-            </div>
-            <div class="article-arrow">→</div>
-          </a>
-        `).join("");
-      });
-  </script>
-
-  <section class="about">
+  <section class="about reveal reveal-5">
     <div>
       <h3>About the <em>Desk</em></h3>
       <p>
@@ -155,6 +104,34 @@
 </div>
 
 <script>
+  function formatDate(isoDate) {
+    if (!isoDate) return "";
+    const d = new Date(isoDate);
+    return d.toLocaleDateString("en-GB", {
+      month: "long",
+      year: "numeric",
+    });
+  }
+
+  fetch("/articles.json")
+    .then(r => r.json())
+    .then(articles => {
+      const list = document.getElementById("article-list");
+      list.innerHTML = articles
+        .sort((a, b) => (b.published || "").localeCompare(a.published || ""))
+        .map(a => `
+          <a class="article" href="${a.url}" target="_blank" rel="noopener">
+            <div class="article-num">№ ${a.num}</div>
+            <div class="article-body">
+              <div class="article-meta">${a.type} · ${a.subtitle}${a.published ? ` · ${formatDate(a.published)}` : ""}</div>
+              <h3>${a.title.replace(a.titleHighlight, `<em>${a.titleHighlight}</em>`)}</h3>
+              <p>${a.blurb}</p>
+            </div>
+            <div class="article-arrow">→</div>
+          </a>
+        `).join("");
+    });
+
   const today = new Date().toLocaleDateString("en-GB", {
     weekday: "long",
     day: "numeric",
@@ -163,5 +140,6 @@
   });
   document.getElementById("date").textContent = today;
 </script>
+
 </body>
 </html>

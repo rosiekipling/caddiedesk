@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Strokes Gained, explained — The Caddie Desk</title>
+  <meta name="description" content="{{BLURB}}" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon-light.png" media="(prefers-color-scheme: light)" />
+  <link rel="icon" type="image/png" href="/favicon-dark.png" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f9f8f3" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/posts/sg_explainer.css" />
+
+  <!-- Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://unpkg.com/scrollama@3"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Strokes Gained, explained" />
+  <meta property="og:description" content="{{BLURB}}" />
+  <meta property="og:image" content="{{OG_IMAGE}}" />
+  <meta property="og:type" content="article" />
+</head>
+<body>
+  
+  <div class="article-page">
+    <nav class="article-nav">
+      <a class="brand" href="/">The Caddie Desk</a>
+      <a href="https://pardle.caddiedesk.com">Play Pardle →</a>
+    </nav>
+
+    <article>
+      <header class="article-header">
+        <div class="article-kicker">Explainer · Stats Explained</div>
+        <h1 class="article-title">Strokes Gained, <em>explained</em></h1>
+        <div class="article-meta-line">871 words · June 2026 · Rosie Kipling</div>
+      </header>
+      
+      <p class="article-lead">
+        How a maths professor cracked golf's most important question: which part of a player's game is actually winning them tournaments?
+      </p>
+      
+      <div class="article-content">
+      
+      <!-- INTRO -->
+      <p>You can tell a golfer is good — but what's actually making them good? Until 2011, this was surprisingly hard to answer. Driving distance told you how far someone hit it, not whether that helped them score. Greens-in-regulation rewarded landing on the green, regardless of whether you'd left yourself a 6-foot birdie putt or a 60-foot lag.</p>
+      
+      <p>Mark Broadie, a maths professor at Columbia, changed that with his strokes-gained framework. He spent years analysing ShotLink data and developed the system in his 2014 book <em>Every Shot Counts</em>. The PGA Tour adopted it shortly after.</p>
+
+      <p>Strokes gained gives every shot a value: how many strokes it gained or lost against what a tour pro would average from the same situation. Apply it across every shot in a round, and you get a precise picture of where a player's edge lives. Here's how it works.</p>
+
+        <!-- NEW SECTION: Introducing Strokes Gained -->
+        <div class="section-divider">Introducing Strokes Gained</div>
+
+        <div class="sg-explainer">
+          
+          <p class="sg-explainer-lead">
+            The idea is simple: for every shot, compare what the player did to what a tour pro would average from the same situation. The difference is the strokes gained or lost.
+          </p>
+          
+          <h3>A worked example</h3>
+          
+          <p>Imagine a 165-yard approach shot from the fairway. Before the player swings, the question is: how many shots would a tour pro typically need to finish the hole from here?</p>
+          
+          <div class="sg-diagram">
+            <img src="/posts/assets/sg-diagram.svg" alt="Strokes gained worked example: 165 yard approach shot from fairway, expected strokes drops from 3.02 to 1.66" />
+          </div>
+  
+          <p>The expected strokes from 165 yards in the fairway is <strong>3.02</strong>. That's what an average tour pro would take to hole out from here.</p>
+          
+          <p>The player hits a great 7-iron. The ball lands 12 feet from the pin. The expected strokes from 12 feet is <strong>1.66</strong>.</p>
+          
+          <div class="sg-calc">
+            <div class="sg-calc-row">
+              <span class="sg-calc-label">Expected strokes before</span>
+              <span class="sg-calc-value">3.02</span>
+            </div>
+            <div class="sg-calc-row">
+              <span class="sg-calc-label">Expected strokes after</span>
+              <span class="sg-calc-value">1.66</span>
+            </div>
+            <div class="sg-calc-row">
+              <span class="sg-calc-label">Plus the shot itself</span>
+              <span class="sg-calc-value">+1</span>
+            </div>
+            <div class="sg-calc-row sg-calc-total">
+              <span class="sg-calc-label">Strokes gained</span>
+              <span class="sg-calc-value">+0.36</span>
+            </div>
+          </div>
+          
+          <p>The shot took 1 stroke and reduced the expected strokes to hole out by 1.36. So the player gained <strong>0.36 strokes</strong> on this shot vs. what an average tour pro would have done.</p>
+          
+          <p>Apply this across every shot in every round, and you get a precise picture of where a player's advantage lives. Did they gain those strokes off the tee? On approach? Around the green? On the putting surface? The system tells you exactly where each player's edge or weakness is.</p>
+          
+          <p>But all of this depends on one critical input: the expected strokes value. Where do those numbers come from?</p>
+        
+        </div>
+
+        <div class="section-divider">Expected Strokes vs. reality</div>
+
+        <h3>Where do the "expected strokes" come from?</h3>
+
+        <p>Every yardage, lie, and putt distance has an expected outcome — the number of strokes a tour pro typically needs to hole out from that situation. These baselines are calculated from years of <a href="https://www.pgatour.com/shotlink">ShotLink data</a>: every shot, every distance, every lie, recorded since 2003.</p>
+
+        <p>So when the data says <strong>"expected strokes from 165 yards in the fairway is 3.02"</strong>, that's not an estimate. It's an empirical fact derived from the tens of thousands of approaches tour pros have hit from that distance and lie.</p>
+<!-- 
+        <p>Here's roughly what the table looks like:</p>
+
+        <div class="es-table">
+          <div class="es-table-row es-table-header">
+            <span>Situation</span>
+            <span>Expected strokes</span>
+          </div>
+          <div class="es-table-row">
+            <span>Tee shot, par 5 (540 yds)</span>
+            <span>4.65</span>
+          </div>
+          <div class="es-table-row">
+            <span>Tee shot, par 4 (400 yds)</span>
+            <span>3.99</span>
+          </div>
+          <div class="es-table-row">
+            <span>Rough, 200 yards out</span>
+            <span>3.42</span>
+          </div>
+          <div class="es-table-row">
+            <span>Fairway, 200 yards out</span>
+            <span>3.19</span>
+          </div>
+          <div class="es-table-row">
+            <span>Fairway, 100 yards out</span>
+            <span>2.80</span>
+          </div>
+          <div class="es-table-row">
+            <span>Greenside bunker (20 yds)</span>
+            <span>2.53</span>
+          </div>
+          <div class="es-table-row">
+            <span>30 feet on the green</span>
+            <span>1.98</span>
+          </div>
+          <div class="es-table-row">
+            <span>10 feet on the green</span>
+            <span>1.61</span>
+          </div>
+          <div class="es-table-row">
+            <span>3 feet on the green</span>
+            <span>1.04</span>
+          </div>
+        </div> -->
+
+        <!-- <h3>Known Limitations</h3>
+
+        <p>Expected strokes accounts for distance and lie, but not for wind, slope, or pin position. The model treats two 165-yard shots from the fairway as equal, even if one is downwind to a back pin and the other is into wind to a tucked front pin. These context effects average out across many shots, but they're a known limitation.</p>
+
+        <p>Expected strokes baselines are most precise for common situations like 150-yard approaches and 3-foot putts. Rare shots (500-yard drives, awkward recovery lies) rely on smoothing — fitting curves through nearby data rather than relying on the handful of exact-distance observations. The system has grown more reliable over time as ShotLink data accumulates: ~7 million shot records per year since 2003.</p> -->
+      
+        <!-- <p>Every strokes-gained calculation uses this lookup table as its reference point.</p> -->
+
+        <p>The values for any specific distance come from smooth curves fitted through the data. Here's what those curves look like:</p>
+
+        <div class="es-chart">
+          <svg id="expected-strokes-chart"></svg>
+        </div>
+        <div class="es-chart-caption">
+          Smoothed curves through Broadie's published anchor points (dots).<br>
+          Source: <em>Every Shot Counts</em> (2014), PGA Tour ShotLink data 2004–2012.
+        </div>
+        
+        <h3>Why the curve isn't a straight line</h3>
+        
+        <p>The curve is piecewise: steepest where it matters most. Under 100 yards, every yard closer translates to a better birdie chance. From 100-200 yards, tour pros hit greens consistently — about 70% of the time — and the resulting putts are similar. Beyond 200 yards, the green-in-regulation rate drops sharply (around 50% at 200 yards, 30% at 250). Players are still aiming at the green, but missing means an extra chip and putt added to the score. The steeper slope reflects the rising cost of those misses.</p>
+
+        <h3>Putting</h3>
+
+        <p>Putting follows its own curve. A 3-foot putt is essentially automatic (1.04 expected strokes), but it climbs steeply through the 5-15 foot range — the make-or-miss zone where great putters separate from the field. Beyond 30 feet, the curve flattens out: you'll almost always 2-putt.</p>
+
+        <div class="es-chart">
+          <svg id="expected-strokes-putting-chart"></svg>
+        </div>
+        <div class="es-chart-caption">
+          Smoothed curve through Broadie's published anchor points (dots).<br>
+          Source: <em>Every Shot Counts</em> (2014), PGA Tour ShotLink data 2004–2012.
+        </div>
+                
+        <p>Notice the small jumps: a 150-yard shot from rough costs 0.20 strokes more than the same shot from fairway. A 10-foot putt is only worth 0.50 strokes less than a 3-footer. These small differences add up across 70+ shots in a round.</p>
+
+
+        <aside class="article-aside">
+          <div class="aside-kicker">The fine print</div>
+          
+          <p><strong>Precision varies by situation.</strong> Common shots like 150-yard approaches have hundreds of thousands of data points behind them. Rare shots — 500-yard drives, recovery from pine straw — rely on smoothing across nearby distances. The expected strokes value for a 501-yard shot is interpolated, not measured directly.</p>
+          
+          <p><strong>Context is averaged out.</strong> Expected strokes accounts for distance and lie, but not wind, slope, or pin position. Two 165-yard shots from the fairway are treated as equal, even if one is downwind to a back pin and the other is into wind to a front pin. These effects mostly average out across many shots, but they're a known blind spot — particularly at links courses.</p>
+        </aside>
+      
+      
+        <!-- STATS EXPLAINER -->
+
+      <!-- <div class="section-divider">The five stats</div>
+
+      <div class="stats-section" id="stats-section">        
+          <div class="stat-step" data-step="approach">
+            <h3>SG: Approach</h3>
+            <p><strong>What it measures:</strong> Strokes gained on shots from outside 30 yards that aren't off the tee. Mostly iron shots into greens.</p>
+            <p><strong>What it tells you:</strong> The single most reliable predictor of tournament performance on most modern tour courses.</p>
+            <p><strong>Example:</strong> Scottie Scheffler. His dominance from 2022 onwards is almost entirely driven by elite SG: Approach.</p>
+          </div>
+          
+          <div class="stat-step" data-step="around-green">
+            <h3>SG: Around the Green</h3>
+            <p><strong>What it measures:</strong> Strokes gained on shots within 30 yards of the green that aren't on the putting surface. Chips, pitches, bunker shots.</p>
+            <p><strong>What it tells you:</strong> The "short game wizard" stat. Who saves par when they miss greens? Who turns a likely bogey into a tap-in par? It's worth noting that this only comes into play where players are missing greens on approach - this is more important on some courses than others.</p>
+            <p><strong>Example:</strong> Jordan Spieth in his prime. Spieth gained over a stroke per round around the greens at the 2017 Open at Royal Birkdale.</p>
+          </div>
+          
+          <div class="stat-step" data-step="putting">
+            <h3>SG: Putting</h3>
+            <p><strong>What it measures:</strong> Strokes gained on putts. Every putt is compared to the expected strokes from the same distance.</p>
+            <p><strong>What it tells you:</strong> Streaky but decisive. A great putting week can mask poor ball-striking.</p>
+            <p><strong>Example:</strong> Tiger's prime — he was a great putter when it mattered. More recently, Wyndham Clark's 2023 US Open win was carried by elite putting.</p>
+          </div>
+          
+          <div class="stat-step" data-step="driving-distance">
+            <h3>Driving Distance</h3>
+            <p><strong>What it measures:</strong> Average distance of measured drives. Tour pros typically average 295-320 yards.</p>
+            <p><strong>How it works:</strong> Measured on two specified par-4 or par-5 holes per round. Excludes layups; corrects for elevation.</p>
+            <p><strong>What it tells you:</strong> Distance is necessary but not sufficient. The longest hitters get specific advantages — reaching par 5s in two, driving short par 4s.</p>
+            <p><strong>Example:</strong> Rory McIlroy. His distance has been a competitive edge for over a decade.</p>
+          </div>
+          
+          <div class="stat-step" data-step="driving-accuracy">
+            <h3>Driving Accuracy</h3>
+            <p><strong>What it measures:</strong> Percentage of fairways hit on measured driving holes.</p>
+            <p><strong>How it works:</strong> Did the ball come to rest on the fairway? Yes or no.</p>
+            <p><strong>What it tells you:</strong> The unsexy half of driving. Accuracy alone won't win tournaments, but missing fairways at the wrong courses destroys rounds.</p>
+            <p><strong>Example:</strong> Brian Harman at the 2023 Open at Royal Liverpool. He drove the ball miles short of the field, but kept hitting fairways. Position over distance won him the Claret Jug.</p>
+          </div>
+      </div> -->
+
+      <!-- STATS EXPLAINER END -->
+
+      <!-- </div> -->
+
+      <div class="section-divider">Why this matters</div>
+
+      <h3>Adding it all up</h3>
+
+      <p>Strokes gained is the framework underneath modern golf analytics. Every player ranking, course comparison, and statistical analysis you see on tour broadcasts — and every chart we publish at The Caddie Desk — rests on this foundation.</p>
+
+      <p>It's not perfect. Wind isn't accounted for. Slope isn't accounted for. Some shots are rare enough that their expected strokes value is more interpolation than measurement. But across thousands of shots, the system reveals the truth about where each player's skill lives.</p>
+
+
+      <div class="pardle-promo">
+        <div class="kicker">Today's Puzzle</div>
+        <h3>Test the stats yourself.</h3>
+        <p>Play Pardle — guess the Tour pro from six stats.</p>
+        <a href="https://pardle.caddiedesk.com">Play Today's Round →</a>
+      </div>
+      
+      <div class="article-footer">
+        <a href="/" class="back-link">← Back to The Caddie Desk</a>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- Article-specific JS -->
+  <script src="/posts/js/expected-strokes-chart.js"></script>
+  <script src="/posts/js/expected-strokes-putting-chart.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,705 @@
+/* posts/_template-styles.css
+ * Caddie Desk article page styles
+ * Extends /style.css with article-specific layout & typography
+ */
+
+/* --- Article container --- */
+.article-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 40px 80px;
+}
+
+/* --- Top nav strip --- */
+.article-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--ink);
+}
+.article-nav a {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink);
+  transition: color 0.2s;
+}
+.article-nav a:hover { color: var(--ink-mute); }
+.article-nav .brand {
+  font-weight: 800;
+  letter-spacing: 0.28em;
+}
+
+/* --- Header --- */
+.article-header {
+  padding: 56px 0 32px;
+  border-bottom: 2px solid var(--ink);
+  margin-bottom: 40px;
+}
+.article-kicker {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-bottom: 12px;
+}
+.article-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: clamp(36px, 5vw, 56px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  font-variation-settings: "opsz" 144;
+  margin-bottom: 18px;
+}
+.article-title em { font-style: italic; }
+
+.article-meta-line {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+
+/* --- Body --- */
+.article-lead {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: clamp(20px, 2.5vw, 26px);
+  line-height: 1.4;
+  color: var(--ink);
+  opacity: 0.85;
+  margin: 24px 0 36px;
+  padding-bottom: 24px;
+  border-bottom: 1px dotted var(--ink-line);
+}
+
+.article-content {
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.article-content > * {
+  margin-bottom: 22px;
+}
+
+.article-content h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: clamp(28px, 3vw, 36px);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin: 56px 0 16px;
+}
+.article-content h2 em { font-style: italic; }
+
+.article-content h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 22px;
+  margin: 36px 0 12px;
+  letter-spacing: -0.01em;
+}
+
+.article-content em { font-style: italic; }
+.article-content strong { font-weight: 700; }
+
+.article-content a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--ink-line);
+  transition: border-color 0.2s;
+}
+.article-content a:hover { border-color: var(--ink); }
+
+.article-content blockquote {
+  margin: 28px 0;
+  padding-left: 24px;
+  border-left: 3px solid var(--ink);
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.article-content ul, .article-content ol {
+  margin: 0 0 22px 24px;
+}
+.article-content li { margin-bottom: 8px; }
+
+/* --- Figures (static charts/images) --- */
+.figure {
+  margin: 40px 0;
+}
+.figure img,
+.figure svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.figure figcaption {
+  margin-top: 12px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  text-align: center;
+}
+
+/* --- Pull quotes --- */
+.pullquote {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: clamp(28px, 4vw, 42px);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin: 48px -20px;
+  padding: 24px;
+  border-top: 3px solid var(--ink);
+  border-bottom: 3px solid var(--ink);
+}
+
+/* --- Article progress bar --- */
+.article-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: var(--ink);
+  z-index: 100;
+  width: 0%;
+  transition: width 0.2s ease;
+}
+
+/* --- Section divider --- */
+.section-divider {
+  margin: 100px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 720px;
+  border-top: 3px solid var(--ink);
+  border-bottom: 3px solid var(--ink);
+  padding: 18px 0;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: var(--paper);
+  
+  /* This is critical — make sure the divider is positioned 
+     ABOVE the sticky graphic from the previous scrolly section */
+  position: relative;
+  z-index: 2;
+}
+
+/* --- Scrollytelling sections (two-column: sticky graphic + scrolling text) --- */
+.scrolly {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin: 64px 0;
+  position: relative;
+  
+  /* Break out to viewport-wide */
+  width: calc(100vw - 48px);
+  max-width: 1100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Modifier: scatter scrollers use 60/40 split for more chart room */
+.scrolly.scrolly--scatter {
+  grid-template-columns: 60% 40%;
+  max-width: 1200px;
+}
+
+.scrolly-graphic {
+  position: sticky;
+  top: 80px;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.scrolly-graphic svg {
+  width: 100%;
+  height: auto;
+}
+
+/* Radar charts are smaller */
+.scrolly-graphic #course-type-radar,
+.scrolly-graphic #parkland-era-radar,
+.scrolly-graphic #outlier-radar {
+  max-width: 480px;
+}
+
+/* Scatter charts are larger */
+.scrolly--scatter .scrolly-graphic svg {
+  max-width: 700px;
+}
+
+/* Header above the chart (used for scatters) */
+.scrolly-graphic .scatter-header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.scrolly-graphic .scatter-header .kicker {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+
+.scrolly-graphic .scatter-header h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 4px 0 0;
+}
+
+/* Caption under radar charts */
+.radar-caption {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.radar-caption .kicker {
+  font-family: 'Archivo', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--ink-mute);
+}
+
+.radar-caption h3 {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 28px;
+  margin: 4px 0;
+}
+
+.radar-caption p {
+  font-family: 'Archivo', sans-serif;
+  font-size: 12px;
+  color: var(--ink-mute);
+  margin: 0;
+}
+
+/* Scatter chart wrap — provides positioning context for tooltips */
+.scatter-chart-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+}
+
+.scatter-chart-wrap svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Steps (scrolling text column) */
+.scrolly-steps {
+  position: relative;
+}
+
+.scrolly-step {
+  min-height: 60vh;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+  border-top: 1px dotted var(--ink-line);
+}
+
+.scrolly-step:first-child {
+  border-top: none;
+  padding-top: 30px;
+}
+
+.scrolly-step.is-active {
+  opacity: 1;
+}
+
+.scrolly-step h4 {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.scrolly-step p {
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--ink);
+  margin: 0;
+}
+
+.scrolly-spacer {
+  height: 25vh;
+}
+
+/* --- Scatter dot highlight states --- */
+.scatter-dot.dimmed {
+  opacity: 0.15;
+  transition: opacity 0.4s ease;
+}
+
+.scatter-dot.highlighted {
+  opacity: 1;
+  stroke: var(--ink);
+  stroke-width: 2;
+  transition: all 0.4s ease;
+}
+
+/* --- Scatter tooltip --- */
+.scatter-tooltip {
+  position: absolute;
+  background: var(--paper);
+  border: 1.5px solid var(--ink);
+  padding: 12px 16px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  font-family: 'Archivo', sans-serif;
+  font-size: 12px;
+  color: var(--ink);
+  z-index: 100;
+  max-width: 260px;
+  box-shadow: 4px 4px 0 var(--ink);
+  width: max-content;
+  flex: none;
+}
+
+.scatter-tooltip .tooltip-name {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 6px;
+  line-height: 1.2;
+}
+
+.scatter-tooltip .tooltip-kicker {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--ink-mute);
+  margin-bottom: 4px;
+}
+
+.scatter-tooltip .tooltip-meta {
+  margin: 4px 0;
+  font-size: 11px;
+}
+
+.scatter-tooltip .tooltip-stats {
+  font-family: 'Archivo', sans-serif;
+  font-size: 11px;
+  color: var(--ink-mute);
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--ink-line);
+}
+
+/* --- Scatter chart elements (axes, annotations) --- */
+.scatter-quadrant {
+  stroke: var(--ink);
+  stroke-opacity: 0.15;
+  stroke-dasharray: 4 4;
+}
+
+.scatter-annotation {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 12px;
+  fill: var(--ink);
+  pointer-events: none;
+}
+
+.scatter-annotation-line {
+  stroke: var(--ink);
+  stroke-width: 1;
+  fill: none;
+}
+
+/* --- Mobile breakpoints --- */
+@media (max-width: 920px) {
+  .scrolly,
+  .scrolly.scrolly--scatter {
+    width: 100%;
+    left: 0;
+    transform: none;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin: 40px 0;
+  }
+  
+  .scrolly-graphic {
+    position: relative;
+    top: 0;
+    height: auto;
+    min-height: 40vh;
+  }
+  
+  .scrolly-graphic #course-type-radar,
+  .scrolly-graphic #parkland-era-radar,
+  .scrolly-graphic #outlier-radar {
+    max-width: 320px;
+  }
+  
+  .scrolly--scatter .scrolly-graphic svg {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .article-page { padding: 20px 22px 60px; }
+  .article-header { padding: 32px 0 24px; }
+  .article-lead { margin: 16px 0 28px; }
+}
+
+
+/* --- D3 chart defaults --- */
+.chart-text {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  fill: var(--ink-mute);
+}
+.chart-axis path,
+.chart-axis line {
+  stroke: var(--ink);
+  stroke-opacity: 0.4;
+}
+.chart-axis text {
+  font-family: 'Archivo', sans-serif;
+  font-size: 11px;
+  fill: var(--ink-mute);
+}
+.chart-dot {
+  fill: var(--ink);
+  stroke: var(--paper);
+  stroke-width: 1.5;
+}
+.chart-dot.highlighted {
+  fill: var(--ink);
+  stroke-width: 3;
+}
+
+/* --- Course explorer (standalone interactive tool) --- */
+.course-explorer {
+  margin: 48px auto;
+  max-width: 720px;
+  padding: 32px;
+  background: var(--paper);
+  border: 1px solid var(--ink);
+  border-radius: 4px;
+}
+
+.course-explorer h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+#course-search {
+  width: 100%;
+  padding: 12px 16px;
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1.5px solid var(--ink);
+  outline: none;
+  border-radius: 2px;
+}
+
+#course-suggestions {
+  margin-top: 8px;
+  border: 1px solid var(--ink-line);
+  background: var(--paper);
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.suggestion {
+  padding: 10px 14px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--ink-line);
+}
+
+.suggestion:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.course-info {
+  margin: 24px 0;
+}
+
+.course-info h4 {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+#course-meta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-family: 'Archivo', sans-serif;
+  font-size: 12px;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+#course-meta span:not(:empty)::after {
+  content: " · ";
+  margin-left: 16px;
+}
+
+#course-meta span:last-child::after {
+  content: "";
+}
+
+#course-radar {
+  display: block;
+  margin: 0 auto;
+  max-width: 540px;
+}
+
+/* --- Pardle promo block --- */
+.pardle-promo {
+  margin: 64px 0 0;
+  padding: 32px;
+  background: var(--ink);
+  color: var(--paper);
+  text-align: center;
+}
+.pardle-promo .kicker {
+  border-color: var(--paper);
+  color: var(--paper);
+  opacity: 0.8;
+}
+.pardle-promo h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 32px;
+  margin: 12px 0 16px;
+  color: var(--paper);
+}
+.pardle-promo p {
+  font-family: 'Fraunces', serif;
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  opacity: 0.85;
+}
+.pardle-promo a {
+  display: inline-block;
+  padding: 14px 24px;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.2s ease;
+}
+.pardle-promo a:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--paper);
+}
+
+/* --- Footer --- */
+.article-footer {
+  margin-top: 64px;
+  padding-top: 28px;
+  border-top: 2px solid var(--ink);
+  text-align: center;
+}
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding-bottom: 4px;
+  border-bottom: 1.5px solid var(--ink);
+}
+
+/* --- Mobile --- */
+@media (max-width: 780px) {
+  .scrolly {
+    width: 100%;
+    left: 0;
+    transform: none;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin: 40px 0;
+  }
+  
+  .scrolly-graphic {
+    position: relative;
+    top: 0;
+    height: auto;
+    min-height: 40vh;
+  }
+  
+  .scrolly-graphic svg {
+    max-width: 320px;
+  }
+}
+
+.scatter-annotation-group {
+  transition: opacity 0.4s ease;
+}
+
+@media (max-width: 600px) {
+  .article-page { padding: 20px 22px 60px; }
+  .article-header { padding: 32px 0 24px; }
+  .article-lead { margin: 16px 0 28px; }
+}
+
