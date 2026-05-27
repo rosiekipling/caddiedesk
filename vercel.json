@@ -1,0 +1,16 @@
+{
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "redirects": [
+      {
+        "source": "/posts/sg_explainer.html",
+        "destination": "/posts/strokes-gained-explained",
+        "permanent": true
+      },
+      {
+        "source": "/posts/what_makes_a_golf_course.html",
+        "destination": "/posts/what-makes-a-golf-course",
+        "permanent": true
+      }
+    ]
+  }
