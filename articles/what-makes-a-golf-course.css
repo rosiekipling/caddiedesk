@@ -684,11 +684,12 @@
   
   .scrolly-graphic {
     position: sticky;
-    top: 8vh;
-    height: 45vh;
-    min-height: 0;
-    z-index: 1;
+    top: 0;
+    height: 58vh;
+    padding-top: 8vh;
     background: var(--paper);
+    z-index: 2;
+    min-height: 0;
   }
   
   .scrolly-graphic svg {
