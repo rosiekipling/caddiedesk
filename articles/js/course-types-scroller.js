@@ -80,7 +80,7 @@
       .setup({
         step: `#${config.containerId} .scrolly-step`,
         offset: isMobile ? 0.75 : 0.5,
-        debug: true,
+        debug: false,
       })
       .onStepEnter(({ element }) => {
         document.querySelectorAll(`#${config.containerId} .scrolly-step`)
@@ -186,7 +186,7 @@
     
     d3.select(`#${config.svgId}-active`)
       .transition()
-      .duration(600)
+      .duration(500)
       .ease(d3.easeBackOut.overshoot(1.4))
       .attr("points", newPoints.map(p => p.join(",")).join(" "))
       .attr("fill", `${color}40`)

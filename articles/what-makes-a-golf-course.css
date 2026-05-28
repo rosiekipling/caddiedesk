@@ -707,7 +707,7 @@
   }
   
   .scrolly-step:first-child {
-    padding-top: 5vh;    /* was 20vh */
+    padding-top: 0vh;    /* was 20vh */
   }
   
   .scrolly-spacer {
