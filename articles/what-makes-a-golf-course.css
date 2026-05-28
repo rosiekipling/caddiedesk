@@ -677,23 +677,37 @@
     left: 0;
     transform: none;
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 12px;
     margin: 40px 0;
-    /* each scrolly section is its own stacking/sticky context */
     position: relative;
   }
   
   .scrolly-graphic {
     position: sticky;
     top: 8vh;
-    height: 50vh;
+    height: 45vh;
     min-height: 0;
     z-index: 1;
-    background: var(--paper);   /* so a pinned chart from the previous section doesn't show through */
+    background: var(--paper);
   }
   
   .scrolly-graphic svg {
     max-width: 280px;
+  }
+  
+  /* Critical: shorter steps so multiple fit beneath the chart */
+  .scrolly-step {
+    min-height: 70vh;
+    padding: 30px 0;
+  }
+  
+  /* First step needs extra top padding so it doesn't trigger immediately on load */
+  .scrolly-step:first-child {
+    padding-top: 20vh;
+  }
+  
+  .scrolly-spacer {
+    height: 15vh;
   }
 }
 

@@ -74,11 +74,13 @@
     renderStep(config.defaultStep, config);
     
     const scroller = scrollama();
+    const isMobile = window.matchMedia("(max-width: 780px)").matches;
+
     scroller
       .setup({
         step: `#${config.containerId} .scrolly-step`,
-        offset: isMobile ? 0.7 : 0.5,
-        debug: false,
+        offset: isMobile ? 0.75 : 0.5,
+        debug: true,
       })
       .onStepEnter(({ element }) => {
         document.querySelectorAll(`#${config.containerId} .scrolly-step`)
