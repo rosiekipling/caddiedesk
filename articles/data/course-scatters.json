@@ -10,11 +10,11 @@
     "n_player_events": 78,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.299,
-      "sg_arg": 6.9769,
-      "sg_putt": 12.8374,
-      "driving_dist": 1.9704,
-      "driving_acc": 24.7722,
+      "sg_app": 13.2562,
+      "sg_arg": 6.8434,
+      "sg_putt": 12.7807,
+      "driving_dist": 1.9624,
+      "driving_acc": 22.5422,
       "gir": 0
     }
   },
@@ -29,11 +29,11 @@
     "n_player_events": 40,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.8986,
-      "sg_arg": 8.4063,
-      "sg_putt": 11.5639,
-      "driving_dist": 3.6337,
-      "driving_acc": 16.882,
+      "sg_app": 13.8421,
+      "sg_arg": 8.4658,
+      "sg_putt": 12.5754,
+      "driving_dist": 3.4175,
+      "driving_acc": 16.1641,
       "gir": 0
     }
   },
@@ -48,11 +48,11 @@
     "n_player_events": 225,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.684,
-      "sg_arg": 7.021,
-      "sg_putt": 13.9429,
-      "driving_dist": 3.1625,
-      "driving_acc": 30.1005,
+      "sg_app": 11.3552,
+      "sg_arg": 6.9127,
+      "sg_putt": 14.3328,
+      "driving_dist": 3.0822,
+      "driving_acc": 29.5736,
       "gir": 0
     }
   },
@@ -67,11 +67,11 @@
     "n_player_events": 538,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.4014,
-      "sg_arg": 9.46,
-      "sg_putt": 13.7349,
-      "driving_dist": 3.0645,
-      "driving_acc": 26.8392,
+      "sg_app": 14.5545,
+      "sg_arg": 9.4474,
+      "sg_putt": 14.0222,
+      "driving_dist": 2.8692,
+      "driving_acc": 25.9603,
       "gir": 0
     }
   },
@@ -86,11 +86,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.3186,
-      "sg_arg": 7.3593,
-      "sg_putt": 13.1323,
-      "driving_dist": 3.3432,
-      "driving_acc": 30.8241,
+      "sg_app": 14.1456,
+      "sg_arg": 7.2913,
+      "sg_putt": 13.244,
+      "driving_dist": 3.2144,
+      "driving_acc": 30.2053,
       "gir": 0
     }
   },
@@ -105,11 +105,11 @@
     "n_player_events": 1299,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.3747,
-      "sg_arg": 8.4291,
-      "sg_putt": 13.6924,
-      "driving_dist": 2.741,
-      "driving_acc": 31.6755,
+      "sg_app": 13.3449,
+      "sg_arg": 8.4276,
+      "sg_putt": 13.6291,
+      "driving_dist": 2.6644,
+      "driving_acc": 31.1864,
       "gir": 0
     }
   },
@@ -124,11 +124,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.1631,
-      "sg_arg": 7.239,
-      "sg_putt": 14.3584,
-      "driving_dist": 2.4843,
-      "driving_acc": 29.8112,
+      "sg_app": 14.0755,
+      "sg_arg": 7.1684,
+      "sg_putt": 14.4832,
+      "driving_dist": 2.3874,
+      "driving_acc": 29.0852,
       "gir": 0
     }
   },
@@ -143,11 +143,11 @@
     "n_player_events": 275,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.1439,
-      "sg_arg": 7.5989,
-      "sg_putt": 14.1189,
-      "driving_dist": 2.616,
-      "driving_acc": 33.8392,
+      "sg_app": 12.8986,
+      "sg_arg": 7.5918,
+      "sg_putt": 14.3348,
+      "driving_dist": 2.5779,
+      "driving_acc": 33.704,
       "gir": 0
     }
   },
@@ -162,11 +162,11 @@
     "n_player_events": 262,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 16.2816,
-      "sg_arg": 8.9606,
-      "sg_putt": 16.8104,
-      "driving_dist": 3.704,
-      "driving_acc": 16.9963,
+      "sg_app": 16.6879,
+      "sg_arg": 8.531,
+      "sg_putt": 17.2998,
+      "driving_dist": 3.7978,
+      "driving_acc": 15.9149,
       "gir": 0
     }
   },
@@ -181,11 +181,11 @@
     "n_player_events": 54,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 7.3811,
-      "sg_arg": 5.7305,
-      "sg_putt": 8.4837,
-      "driving_dist": 7.9878,
-      "driving_acc": 13.1519,
+      "sg_app": 8.1612,
+      "sg_arg": 5.3103,
+      "sg_putt": 8.9857,
+      "driving_dist": 9.7591,
+      "driving_acc": 15.1191,
       "gir": 0
     }
   },
@@ -200,11 +200,11 @@
     "n_player_events": 50,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.219,
-      "sg_arg": 4.4973,
-      "sg_putt": 9.3853,
-      "driving_dist": 6.9995,
-      "driving_acc": 28.1068,
+      "sg_app": 9.9401,
+      "sg_arg": 4.313,
+      "sg_putt": 9.909,
+      "driving_dist": 7.5199,
+      "driving_acc": 26.7406,
       "gir": 0
     }
   },
@@ -219,11 +219,11 @@
     "n_player_events": 118,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.6957,
-      "sg_arg": 5.8326,
-      "sg_putt": 9.5493,
-      "driving_dist": 2.4716,
-      "driving_acc": 33.6383,
+      "sg_app": 10.9965,
+      "sg_arg": 5.6844,
+      "sg_putt": 9.76,
+      "driving_dist": 2.3203,
+      "driving_acc": 32.5338,
       "gir": 0
     }
   },
@@ -238,11 +238,11 @@
     "n_player_events": 397,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.7765,
-      "sg_arg": 6.1165,
-      "sg_putt": 9.5473,
-      "driving_dist": 5.4679,
-      "driving_acc": 32.6281,
+      "sg_app": 10.57,
+      "sg_arg": 6.0685,
+      "sg_putt": 9.9531,
+      "driving_dist": 5.9432,
+      "driving_acc": 32.3186,
       "gir": 0
     }
   },
@@ -257,11 +257,11 @@
     "n_player_events": 485,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.7072,
-      "sg_arg": 7.2953,
-      "sg_putt": 12.6439,
-      "driving_dist": 4.9854,
-      "driving_acc": 34.4044,
+      "sg_app": 12.5301,
+      "sg_arg": 7.4174,
+      "sg_putt": 12.4965,
+      "driving_dist": 5.0249,
+      "driving_acc": 34.3845,
       "gir": 0
     }
   },
@@ -276,11 +276,11 @@
     "n_player_events": 896,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.296,
-      "sg_arg": 7.3238,
-      "sg_putt": 14.0994,
-      "driving_dist": 2.986,
-      "driving_acc": 33.1395,
+      "sg_app": 13.1259,
+      "sg_arg": 7.4549,
+      "sg_putt": 14.2113,
+      "driving_dist": 2.8897,
+      "driving_acc": 32.7469,
       "gir": 0
     }
   },
@@ -295,11 +295,11 @@
     "n_player_events": 234,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.861,
-      "sg_arg": 8.5479,
-      "sg_putt": 12.947,
-      "driving_dist": 3.5321,
-      "driving_acc": 29.1331,
+      "sg_app": 14.0179,
+      "sg_arg": 8.3466,
+      "sg_putt": 13.1171,
+      "driving_dist": 3.5856,
+      "driving_acc": 28.724,
       "gir": 0
     }
   },
@@ -314,11 +314,11 @@
     "n_player_events": 119,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.6117,
-      "sg_arg": 7.1763,
-      "sg_putt": 13.4958,
-      "driving_dist": 2.34,
-      "driving_acc": 33.2926,
+      "sg_app": 12.1338,
+      "sg_arg": 7.1936,
+      "sg_putt": 13.3084,
+      "driving_dist": 2.208,
+      "driving_acc": 32.6453,
       "gir": 0
     }
   },
@@ -333,11 +333,11 @@
     "n_player_events": 138,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.5853,
-      "sg_arg": 5.2851,
-      "sg_putt": 11.2975,
-      "driving_dist": 2.9829,
-      "driving_acc": 34.0892,
+      "sg_app": 10.4235,
+      "sg_arg": 5.456,
+      "sg_putt": 11.2166,
+      "driving_dist": 3.154,
+      "driving_acc": 33.7594,
       "gir": 0
     }
   },
@@ -352,11 +352,11 @@
     "n_player_events": 1509,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.4545,
-      "sg_arg": 7.6549,
-      "sg_putt": 14.2352,
-      "driving_dist": 3.8145,
-      "driving_acc": 33.712,
+      "sg_app": 12.3066,
+      "sg_arg": 7.7034,
+      "sg_putt": 14.2496,
+      "driving_dist": 3.7782,
+      "driving_acc": 33.2018,
       "gir": 0
     }
   },
@@ -371,11 +371,11 @@
     "n_player_events": 69,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.3079,
-      "sg_arg": 6.4432,
-      "sg_putt": 11.3452,
-      "driving_dist": 2.019,
-      "driving_acc": 33.2476,
+      "sg_app": 10.9069,
+      "sg_arg": 6.0269,
+      "sg_putt": 11.4054,
+      "driving_dist": 2.045,
+      "driving_acc": 32.6817,
       "gir": 0
     }
   },
@@ -390,11 +390,11 @@
     "n_player_events": 1091,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.1484,
-      "sg_arg": 7.3541,
-      "sg_putt": 13.9526,
-      "driving_dist": 3.0687,
-      "driving_acc": 28.1729,
+      "sg_app": 13.9559,
+      "sg_arg": 7.344,
+      "sg_putt": 14.2235,
+      "driving_dist": 2.9761,
+      "driving_acc": 27.4549,
       "gir": 0
     }
   },
@@ -409,11 +409,11 @@
     "n_player_events": 387,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.6929,
-      "sg_arg": 7.1419,
-      "sg_putt": 13.7936,
-      "driving_dist": 2.4632,
-      "driving_acc": 33.145,
+      "sg_app": 12.5126,
+      "sg_arg": 7.136,
+      "sg_putt": 14.0281,
+      "driving_dist": 2.3839,
+      "driving_acc": 32.6982,
       "gir": 0
     }
   },
@@ -428,11 +428,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.7696,
-      "sg_arg": 8.7902,
-      "sg_putt": 14.9821,
-      "driving_dist": 3.3366,
-      "driving_acc": 32.0056,
+      "sg_app": 12.687,
+      "sg_arg": 8.8432,
+      "sg_putt": 14.7962,
+      "driving_dist": 3.3237,
+      "driving_acc": 31.5477,
       "gir": 0
     }
   },
@@ -447,11 +447,11 @@
     "n_player_events": 327,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.5377,
-      "sg_arg": 6.2627,
-      "sg_putt": 10.7359,
-      "driving_dist": 3.6055,
-      "driving_acc": 33.8733,
+      "sg_app": 11.2348,
+      "sg_arg": 6.1836,
+      "sg_putt": 10.6767,
+      "driving_dist": 3.5489,
+      "driving_acc": 34.008,
       "gir": 0
     }
   },
@@ -466,11 +466,11 @@
     "n_player_events": 54,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 9.6798,
-      "sg_arg": 6.6303,
-      "sg_putt": 9.7082,
-      "driving_dist": 8.1336,
-      "driving_acc": 21.6135,
+      "sg_app": 9.3738,
+      "sg_arg": 6.5646,
+      "sg_putt": 10.6227,
+      "driving_dist": 10.1508,
+      "driving_acc": 23.8654,
       "gir": 0
     }
   },
@@ -485,11 +485,11 @@
     "n_player_events": 283,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.8685,
-      "sg_arg": 6.1077,
-      "sg_putt": 11.4605,
-      "driving_dist": 5.3097,
-      "driving_acc": 33.9569,
+      "sg_app": 10.7,
+      "sg_arg": 6.328,
+      "sg_putt": 11.3172,
+      "driving_dist": 5.3349,
+      "driving_acc": 35.3917,
       "gir": 0
     }
   },
@@ -504,11 +504,11 @@
     "n_player_events": 576,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.6225,
-      "sg_arg": 7.2757,
-      "sg_putt": 14.0354,
-      "driving_dist": 3.5357,
-      "driving_acc": 29.6126,
+      "sg_app": 13.5984,
+      "sg_arg": 7.3253,
+      "sg_putt": 14.2062,
+      "driving_dist": 3.3177,
+      "driving_acc": 28.986,
       "gir": 0
     }
   },
@@ -523,11 +523,11 @@
     "n_player_events": 620,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.4053,
-      "sg_arg": 8.3612,
-      "sg_putt": 13.1507,
-      "driving_dist": 4.0503,
-      "driving_acc": 32.4312,
+      "sg_app": 13.1588,
+      "sg_arg": 8.3306,
+      "sg_putt": 13.4159,
+      "driving_dist": 3.9672,
+      "driving_acc": 32.3868,
       "gir": 0
     }
   },
@@ -542,11 +542,11 @@
     "n_player_events": 120,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.8735,
-      "sg_arg": 7.7053,
-      "sg_putt": 14.9007,
-      "driving_dist": 2.1649,
-      "driving_acc": 29.1643,
+      "sg_app": 11.6223,
+      "sg_arg": 7.8685,
+      "sg_putt": 15.3038,
+      "driving_dist": 1.9597,
+      "driving_acc": 28.2627,
       "gir": 0
     }
   },
@@ -561,11 +561,11 @@
     "n_player_events": 196,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.5657,
-      "sg_arg": 6.9456,
-      "sg_putt": 13.4642,
-      "driving_dist": 3.5464,
-      "driving_acc": 28.1892,
+      "sg_app": 11.4873,
+      "sg_arg": 7.0075,
+      "sg_putt": 13.7124,
+      "driving_dist": 3.6383,
+      "driving_acc": 27.4491,
       "gir": 0
     }
   },
@@ -580,11 +580,11 @@
     "n_player_events": 312,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.0456,
-      "sg_arg": 7.8848,
-      "sg_putt": 14.5792,
-      "driving_dist": 2.8297,
-      "driving_acc": 32.6098,
+      "sg_app": 11.7756,
+      "sg_arg": 7.9742,
+      "sg_putt": 14.7463,
+      "driving_dist": 2.6669,
+      "driving_acc": 32.066,
       "gir": 0
     }
   },
@@ -599,11 +599,11 @@
     "n_player_events": 1439,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.3305,
-      "sg_arg": 7.5156,
-      "sg_putt": 12.9161,
-      "driving_dist": 4.733,
-      "driving_acc": 32.2099,
+      "sg_app": 13.3149,
+      "sg_arg": 7.5059,
+      "sg_putt": 12.8505,
+      "driving_dist": 4.6559,
+      "driving_acc": 31.747,
       "gir": 0
     }
   },
@@ -618,11 +618,11 @@
     "n_player_events": 165,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.4707,
-      "sg_arg": 5.93,
-      "sg_putt": 10.5593,
-      "driving_dist": 3.3977,
-      "driving_acc": 19.6427,
+      "sg_app": 11.4208,
+      "sg_arg": 5.9038,
+      "sg_putt": 11.0514,
+      "driving_dist": 3.2807,
+      "driving_acc": 19.9445,
       "gir": 0
     }
   },
@@ -637,11 +637,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.0905,
-      "sg_arg": 10.1738,
-      "sg_putt": 12.9229,
-      "driving_dist": 3.2737,
-      "driving_acc": 30.6935,
+      "sg_app": 13.2077,
+      "sg_arg": 9.7209,
+      "sg_putt": 13.4003,
+      "driving_dist": 3.2117,
+      "driving_acc": 29.7743,
       "gir": 0
     }
   },
@@ -656,11 +656,11 @@
     "n_player_events": 1603,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.2114,
-      "sg_arg": 8.8739,
-      "sg_putt": 14.7619,
-      "driving_dist": 4.4729,
-      "driving_acc": 23.1622,
+      "sg_app": 13.3648,
+      "sg_arg": 8.9363,
+      "sg_putt": 14.6061,
+      "driving_dist": 4.3352,
+      "driving_acc": 21.357,
       "gir": 0
     }
   },
@@ -675,11 +675,11 @@
     "n_player_events": 108,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.0879,
-      "sg_arg": 6.2896,
-      "sg_putt": 11.7587,
-      "driving_dist": 4.0237,
-      "driving_acc": 16.586,
+      "sg_app": 11.3356,
+      "sg_arg": 6.4142,
+      "sg_putt": 11.6708,
+      "driving_dist": 3.772,
+      "driving_acc": 16.983,
       "gir": 0
     }
   },
@@ -694,11 +694,11 @@
     "n_player_events": 54,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.6197,
-      "sg_arg": 7.7277,
-      "sg_putt": 13.9198,
-      "driving_dist": 1.6241,
-      "driving_acc": 13.9259,
+      "sg_app": 13.1216,
+      "sg_arg": 7.8043,
+      "sg_putt": 14.2802,
+      "driving_dist": 1.9991,
+      "driving_acc": 11.4109,
       "gir": 0
     }
   },
@@ -713,11 +713,11 @@
     "n_player_events": 550,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.5123,
-      "sg_arg": 7.395,
-      "sg_putt": 13.2947,
-      "driving_dist": 2.7048,
-      "driving_acc": 32.0815,
+      "sg_app": 14.3808,
+      "sg_arg": 7.4312,
+      "sg_putt": 13.422,
+      "driving_dist": 2.6905,
+      "driving_acc": 31.3765,
       "gir": 0
     }
   },
@@ -732,11 +732,11 @@
     "n_player_events": 311,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.8389,
-      "sg_arg": 7.2702,
-      "sg_putt": 13.7455,
-      "driving_dist": 4.5468,
-      "driving_acc": 30.4415,
+      "sg_app": 13.9137,
+      "sg_arg": 7.3634,
+      "sg_putt": 14.109,
+      "driving_dist": 4.5198,
+      "driving_acc": 29.5184,
       "gir": 0
     }
   },
@@ -751,11 +751,11 @@
     "n_player_events": 54,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.3654,
-      "sg_arg": 6.6256,
-      "sg_putt": 10.3532,
-      "driving_dist": 5.4733,
-      "driving_acc": 13.9239,
+      "sg_app": 10.9995,
+      "sg_arg": 6.4866,
+      "sg_putt": 11.3791,
+      "driving_dist": 5.6681,
+      "driving_acc": 13.6287,
       "gir": 0
     }
   },
@@ -770,11 +770,11 @@
     "n_player_events": 60,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.5889,
-      "sg_arg": 5.6276,
-      "sg_putt": 10.7927,
-      "driving_dist": 1.9999,
-      "driving_acc": 39.2326,
+      "sg_app": 10.6329,
+      "sg_arg": 5.6997,
+      "sg_putt": 10.9041,
+      "driving_dist": 1.9307,
+      "driving_acc": 38.9248,
       "gir": 0
     }
   },
@@ -789,11 +789,11 @@
     "n_player_events": 243,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.6585,
-      "sg_arg": 7.9852,
-      "sg_putt": 12.7504,
-      "driving_dist": 1.7808,
-      "driving_acc": 30.4154,
+      "sg_app": 13.5764,
+      "sg_arg": 8.0692,
+      "sg_putt": 12.8858,
+      "driving_dist": 1.5502,
+      "driving_acc": 29.9242,
       "gir": 0
     }
   },
@@ -808,11 +808,11 @@
     "n_player_events": 54,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.3954,
-      "sg_arg": 6.9421,
-      "sg_putt": 10.106,
-      "driving_dist": 3.7861,
-      "driving_acc": 15.2384,
+      "sg_app": 11.4306,
+      "sg_arg": 7.3925,
+      "sg_putt": 10.6112,
+      "driving_dist": 3.3584,
+      "driving_acc": 16.1748,
       "gir": 0
     }
   },
@@ -827,11 +827,11 @@
     "n_player_events": 69,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 9.8322,
-      "sg_arg": 5.3732,
-      "sg_putt": 11.0134,
-      "driving_dist": 2.4774,
-      "driving_acc": 35.2793,
+      "sg_app": 9.4086,
+      "sg_arg": 5.177,
+      "sg_putt": 11.288,
+      "driving_dist": 2.4837,
+      "driving_acc": 34.5107,
       "gir": 0
     }
   },
@@ -846,11 +846,11 @@
     "n_player_events": 828,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.9471,
-      "sg_arg": 8.9902,
-      "sg_putt": 13.6081,
-      "driving_dist": 3.6475,
-      "driving_acc": 22.5071,
+      "sg_app": 13.8699,
+      "sg_arg": 8.8597,
+      "sg_putt": 13.703,
+      "driving_dist": 3.4997,
+      "driving_acc": 20.7098,
       "gir": 0
     }
   },
@@ -865,11 +865,11 @@
     "n_player_events": 130,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 15.8945,
-      "sg_arg": 9.454,
-      "sg_putt": 15.5208,
-      "driving_dist": 5.0213,
-      "driving_acc": 21.4958,
+      "sg_app": 15.6844,
+      "sg_arg": 9.2143,
+      "sg_putt": 16.2145,
+      "driving_dist": 4.7517,
+      "driving_acc": 20.1771,
       "gir": 0
     }
   },
@@ -884,11 +884,11 @@
     "n_player_events": 1388,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.2029,
-      "sg_arg": 8.6921,
-      "sg_putt": 13.6893,
-      "driving_dist": 2.0987,
-      "driving_acc": 30.7613,
+      "sg_app": 14.1634,
+      "sg_arg": 8.6414,
+      "sg_putt": 13.7228,
+      "driving_dist": 1.9868,
+      "driving_acc": 30.4206,
       "gir": 0
     }
   },
@@ -903,11 +903,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.2306,
-      "sg_arg": 8.6207,
-      "sg_putt": 12.8111,
-      "driving_dist": 2.8507,
-      "driving_acc": 36.4453,
+      "sg_app": 12.0049,
+      "sg_arg": 8.4321,
+      "sg_putt": 13.1388,
+      "driving_dist": 2.5768,
+      "driving_acc": 36.3385,
       "gir": 0
     }
   },
@@ -922,11 +922,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.463,
-      "sg_arg": 8.3461,
-      "sg_putt": 13.0359,
-      "driving_dist": 4.2224,
-      "driving_acc": 29.1039,
+      "sg_app": 11.5878,
+      "sg_arg": 8.2783,
+      "sg_putt": 12.9357,
+      "driving_dist": 4.1677,
+      "driving_acc": 29.8491,
       "gir": 0
     }
   },
@@ -941,11 +941,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.9152,
-      "sg_arg": 10.0871,
-      "sg_putt": 13.423,
-      "driving_dist": 2.8559,
-      "driving_acc": 31.8874,
+      "sg_app": 12.5168,
+      "sg_arg": 9.7787,
+      "sg_putt": 13.485,
+      "driving_dist": 2.8824,
+      "driving_acc": 31.4183,
       "gir": 0
     }
   },
@@ -960,11 +960,11 @@
     "n_player_events": 155,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 15.2352,
-      "sg_arg": 10.8351,
-      "sg_putt": 12.6668,
-      "driving_dist": 2.4764,
-      "driving_acc": 29.3201,
+      "sg_app": 15.2592,
+      "sg_arg": 10.793,
+      "sg_putt": 12.7256,
+      "driving_dist": 2.5113,
+      "driving_acc": 28.8291,
       "gir": 0
     }
   },
@@ -979,11 +979,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.6152,
-      "sg_arg": 8.4518,
-      "sg_putt": 14.5907,
-      "driving_dist": 3.6365,
-      "driving_acc": 25.5577,
+      "sg_app": 10.9204,
+      "sg_arg": 8.5456,
+      "sg_putt": 15.3518,
+      "driving_dist": 4.516,
+      "driving_acc": 21.4683,
       "gir": 0
     }
   },
@@ -998,11 +998,11 @@
     "n_player_events": 119,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.8656,
-      "sg_arg": 6.131,
-      "sg_putt": 10.8345,
-      "driving_dist": 3.5804,
-      "driving_acc": 33.8992,
+      "sg_app": 10.4153,
+      "sg_arg": 6.3849,
+      "sg_putt": 10.852,
+      "driving_dist": 3.5394,
+      "driving_acc": 34.7017,
       "gir": 0
     }
   },
@@ -1017,11 +1017,11 @@
     "n_player_events": 1699,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.1519,
-      "sg_arg": 8.1903,
-      "sg_putt": 14.0324,
-      "driving_dist": 3.8118,
-      "driving_acc": 31.6311,
+      "sg_app": 14.1431,
+      "sg_arg": 8.2043,
+      "sg_putt": 13.9681,
+      "driving_dist": 3.7032,
+      "driving_acc": 31.309,
       "gir": 0
     }
   },
@@ -1036,11 +1036,11 @@
     "n_player_events": 315,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.392,
-      "sg_arg": 8.4332,
-      "sg_putt": 12.1112,
-      "driving_dist": 4.3151,
-      "driving_acc": 23.3739,
+      "sg_app": 13.6604,
+      "sg_arg": 8.492,
+      "sg_putt": 11.9068,
+      "driving_dist": 4.2139,
+      "driving_acc": 24.3436,
       "gir": 0
     }
   },
@@ -1055,11 +1055,11 @@
     "n_player_events": 432,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 16.261,
-      "sg_arg": 9.9625,
-      "sg_putt": 15.6192,
-      "driving_dist": 2.624,
-      "driving_acc": 37.3565,
+      "sg_app": 16.1388,
+      "sg_arg": 9.9494,
+      "sg_putt": 15.688,
+      "driving_dist": 2.6598,
+      "driving_acc": 36.6438,
       "gir": 0
     }
   },
@@ -1074,11 +1074,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.8888,
-      "sg_arg": 12.204,
-      "sg_putt": 13.3803,
-      "driving_dist": 2.5323,
-      "driving_acc": 28.3862,
+      "sg_app": 12.1745,
+      "sg_arg": 11.9398,
+      "sg_putt": 13.7087,
+      "driving_dist": 2.6835,
+      "driving_acc": 27.7738,
       "gir": 0
     }
   },
@@ -1093,11 +1093,11 @@
     "n_player_events": 119,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.9374,
-      "sg_arg": 7.5975,
-      "sg_putt": 14.7372,
-      "driving_dist": 2.6084,
-      "driving_acc": 34.2476,
+      "sg_app": 12.5687,
+      "sg_arg": 7.618,
+      "sg_putt": 14.8379,
+      "driving_dist": 2.6059,
+      "driving_acc": 34.0586,
       "gir": 0
     }
   },
@@ -1112,11 +1112,11 @@
     "n_player_events": 436,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.6551,
-      "sg_arg": 6.6041,
-      "sg_putt": 11.5903,
-      "driving_dist": 3.7929,
-      "driving_acc": 22.8879,
+      "sg_app": 11.9365,
+      "sg_arg": 6.5457,
+      "sg_putt": 12.02,
+      "driving_dist": 3.8863,
+      "driving_acc": 20.0473,
       "gir": 0
     }
   },
@@ -1131,11 +1131,11 @@
     "n_player_events": 1385,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.818,
-      "sg_arg": 8.4913,
-      "sg_putt": 12.8942,
-      "driving_dist": 3.9104,
-      "driving_acc": 31.4271,
+      "sg_app": 12.6871,
+      "sg_arg": 8.4332,
+      "sg_putt": 13.1032,
+      "driving_dist": 3.9704,
+      "driving_acc": 31.2251,
       "gir": 0
     }
   },
@@ -1150,11 +1150,11 @@
     "n_player_events": 394,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.7684,
-      "sg_arg": 7.2843,
-      "sg_putt": 13.7408,
-      "driving_dist": 3.12,
-      "driving_acc": 27.9919,
+      "sg_app": 14.8864,
+      "sg_arg": 7.3817,
+      "sg_putt": 13.591,
+      "driving_dist": 3.0282,
+      "driving_acc": 27.6457,
       "gir": 0
     }
   },
@@ -1169,11 +1169,11 @@
     "n_player_events": 119,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.533,
-      "sg_arg": 7.7857,
-      "sg_putt": 14.8356,
-      "driving_dist": 2.7288,
-      "driving_acc": 32.1771,
+      "sg_app": 11.4427,
+      "sg_arg": 7.8454,
+      "sg_putt": 14.9028,
+      "driving_dist": 2.4997,
+      "driving_acc": 31.5312,
       "gir": 0
     }
   },
@@ -1188,11 +1188,11 @@
     "n_player_events": 1350,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.8019,
-      "sg_arg": 8.5818,
-      "sg_putt": 14.0335,
-      "driving_dist": 3.3566,
-      "driving_acc": 34.0073,
+      "sg_app": 11.5647,
+      "sg_arg": 8.5775,
+      "sg_putt": 14.0386,
+      "driving_dist": 3.1759,
+      "driving_acc": 33.8466,
       "gir": 0
     }
   },
@@ -1207,11 +1207,11 @@
     "n_player_events": 111,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.4643,
-      "sg_arg": 6.2485,
-      "sg_putt": 10.4097,
-      "driving_dist": 6.0087,
-      "driving_acc": 24.5939,
+      "sg_app": 10.2381,
+      "sg_arg": 6.2708,
+      "sg_putt": 10.8794,
+      "driving_dist": 6.4904,
+      "driving_acc": 23.2281,
       "gir": 0
     }
   },
@@ -1226,11 +1226,11 @@
     "n_player_events": 174,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.6912,
-      "sg_arg": 6.6415,
-      "sg_putt": 13.1627,
-      "driving_dist": 3.4153,
-      "driving_acc": 27.46,
+      "sg_app": 13.8769,
+      "sg_arg": 6.6198,
+      "sg_putt": 13.4795,
+      "driving_dist": 3.3344,
+      "driving_acc": 27.1191,
       "gir": 0
     }
   },
@@ -1245,11 +1245,11 @@
     "n_player_events": 54,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.2477,
-      "sg_arg": 6.2948,
-      "sg_putt": 11.1837,
-      "driving_dist": 6.9558,
-      "driving_acc": 19.8406,
+      "sg_app": 11.1882,
+      "sg_arg": 5.9534,
+      "sg_putt": 12.2674,
+      "driving_dist": 9.3675,
+      "driving_acc": 20.0994,
       "gir": 0
     }
   },
@@ -1264,11 +1264,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.9252,
-      "sg_arg": 9.9312,
-      "sg_putt": 13.7295,
-      "driving_dist": 5.1672,
-      "driving_acc": 32.2402,
+      "sg_app": 11.9601,
+      "sg_arg": 9.9374,
+      "sg_putt": 13.2275,
+      "driving_dist": 5.1889,
+      "driving_acc": 31.7683,
       "gir": 0
     }
   },
@@ -1283,11 +1283,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.3011,
-      "sg_arg": 7.9785,
-      "sg_putt": 13.6985,
-      "driving_dist": 2.7087,
-      "driving_acc": 33.6593,
+      "sg_app": 13.2307,
+      "sg_arg": 7.8378,
+      "sg_putt": 13.7773,
+      "driving_dist": 2.8374,
+      "driving_acc": 32.8093,
       "gir": 0
     }
   },
@@ -1302,11 +1302,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.3616,
-      "sg_arg": 7.8187,
-      "sg_putt": 13.4434,
-      "driving_dist": 4.6787,
-      "driving_acc": 34.7702,
+      "sg_app": 13.2774,
+      "sg_arg": 7.6412,
+      "sg_putt": 13.576,
+      "driving_dist": 4.7425,
+      "driving_acc": 34.0995,
       "gir": 0
     }
   },
@@ -1321,11 +1321,11 @@
     "n_player_events": 441,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.3821,
-      "sg_arg": 7.8712,
-      "sg_putt": 15.1689,
-      "driving_dist": 3.4604,
-      "driving_acc": 30.5232,
+      "sg_app": 13.3771,
+      "sg_arg": 8.0873,
+      "sg_putt": 15.2553,
+      "driving_dist": 3.2633,
+      "driving_acc": 29.2353,
       "gir": 0
     }
   },
@@ -1340,11 +1340,11 @@
     "n_player_events": 1712,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.9472,
-      "sg_arg": 7.4863,
-      "sg_putt": 14.7371,
-      "driving_dist": 2.6509,
-      "driving_acc": 30.9435,
+      "sg_app": 12.9534,
+      "sg_arg": 7.5282,
+      "sg_putt": 14.8124,
+      "driving_dist": 2.5583,
+      "driving_acc": 30.2379,
       "gir": 0
     }
   },
@@ -1359,11 +1359,11 @@
     "n_player_events": 165,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.6638,
-      "sg_arg": 5.959,
-      "sg_putt": 11.1269,
-      "driving_dist": 4.4956,
-      "driving_acc": 21.7693,
+      "sg_app": 10.9705,
+      "sg_arg": 6.0021,
+      "sg_putt": 11.7661,
+      "driving_dist": 4.6204,
+      "driving_acc": 21.7641,
       "gir": 0
     }
   },
@@ -1378,11 +1378,11 @@
     "n_player_events": 78,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.1503,
-      "sg_arg": 6.5356,
-      "sg_putt": 9.4729,
-      "driving_dist": 3.3185,
-      "driving_acc": 35.5579,
+      "sg_app": 9.9761,
+      "sg_arg": 6.4199,
+      "sg_putt": 9.4937,
+      "driving_dist": 3.3134,
+      "driving_acc": 36.3964,
       "gir": 0
     }
   },
@@ -1397,11 +1397,11 @@
     "n_player_events": 77,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.2553,
-      "sg_arg": 7.2943,
-      "sg_putt": 13.3111,
-      "driving_dist": 2.8227,
-      "driving_acc": 20.164,
+      "sg_app": 13.9591,
+      "sg_arg": 6.9336,
+      "sg_putt": 14.4607,
+      "driving_dist": 2.7405,
+      "driving_acc": 16.0529,
       "gir": 0
     }
   },
@@ -1416,11 +1416,11 @@
     "n_player_events": 1619,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.0906,
-      "sg_arg": 8.0641,
-      "sg_putt": 14.2133,
-      "driving_dist": 3.2856,
-      "driving_acc": 34.2607,
+      "sg_app": 11.8954,
+      "sg_arg": 8.1231,
+      "sg_putt": 14.1996,
+      "driving_dist": 3.1574,
+      "driving_acc": 33.7701,
       "gir": 0
     }
   },
@@ -1435,11 +1435,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.8781,
-      "sg_arg": 8.3278,
-      "sg_putt": 12.968,
-      "driving_dist": 4.0877,
-      "driving_acc": 30.0575,
+      "sg_app": 13.8906,
+      "sg_arg": 8.465,
+      "sg_putt": 13.3805,
+      "driving_dist": 4.1298,
+      "driving_acc": 29.8048,
       "gir": 0
     }
   },
@@ -1454,11 +1454,11 @@
     "n_player_events": 160,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.7603,
-      "sg_arg": 14.8142,
-      "sg_putt": 14.6992,
-      "driving_dist": 3.8251,
-      "driving_acc": 49.6928,
+      "sg_app": 13.3122,
+      "sg_arg": 14.4365,
+      "sg_putt": 14.2832,
+      "driving_dist": 3.8374,
+      "driving_acc": 48.8068,
       "gir": 0
     }
   },
@@ -1473,11 +1473,11 @@
     "n_player_events": 155,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.042,
-      "sg_arg": 8.1296,
-      "sg_putt": 14.2548,
-      "driving_dist": 2.8325,
-      "driving_acc": 19.7831,
+      "sg_app": 14.2342,
+      "sg_arg": 8.0986,
+      "sg_putt": 14.5545,
+      "driving_dist": 2.8053,
+      "driving_acc": 18.3164,
       "gir": 0
     }
   },
@@ -1492,11 +1492,11 @@
     "n_player_events": 509,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.2925,
-      "sg_arg": 7.1836,
-      "sg_putt": 13.3834,
-      "driving_dist": 1.8353,
-      "driving_acc": 31.7536,
+      "sg_app": 13.3359,
+      "sg_arg": 7.0975,
+      "sg_putt": 13.551,
+      "driving_dist": 1.797,
+      "driving_acc": 31.3323,
       "gir": 0
     }
   },
@@ -1507,15 +1507,15 @@
     "designer": "Tom Weiskopf",
     "course_type": "stadium",
     "coastal": false,
-    "n_events": 5,
-    "n_player_events": 780,
+    "n_events": 6,
+    "n_player_events": 927,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.6582,
-      "sg_arg": 7.526,
-      "sg_putt": 13.8382,
-      "driving_dist": 2.7826,
-      "driving_acc": 30.2495,
+      "sg_app": 13.6717,
+      "sg_arg": 7.6247,
+      "sg_putt": 13.8068,
+      "driving_dist": 2.723,
+      "driving_acc": 29.6552,
       "gir": 0
     }
   },
@@ -1530,11 +1530,11 @@
     "n_player_events": 1554,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.7484,
-      "sg_arg": 7.8324,
-      "sg_putt": 14.7185,
-      "driving_dist": 2.8036,
-      "driving_acc": 26.167,
+      "sg_app": 14.8107,
+      "sg_arg": 7.8073,
+      "sg_putt": 14.7618,
+      "driving_dist": 2.7595,
+      "driving_acc": 25.511,
       "gir": 0
     }
   },
@@ -1549,11 +1549,11 @@
     "n_player_events": 312,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.2171,
-      "sg_arg": 8.1307,
-      "sg_putt": 13.7663,
-      "driving_dist": 3.5549,
-      "driving_acc": 33.682,
+      "sg_app": 13.0066,
+      "sg_arg": 8.3455,
+      "sg_putt": 13.8513,
+      "driving_dist": 3.4531,
+      "driving_acc": 33.3368,
       "gir": 0
     }
   },
@@ -1568,11 +1568,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.1511,
-      "sg_arg": 8.0552,
-      "sg_putt": 12.8498,
-      "driving_dist": 3.2796,
-      "driving_acc": 34.3161,
+      "sg_app": 12.0047,
+      "sg_arg": 7.975,
+      "sg_putt": 13.2111,
+      "driving_dist": 3.369,
+      "driving_acc": 34.0774,
       "gir": 0
     }
   },
@@ -1587,11 +1587,11 @@
     "n_player_events": 393,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.0418,
-      "sg_arg": 8.271,
-      "sg_putt": 12.9269,
-      "driving_dist": 3.7207,
-      "driving_acc": 32.3163,
+      "sg_app": 13.7681,
+      "sg_arg": 8.2361,
+      "sg_putt": 12.883,
+      "driving_dist": 3.6535,
+      "driving_acc": 31.7193,
       "gir": 0
     }
   },
@@ -1606,11 +1606,11 @@
     "n_player_events": 1543,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.3881,
-      "sg_arg": 8.1099,
-      "sg_putt": 14.7595,
-      "driving_dist": 2.4813,
-      "driving_acc": 28.7116,
+      "sg_app": 13.3686,
+      "sg_arg": 8.1233,
+      "sg_putt": 14.7386,
+      "driving_dist": 2.3499,
+      "driving_acc": 28.0674,
       "gir": 0
     }
   },
@@ -1625,11 +1625,11 @@
     "n_player_events": 1612,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.1846,
-      "sg_arg": 8.7075,
-      "sg_putt": 13.6391,
-      "driving_dist": 3.1344,
-      "driving_acc": 32.5661,
+      "sg_app": 12.9998,
+      "sg_arg": 8.7395,
+      "sg_putt": 13.6767,
+      "driving_dist": 3.0741,
+      "driving_acc": 32.0867,
       "gir": 0
     }
   },
@@ -1644,11 +1644,11 @@
     "n_player_events": 1568,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.2705,
-      "sg_arg": 8.3585,
-      "sg_putt": 13.6536,
-      "driving_dist": 2.6944,
-      "driving_acc": 31.6287,
+      "sg_app": 14.2936,
+      "sg_arg": 8.3379,
+      "sg_putt": 13.8336,
+      "driving_dist": 2.5559,
+      "driving_acc": 31.1803,
       "gir": 0
     }
   },
@@ -1663,11 +1663,11 @@
     "n_player_events": 1574,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.757,
-      "sg_arg": 7.5466,
-      "sg_putt": 13.1349,
-      "driving_dist": 4.3597,
-      "driving_acc": 31.8163,
+      "sg_app": 12.5547,
+      "sg_arg": 7.5148,
+      "sg_putt": 13.3823,
+      "driving_dist": 4.3508,
+      "driving_acc": 31.4311,
       "gir": 0
     }
   },
@@ -1682,11 +1682,11 @@
     "n_player_events": 1159,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.2654,
-      "sg_arg": 7.6007,
-      "sg_putt": 12.3669,
-      "driving_dist": 2.4011,
-      "driving_acc": 33.7908,
+      "sg_app": 12.2524,
+      "sg_arg": 7.6103,
+      "sg_putt": 12.5474,
+      "driving_dist": 2.3128,
+      "driving_acc": 33.6565,
       "gir": 0
     }
   },
@@ -1701,11 +1701,11 @@
     "n_player_events": 1412,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.3298,
-      "sg_arg": 8.1565,
-      "sg_putt": 13.9123,
-      "driving_dist": 3.1533,
-      "driving_acc": 30.1016,
+      "sg_app": 13.2063,
+      "sg_arg": 8.171,
+      "sg_putt": 14.1364,
+      "driving_dist": 3.0329,
+      "driving_acc": 29.4843,
       "gir": 0
     }
   },
@@ -1720,11 +1720,11 @@
     "n_player_events": 155,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.0036,
-      "sg_arg": 7.3106,
-      "sg_putt": 14.4912,
-      "driving_dist": 2.9457,
-      "driving_acc": 27.5312,
+      "sg_app": 13.9731,
+      "sg_arg": 7.084,
+      "sg_putt": 14.9663,
+      "driving_dist": 2.737,
+      "driving_acc": 27.2005,
       "gir": 0
     }
   },
@@ -1739,11 +1739,11 @@
     "n_player_events": 1088,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 15.3915,
-      "sg_arg": 7.415,
-      "sg_putt": 14.1,
-      "driving_dist": 2.2789,
-      "driving_acc": 29.2378,
+      "sg_app": 15.3587,
+      "sg_arg": 7.3903,
+      "sg_putt": 14.1737,
+      "driving_dist": 2.2133,
+      "driving_acc": 28.7554,
       "gir": 0
     }
   },
@@ -1758,11 +1758,11 @@
     "n_player_events": 54,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 9.4472,
-      "sg_arg": 4.0013,
-      "sg_putt": 7.7901,
-      "driving_dist": 7.2767,
-      "driving_acc": 15.4114,
+      "sg_app": 9.7317,
+      "sg_arg": 3.8591,
+      "sg_putt": 7.8636,
+      "driving_dist": 6.5063,
+      "driving_acc": 13.9491,
       "gir": 0
     }
   },
@@ -1777,11 +1777,11 @@
     "n_player_events": 57,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.2626,
-      "sg_arg": 5.362,
-      "sg_putt": 9.4496,
-      "driving_dist": 3.0775,
-      "driving_acc": 33.8343,
+      "sg_app": 10.3288,
+      "sg_arg": 5.245,
+      "sg_putt": 9.7581,
+      "driving_dist": 2.9464,
+      "driving_acc": 33.414,
       "gir": 0
     }
   },
@@ -1796,11 +1796,11 @@
     "n_player_events": 72,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 9.9787,
-      "sg_arg": 8.9632,
-      "sg_putt": 13.9298,
-      "driving_dist": 1.8319,
-      "driving_acc": 30.4853,
+      "sg_app": 10.1177,
+      "sg_arg": 9.1451,
+      "sg_putt": 13.9587,
+      "driving_dist": 1.4175,
+      "driving_acc": 30.3728,
       "gir": 0
     }
   },
@@ -1815,11 +1815,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.1591,
-      "sg_arg": 10.0442,
-      "sg_putt": 13.0943,
-      "driving_dist": 5.0802,
-      "driving_acc": 30.7663,
+      "sg_app": 12.8356,
+      "sg_arg": 9.9856,
+      "sg_putt": 13.2456,
+      "driving_dist": 4.9353,
+      "driving_acc": 30.4062,
       "gir": 0
     }
   },
@@ -1834,11 +1834,11 @@
     "n_player_events": 165,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 9.3463,
-      "sg_arg": 7.9407,
-      "sg_putt": 11.9797,
-      "driving_dist": 3.6287,
-      "driving_acc": 22.3028,
+      "sg_app": 9.5796,
+      "sg_arg": 7.7836,
+      "sg_putt": 12.262,
+      "driving_dist": 3.7815,
+      "driving_acc": 23.4539,
       "gir": 0
     }
   },
@@ -1853,11 +1853,11 @@
     "n_player_events": 54,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.1911,
-      "sg_arg": 6.6645,
-      "sg_putt": 10.7168,
-      "driving_dist": 5.1052,
-      "driving_acc": 14.6262,
+      "sg_app": 9.7519,
+      "sg_arg": 6.5425,
+      "sg_putt": 11.5923,
+      "driving_dist": 4.7615,
+      "driving_acc": 13.9479,
       "gir": 0
     }
   },
@@ -1872,11 +1872,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.9254,
-      "sg_arg": 9.4654,
-      "sg_putt": 15.7655,
-      "driving_dist": 2.6562,
-      "driving_acc": 17.657,
+      "sg_app": 15.3333,
+      "sg_arg": 9.1216,
+      "sg_putt": 16.5676,
+      "driving_dist": 2.4508,
+      "driving_acc": 15.0198,
       "gir": 0
     }
   },
@@ -1891,11 +1891,11 @@
     "n_player_events": 676,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.278,
-      "sg_arg": 7.5505,
-      "sg_putt": 14.0955,
-      "driving_dist": 2.898,
-      "driving_acc": 27.1039,
+      "sg_app": 13.2239,
+      "sg_arg": 7.5892,
+      "sg_putt": 14.2015,
+      "driving_dist": 2.8078,
+      "driving_acc": 26.4764,
       "gir": 0
     }
   },
@@ -1910,11 +1910,11 @@
     "n_player_events": 72,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.867,
-      "sg_arg": 5.7332,
-      "sg_putt": 10.0017,
-      "driving_dist": 3.3015,
-      "driving_acc": 33.466,
+      "sg_app": 10.4905,
+      "sg_arg": 5.8562,
+      "sg_putt": 10.0317,
+      "driving_dist": 3.0111,
+      "driving_acc": 33.429,
       "gir": 0
     }
   },
@@ -1929,11 +1929,11 @@
     "n_player_events": 626,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.8501,
-      "sg_arg": 8.3935,
-      "sg_putt": 15.289,
-      "driving_dist": 3.4727,
-      "driving_acc": 24.3033,
+      "sg_app": 13.9197,
+      "sg_arg": 8.3619,
+      "sg_putt": 15.2989,
+      "driving_dist": 3.3851,
+      "driving_acc": 23.3486,
       "gir": 0
     }
   },
@@ -1948,11 +1948,11 @@
     "n_player_events": 78,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.6223,
-      "sg_arg": 6.104,
-      "sg_putt": 11.1677,
-      "driving_dist": 2.9372,
-      "driving_acc": 31.2405,
+      "sg_app": 10.5274,
+      "sg_arg": 6.2548,
+      "sg_putt": 10.945,
+      "driving_dist": 2.7558,
+      "driving_acc": 31.5644,
       "gir": 0
     }
   },
@@ -1967,11 +1967,11 @@
     "n_player_events": 680,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.0479,
-      "sg_arg": 8.7681,
-      "sg_putt": 14.7303,
-      "driving_dist": 3.511,
-      "driving_acc": 33.2241,
+      "sg_app": 12.9892,
+      "sg_arg": 8.6434,
+      "sg_putt": 15.1958,
+      "driving_dist": 3.6727,
+      "driving_acc": 33.2464,
       "gir": 0
     }
   },
@@ -1986,11 +1986,11 @@
     "n_player_events": 311,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.6058,
-      "sg_arg": 8.9151,
-      "sg_putt": 17.9508,
-      "driving_dist": 2.5301,
-      "driving_acc": 19.1386,
+      "sg_app": 14.7653,
+      "sg_arg": 8.8047,
+      "sg_putt": 17.8942,
+      "driving_dist": 2.728,
+      "driving_acc": 17.999,
       "gir": 0
     }
   },
@@ -2005,11 +2005,11 @@
     "n_player_events": 319,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 11.175,
-      "sg_arg": 6.821,
-      "sg_putt": 11.4397,
-      "driving_dist": 4.4592,
-      "driving_acc": 29.4036,
+      "sg_app": 11.1605,
+      "sg_arg": 6.9976,
+      "sg_putt": 11.6063,
+      "driving_dist": 4.4375,
+      "driving_acc": 29.0408,
       "gir": 0
     }
   },
@@ -2024,11 +2024,11 @@
     "n_player_events": 57,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 8.9803,
-      "sg_arg": 6.3172,
-      "sg_putt": 10.8573,
-      "driving_dist": 4.2688,
-      "driving_acc": 34.713,
+      "sg_app": 8.8007,
+      "sg_arg": 6.3084,
+      "sg_putt": 11.1116,
+      "driving_dist": 4.493,
+      "driving_acc": 34.3944,
       "gir": 0
     }
   },
@@ -2043,11 +2043,11 @@
     "n_player_events": 108,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.3225,
-      "sg_arg": 6.9413,
-      "sg_putt": 10.3228,
-      "driving_dist": 6.5844,
-      "driving_acc": 18.9767,
+      "sg_app": 10.3848,
+      "sg_arg": 7.0137,
+      "sg_putt": 10.9299,
+      "driving_dist": 7.7928,
+      "driving_acc": 20.3089,
       "gir": 0
     }
   },
@@ -2062,11 +2062,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 14.7883,
-      "sg_arg": 7.9457,
-      "sg_putt": 14.0637,
-      "driving_dist": 2.1443,
-      "driving_acc": 28.1157,
+      "sg_app": 14.8084,
+      "sg_arg": 7.9793,
+      "sg_putt": 14.117,
+      "driving_dist": 1.9164,
+      "driving_acc": 27.6807,
       "gir": 0
     }
   },
@@ -2081,11 +2081,11 @@
     "n_player_events": 552,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 15.018,
-      "sg_arg": 8.8945,
-      "sg_putt": 14.1495,
-      "driving_dist": 2.8263,
-      "driving_acc": 19.4853,
+      "sg_app": 15.3206,
+      "sg_arg": 8.8465,
+      "sg_putt": 14.5867,
+      "driving_dist": 2.686,
+      "driving_acc": 16.6273,
       "gir": 0
     }
   },
@@ -2100,11 +2100,11 @@
     "n_player_events": 1703,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 13.0997,
-      "sg_arg": 7.2461,
-      "sg_putt": 13.9855,
-      "driving_dist": 2.5878,
-      "driving_acc": 31.4139,
+      "sg_app": 12.9057,
+      "sg_arg": 7.3184,
+      "sg_putt": 14.0987,
+      "driving_dist": 2.4855,
+      "driving_acc": 30.8962,
       "gir": 0
     }
   },
@@ -2119,11 +2119,11 @@
     "n_player_events": 156,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.7897,
-      "sg_arg": 10.0541,
-      "sg_putt": 15.0683,
-      "driving_dist": 2.8937,
-      "driving_acc": 30.5748,
+      "sg_app": 12.6938,
+      "sg_arg": 9.9484,
+      "sg_putt": 14.7279,
+      "driving_dist": 2.5919,
+      "driving_acc": 30.3218,
       "gir": 0
     }
   },
@@ -2138,11 +2138,11 @@
     "n_player_events": 68,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 10.4736,
-      "sg_arg": 6.4151,
-      "sg_putt": 12.6081,
-      "driving_dist": 6.96,
-      "driving_acc": 32.3364,
+      "sg_app": 10.1062,
+      "sg_arg": 5.8564,
+      "sg_putt": 12.6114,
+      "driving_dist": 7.5781,
+      "driving_acc": 35.3545,
       "gir": 0
     }
   },
@@ -2157,11 +2157,11 @@
     "n_player_events": 144,
     "shap": {
       "sg_ott": 0,
-      "sg_app": 12.2851,
-      "sg_arg": 9.5728,
-      "sg_putt": 14.9461,
-      "driving_dist": 3.2163,
-      "driving_acc": 33.5529,
+      "sg_app": 12.1362,
+      "sg_arg": 9.5306,
+      "sg_putt": 14.6506,
+      "driving_dist": 2.8651,
+      "driving_acc": 33.5415,
       "gir": 0
     }
   }

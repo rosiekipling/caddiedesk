@@ -3,22 +3,22 @@
     "type": "course_type",
     "n_courses": 75,
     "percentiles": {
-      "driving_dist": 50.7,
-      "driving_acc": 53.2,
-      "sg_app": 45.8,
-      "sg_arg": 47.0,
-      "sg_putt": 47.6
+      "driving_dist": 50.2,
+      "driving_acc": 53.3,
+      "sg_app": 45.7,
+      "sg_arg": 46.9,
+      "sg_putt": 47.8
     }
   },
   "stadium": {
     "type": "course_type",
     "n_courses": 12,
     "percentiles": {
-      "driving_dist": 28.9,
-      "driving_acc": 60.5,
+      "driving_dist": 28.8,
+      "driving_acc": 59.9,
       "sg_app": 69.0,
-      "sg_arg": 53.9,
-      "sg_putt": 58.8
+      "sg_arg": 53.7,
+      "sg_putt": 57.9
     }
   },
   "coastal": {
@@ -26,21 +26,21 @@
     "n_courses": 13,
     "percentiles": {
       "driving_dist": 57.1,
-      "driving_acc": 40.9,
-      "sg_app": 60.4,
-      "sg_arg": 59.0,
-      "sg_putt": 47.4
+      "driving_acc": 41.3,
+      "sg_app": 59.8,
+      "sg_arg": 60.3,
+      "sg_putt": 47.8
     }
   },
   "links": {
     "type": "course_type",
     "n_courses": 7,
     "percentiles": {
-      "driving_dist": 54.3,
-      "driving_acc": 50.4,
-      "sg_app": 56.9,
-      "sg_arg": 77.1,
-      "sg_putt": 77.2
+      "driving_dist": 58.8,
+      "driving_acc": 48.9,
+      "sg_app": 57.8,
+      "sg_arg": 76.4,
+      "sg_putt": 74.7
     }
   },
   "augusta": {
@@ -51,11 +51,11 @@
     "country": "United States",
     "n_events": 6,
     "percentiles": {
-      "driving_dist": 41.2,
+      "driving_dist": 39.5,
       "driving_acc": 27.2,
-      "sg_app": 89.5,
-      "sg_arg": 90.4,
-      "sg_putt": 59.6
+      "sg_app": 90.4,
+      "sg_arg": 91.2,
+      "sg_putt": 63.2
     }
   },
   "kapalua": {
@@ -66,10 +66,10 @@
     "country": "United States",
     "n_events": 11,
     "percentiles": {
-      "driving_dist": 71.1,
-      "driving_acc": 20.2,
-      "sg_app": 31.6,
-      "sg_arg": 21.1,
+      "driving_dist": 73.7,
+      "driving_acc": 14.0,
+      "sg_app": 36.0,
+      "sg_arg": 22.8,
       "sg_putt": 25.4
     }
   },
@@ -81,11 +81,11 @@
     "country": "Scotland",
     "n_events": 1,
     "percentiles": {
-      "driving_dist": 66.7,
-      "driving_acc": 25.4,
-      "sg_app": 14.9,
-      "sg_arg": 76.3,
-      "sg_putt": 83.3
+      "driving_dist": 82.5,
+      "driving_acc": 19.3,
+      "sg_app": 20.2,
+      "sg_arg": 79.8,
+      "sg_putt": 95.6
     }
   },
   "golden_age": {
@@ -93,11 +93,11 @@
     "display_name": "Golden Age (pre-1940)",
     "n_courses": 33,
     "percentiles": {
-      "driving_dist": 48.0,
-      "driving_acc": 59.6,
-      "sg_app": 46.5,
+      "driving_dist": 47.4,
+      "driving_acc": 60.0,
+      "sg_app": 45.0,
       "sg_arg": 52.6,
-      "sg_putt": 51.6
+      "sg_putt": 51.5
     }
   },
   "modern": {
@@ -105,11 +105,11 @@
     "display_name": "Modern Era (1940-1990)",
     "n_courses": 24,
     "percentiles": {
-      "driving_dist": 49.5,
-      "driving_acc": 52.7,
-      "sg_app": 52.5,
-      "sg_arg": 49.5,
-      "sg_putt": 50.3
+      "driving_dist": 49.3,
+      "driving_acc": 52.6,
+      "sg_app": 53.0,
+      "sg_arg": 48.9,
+      "sg_putt": 51.2
     }
   },
   "contemporary": {
@@ -117,11 +117,11 @@
     "display_name": "Contemporary (post-1990)",
     "n_courses": 18,
     "percentiles": {
-      "driving_dist": 57.1,
-      "driving_acc": 42.0,
-      "sg_app": 35.7,
-      "sg_arg": 33.4,
-      "sg_putt": 36.8
+      "driving_dist": 56.5,
+      "driving_acc": 41.9,
+      "sg_app": 37.2,
+      "sg_arg": 33.9,
+      "sg_putt": 36.4
     }
   }
 }

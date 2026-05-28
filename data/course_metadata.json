@@ -10,13 +10,13 @@
     "par": 72,
     "region": "Asia/Pacific",
     "shap_profile": {
-      "driving_acc_shap": 24.7722,
-      "driving_dist_shap": 1.9704,
+      "driving_acc_shap": 22.5422,
+      "driving_dist_shap": 1.9624,
       "n_events": 1,
       "n_player_events": 78,
-      "sg_app_shap": 13.299,
-      "sg_arg_shap": 6.9769,
-      "sg_putt_shap": 12.8374
+      "sg_app_shap": 13.2562,
+      "sg_arg_shap": 6.8434,
+      "sg_putt_shap": 12.7807
     },
     "source": "web_search",
     "statistical_profile": {
@@ -62,13 +62,13 @@
     "par": 72,
     "region": "Other",
     "shap_profile": {
-      "driving_acc_shap": 16.882,
-      "driving_dist_shap": 3.6337,
+      "driving_acc_shap": 16.1641,
+      "driving_dist_shap": 3.4175,
       "n_events": 2,
       "n_player_events": 40,
-      "sg_app_shap": 13.8986,
-      "sg_arg_shap": 8.4063,
-      "sg_putt_shap": 11.5639
+      "sg_app_shap": 13.8421,
+      "sg_arg_shap": 8.4658,
+      "sg_putt_shap": 12.5754
     },
     "source": "web_search",
     "statistical_profile": {
@@ -184,13 +184,13 @@
     "par": 70,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.1005,
-      "driving_dist_shap": 3.1625,
+      "driving_acc_shap": 29.5736,
+      "driving_dist_shap": 3.0822,
       "n_events": 2,
       "n_player_events": 225,
-      "sg_app_shap": 11.684,
-      "sg_arg_shap": 7.021,
-      "sg_putt_shap": 13.9429
+      "sg_app_shap": 11.3552,
+      "sg_arg_shap": 6.9127,
+      "sg_putt_shap": 14.3328
     },
     "source": "web_search",
     "statistical_profile": {
@@ -220,13 +220,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 26.8392,
-      "driving_dist_shap": 3.0645,
+      "driving_acc_shap": 25.9603,
+      "driving_dist_shap": 2.8692,
       "n_events": 6,
       "n_player_events": 538,
-      "sg_app_shap": 14.4014,
-      "sg_arg_shap": 9.46,
-      "sg_putt_shap": 13.7349
+      "sg_app_shap": 14.5545,
+      "sg_arg_shap": 9.4474,
+      "sg_putt_shap": 14.0222
     },
     "source": "web_search",
     "statistical_profile": {
@@ -271,13 +271,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.8241,
-      "driving_dist_shap": 3.3432,
+      "driving_acc_shap": 30.2053,
+      "driving_dist_shap": 3.2144,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 14.3186,
-      "sg_arg_shap": 7.3593,
-      "sg_putt_shap": 13.1323
+      "sg_app_shap": 14.1456,
+      "sg_arg_shap": 7.2913,
+      "sg_putt_shap": 13.244
     },
     "source": "web_search",
     "statistical_profile": {
@@ -307,13 +307,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 31.6755,
-      "driving_dist_shap": 2.741,
+      "driving_acc_shap": 31.1864,
+      "driving_dist_shap": 2.6644,
       "n_events": 12,
       "n_player_events": 1299,
-      "sg_app_shap": 13.3747,
-      "sg_arg_shap": 8.4291,
-      "sg_putt_shap": 13.6924
+      "sg_app_shap": 13.3449,
+      "sg_arg_shap": 8.4276,
+      "sg_putt_shap": 13.6291
     },
     "source": "web_search",
     "statistical_profile": {
@@ -343,13 +343,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 29.8112,
-      "driving_dist_shap": 2.4843,
+      "driving_acc_shap": 29.0852,
+      "driving_dist_shap": 2.3874,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 14.1631,
-      "sg_arg_shap": 7.239,
-      "sg_putt_shap": 14.3584
+      "sg_app_shap": 14.0755,
+      "sg_arg_shap": 7.1684,
+      "sg_putt_shap": 14.4832
     },
     "source": "web_search",
     "statistical_profile": {
@@ -379,13 +379,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.8392,
-      "driving_dist_shap": 2.616,
+      "driving_acc_shap": 33.704,
+      "driving_dist_shap": 2.5779,
       "n_events": 2,
       "n_player_events": 275,
-      "sg_app_shap": 13.1439,
-      "sg_arg_shap": 7.5989,
-      "sg_putt_shap": 14.1189
+      "sg_app_shap": 12.8986,
+      "sg_arg_shap": 7.5918,
+      "sg_putt_shap": 14.3348
     },
     "source": "web_search",
     "statistical_profile": {
@@ -415,13 +415,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 16.9963,
-      "driving_dist_shap": 3.704,
+      "driving_acc_shap": 15.9149,
+      "driving_dist_shap": 3.7978,
       "n_events": 2,
       "n_player_events": 262,
-      "sg_app_shap": 16.2816,
-      "sg_arg_shap": 8.9606,
-      "sg_putt_shap": 16.8104
+      "sg_app_shap": 16.6879,
+      "sg_arg_shap": 8.531,
+      "sg_putt_shap": 17.2998
     },
     "source": "web_search",
     "statistical_profile": {
@@ -451,13 +451,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 13.1519,
-      "driving_dist_shap": 7.9878,
+      "driving_acc_shap": 15.1191,
+      "driving_dist_shap": 9.7591,
       "n_events": 1,
       "n_player_events": 54,
-      "sg_app_shap": 7.3811,
-      "sg_arg_shap": 5.7305,
-      "sg_putt_shap": 8.4837
+      "sg_app_shap": 8.1612,
+      "sg_arg_shap": 5.3103,
+      "sg_putt_shap": 8.9857
     },
     "source": "web_search",
     "statistical_profile": {
@@ -545,13 +545,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 28.1068,
-      "driving_dist_shap": 6.9995,
+      "driving_acc_shap": 26.7406,
+      "driving_dist_shap": 7.5199,
       "n_events": 1,
       "n_player_events": 50,
-      "sg_app_shap": 10.219,
-      "sg_arg_shap": 4.4973,
-      "sg_putt_shap": 9.3853
+      "sg_app_shap": 9.9401,
+      "sg_arg_shap": 4.313,
+      "sg_putt_shap": 9.909
     },
     "source": "web_search",
     "statistical_profile": {
@@ -596,13 +596,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.6383,
-      "driving_dist_shap": 2.4716,
+      "driving_acc_shap": 32.5338,
+      "driving_dist_shap": 2.3203,
       "n_events": 2,
       "n_player_events": 118,
-      "sg_app_shap": 10.6957,
-      "sg_arg_shap": 5.8326,
-      "sg_putt_shap": 9.5493
+      "sg_app_shap": 10.9965,
+      "sg_arg_shap": 5.6844,
+      "sg_putt_shap": 9.76
     },
     "source": "web_search",
     "statistical_profile": {
@@ -659,13 +659,13 @@
     "par": 72,
     "region": "Other",
     "shap_profile": {
-      "driving_acc_shap": 32.6281,
-      "driving_dist_shap": 5.4679,
+      "driving_acc_shap": 32.3186,
+      "driving_dist_shap": 5.9432,
       "n_events": 6,
       "n_player_events": 397,
-      "sg_app_shap": 10.7765,
-      "sg_arg_shap": 6.1165,
-      "sg_putt_shap": 9.5473
+      "sg_app_shap": 10.57,
+      "sg_arg_shap": 6.0685,
+      "sg_putt_shap": 9.9531
     },
     "source": "web_search",
     "statistical_profile": {
@@ -722,13 +722,13 @@
     "par": 70,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 34.4044,
-      "driving_dist_shap": 4.9854,
+      "driving_acc_shap": 34.3845,
+      "driving_dist_shap": 5.0249,
       "n_events": 4,
       "n_player_events": 485,
-      "sg_app_shap": 12.7072,
-      "sg_arg_shap": 7.2953,
-      "sg_putt_shap": 12.6439
+      "sg_app_shap": 12.5301,
+      "sg_arg_shap": 7.4174,
+      "sg_putt_shap": 12.4965
     },
     "source": "web_search",
     "statistical_profile": {
@@ -758,13 +758,13 @@
     "par": 70,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.1395,
-      "driving_dist_shap": 2.986,
+      "driving_acc_shap": 32.7469,
+      "driving_dist_shap": 2.8897,
       "n_events": 7,
       "n_player_events": 896,
-      "sg_app_shap": 13.296,
-      "sg_arg_shap": 7.3238,
-      "sg_putt_shap": 14.0994
+      "sg_app_shap": 13.1259,
+      "sg_arg_shap": 7.4549,
+      "sg_putt_shap": 14.2113
     },
     "source": "web_search",
     "statistical_profile": {
@@ -794,13 +794,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 29.1331,
-      "driving_dist_shap": 3.5321,
+      "driving_acc_shap": 28.724,
+      "driving_dist_shap": 3.5856,
       "n_events": 2,
       "n_player_events": 234,
-      "sg_app_shap": 13.861,
-      "sg_arg_shap": 8.5479,
-      "sg_putt_shap": 12.947
+      "sg_app_shap": 14.0179,
+      "sg_arg_shap": 8.3466,
+      "sg_putt_shap": 13.1171
     },
     "source": "web_search",
     "statistical_profile": {
@@ -830,13 +830,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.2926,
-      "driving_dist_shap": 2.34,
+      "driving_acc_shap": 32.6453,
+      "driving_dist_shap": 2.208,
       "n_events": 1,
       "n_player_events": 119,
-      "sg_app_shap": 12.6117,
-      "sg_arg_shap": 7.1763,
-      "sg_putt_shap": 13.4958
+      "sg_app_shap": 12.1338,
+      "sg_arg_shap": 7.1936,
+      "sg_putt_shap": 13.3084
     },
     "source": "web_search",
     "statistical_profile": {
@@ -866,13 +866,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 34.0892,
-      "driving_dist_shap": 2.9829,
+      "driving_acc_shap": 33.7594,
+      "driving_dist_shap": 3.154,
       "n_events": 2,
       "n_player_events": 138,
-      "sg_app_shap": 10.5853,
-      "sg_arg_shap": 5.2851,
-      "sg_putt_shap": 11.2975
+      "sg_app_shap": 10.4235,
+      "sg_arg_shap": 5.456,
+      "sg_putt_shap": 11.2166
     },
     "source": "web_search",
     "statistical_profile": {
@@ -929,13 +929,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.712,
-      "driving_dist_shap": 3.8145,
+      "driving_acc_shap": 33.2018,
+      "driving_dist_shap": 3.7782,
       "n_events": 11,
       "n_player_events": 1509,
-      "sg_app_shap": 12.4545,
-      "sg_arg_shap": 7.6549,
-      "sg_putt_shap": 14.2352
+      "sg_app_shap": 12.3066,
+      "sg_arg_shap": 7.7034,
+      "sg_putt_shap": 14.2496
     },
     "source": "web_search",
     "statistical_profile": {
@@ -965,13 +965,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.2476,
-      "driving_dist_shap": 2.019,
+      "driving_acc_shap": 32.6817,
+      "driving_dist_shap": 2.045,
       "n_events": 1,
       "n_player_events": 69,
-      "sg_app_shap": 11.3079,
-      "sg_arg_shap": 6.4432,
-      "sg_putt_shap": 11.3452
+      "sg_app_shap": 10.9069,
+      "sg_arg_shap": 6.0269,
+      "sg_putt_shap": 11.4054
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1016,13 +1016,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 28.1729,
-      "driving_dist_shap": 3.0687,
+      "driving_acc_shap": 27.4549,
+      "driving_dist_shap": 2.9761,
       "n_events": 7,
       "n_player_events": 1091,
-      "sg_app_shap": 14.1484,
-      "sg_arg_shap": 7.3541,
-      "sg_putt_shap": 13.9526
+      "sg_app_shap": 13.9559,
+      "sg_arg_shap": 7.344,
+      "sg_putt_shap": 14.2235
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1068,13 +1068,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.145,
-      "driving_dist_shap": 2.4632,
+      "driving_acc_shap": 32.6982,
+      "driving_dist_shap": 2.3839,
       "n_events": 3,
       "n_player_events": 387,
-      "sg_app_shap": 12.6929,
-      "sg_arg_shap": 7.1419,
-      "sg_putt_shap": 13.7936
+      "sg_app_shap": 12.5126,
+      "sg_arg_shap": 7.136,
+      "sg_putt_shap": 14.0281
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1104,13 +1104,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 32.0056,
-      "driving_dist_shap": 3.3366,
+      "driving_acc_shap": 31.5477,
+      "driving_dist_shap": 3.3237,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 12.7696,
-      "sg_arg_shap": 8.7902,
-      "sg_putt_shap": 14.9821
+      "sg_app_shap": 12.687,
+      "sg_arg_shap": 8.8432,
+      "sg_putt_shap": 14.7962
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1156,13 +1156,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.8733,
-      "driving_dist_shap": 3.6055,
+      "driving_acc_shap": 34.008,
+      "driving_dist_shap": 3.5489,
       "n_events": 11,
       "n_player_events": 327,
-      "sg_app_shap": 11.5377,
-      "sg_arg_shap": 6.2627,
-      "sg_putt_shap": 10.7359
+      "sg_app_shap": 11.2348,
+      "sg_arg_shap": 6.1836,
+      "sg_putt_shap": 10.6767
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1192,13 +1192,13 @@
     "par": 72,
     "region": "Other",
     "shap_profile": {
-      "driving_acc_shap": 21.6135,
-      "driving_dist_shap": 8.1336,
+      "driving_acc_shap": 23.8654,
+      "driving_dist_shap": 10.1508,
       "n_events": 1,
       "n_player_events": 54,
-      "sg_app_shap": 9.6798,
-      "sg_arg_shap": 6.6303,
-      "sg_putt_shap": 9.7082
+      "sg_app_shap": 9.3738,
+      "sg_arg_shap": 6.5646,
+      "sg_putt_shap": 10.6227
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1228,13 +1228,13 @@
     "par": 70,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.9569,
-      "driving_dist_shap": 5.3097,
+      "driving_acc_shap": 35.3917,
+      "driving_dist_shap": 5.3349,
       "n_events": 4,
       "n_player_events": 283,
-      "sg_app_shap": 10.8685,
-      "sg_arg_shap": 6.1077,
-      "sg_putt_shap": 11.4605
+      "sg_app_shap": 10.7,
+      "sg_arg_shap": 6.328,
+      "sg_putt_shap": 11.3172
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1291,13 +1291,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 29.6126,
-      "driving_dist_shap": 3.5357,
+      "driving_acc_shap": 28.986,
+      "driving_dist_shap": 3.3177,
       "n_events": 4,
       "n_player_events": 576,
-      "sg_app_shap": 13.6225,
-      "sg_arg_shap": 7.2757,
-      "sg_putt_shap": 14.0354
+      "sg_app_shap": 13.5984,
+      "sg_arg_shap": 7.3253,
+      "sg_putt_shap": 14.2062
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1343,13 +1343,13 @@
     "par": 71,
     "region": "Other",
     "shap_profile": {
-      "driving_acc_shap": 32.4312,
-      "driving_dist_shap": 4.0503,
+      "driving_acc_shap": 32.3868,
+      "driving_dist_shap": 3.9672,
       "n_events": 4,
       "n_player_events": 620,
-      "sg_app_shap": 13.4053,
-      "sg_arg_shap": 8.3612,
-      "sg_putt_shap": 13.1507
+      "sg_app_shap": 13.1588,
+      "sg_arg_shap": 8.3306,
+      "sg_putt_shap": 13.4159
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1379,13 +1379,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 29.1643,
-      "driving_dist_shap": 2.1649,
+      "driving_acc_shap": 28.2627,
+      "driving_dist_shap": 1.9597,
       "n_events": 1,
       "n_player_events": 120,
-      "sg_app_shap": 11.8735,
-      "sg_arg_shap": 7.7053,
-      "sg_putt_shap": 14.9007
+      "sg_app_shap": 11.6223,
+      "sg_arg_shap": 7.8685,
+      "sg_putt_shap": 15.3038
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1430,13 +1430,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 28.1892,
-      "driving_dist_shap": 3.5464,
+      "driving_acc_shap": 27.4491,
+      "driving_dist_shap": 3.6383,
       "n_events": 2,
       "n_player_events": 196,
-      "sg_app_shap": 11.5657,
-      "sg_arg_shap": 6.9456,
-      "sg_putt_shap": 13.4642
+      "sg_app_shap": 11.4873,
+      "sg_arg_shap": 7.0075,
+      "sg_putt_shap": 13.7124
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1493,13 +1493,13 @@
     "par": 70,
     "region": "Other",
     "shap_profile": {
-      "driving_acc_shap": 32.6098,
-      "driving_dist_shap": 2.8297,
+      "driving_acc_shap": 32.066,
+      "driving_dist_shap": 2.6669,
       "n_events": 2,
       "n_player_events": 312,
-      "sg_app_shap": 12.0456,
-      "sg_arg_shap": 7.8848,
-      "sg_putt_shap": 14.5792
+      "sg_app_shap": 11.7756,
+      "sg_arg_shap": 7.9742,
+      "sg_putt_shap": 14.7463
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1545,13 +1545,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 32.2099,
-      "driving_dist_shap": 4.733,
+      "driving_acc_shap": 31.747,
+      "driving_dist_shap": 4.6559,
       "n_events": 12,
       "n_player_events": 1439,
-      "sg_app_shap": 13.3305,
-      "sg_arg_shap": 7.5156,
-      "sg_putt_shap": 12.9161
+      "sg_app_shap": 13.3149,
+      "sg_arg_shap": 7.5059,
+      "sg_putt_shap": 12.8505
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1623,13 +1623,13 @@
     "par": 71,
     "region": "Asia/Pacific",
     "shap_profile": {
-      "driving_acc_shap": 19.6427,
-      "driving_dist_shap": 3.3977,
+      "driving_acc_shap": 19.9445,
+      "driving_dist_shap": 3.2807,
       "n_events": 3,
       "n_player_events": 165,
-      "sg_app_shap": 11.4707,
-      "sg_arg_shap": 5.93,
-      "sg_putt_shap": 10.5593
+      "sg_app_shap": 11.4208,
+      "sg_arg_shap": 5.9038,
+      "sg_putt_shap": 11.0514
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1659,13 +1659,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.6935,
-      "driving_dist_shap": 3.2737,
+      "driving_acc_shap": 29.7743,
+      "driving_dist_shap": 3.2117,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 13.0905,
-      "sg_arg_shap": 10.1738,
-      "sg_putt_shap": 12.9229
+      "sg_app_shap": 13.2077,
+      "sg_arg_shap": 9.7209,
+      "sg_putt_shap": 13.4003
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1711,13 +1711,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 23.1622,
-      "driving_dist_shap": 4.4729,
+      "driving_acc_shap": 21.357,
+      "driving_dist_shap": 4.3352,
       "n_events": 11,
       "n_player_events": 1603,
-      "sg_app_shap": 13.2114,
-      "sg_arg_shap": 8.8739,
-      "sg_putt_shap": 14.7619
+      "sg_app_shap": 13.3648,
+      "sg_arg_shap": 8.9363,
+      "sg_putt_shap": 14.6061
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1747,13 +1747,13 @@
     "par": 72,
     "region": "UK",
     "shap_profile": {
-      "driving_acc_shap": 16.586,
-      "driving_dist_shap": 4.0237,
+      "driving_acc_shap": 16.983,
+      "driving_dist_shap": 3.772,
       "n_events": 2,
       "n_player_events": 108,
-      "sg_app_shap": 11.0879,
-      "sg_arg_shap": 6.2896,
-      "sg_putt_shap": 11.7587
+      "sg_app_shap": 11.3356,
+      "sg_arg_shap": 6.4142,
+      "sg_putt_shap": 11.6708
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1783,13 +1783,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 13.9259,
-      "driving_dist_shap": 1.6241,
+      "driving_acc_shap": 11.4109,
+      "driving_dist_shap": 1.9991,
       "n_events": 1,
       "n_player_events": 54,
-      "sg_app_shap": 12.6197,
-      "sg_arg_shap": 7.7277,
-      "sg_putt_shap": 13.9198
+      "sg_app_shap": 13.1216,
+      "sg_arg_shap": 7.8043,
+      "sg_putt_shap": 14.2802
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1861,13 +1861,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 32.0815,
-      "driving_dist_shap": 2.7048,
+      "driving_acc_shap": 31.3765,
+      "driving_dist_shap": 2.6905,
       "n_events": 4,
       "n_player_events": 550,
-      "sg_app_shap": 14.5123,
-      "sg_arg_shap": 7.395,
-      "sg_putt_shap": 13.2947
+      "sg_app_shap": 14.3808,
+      "sg_arg_shap": 7.4312,
+      "sg_putt_shap": 13.422
     },
     "source": "web_search",
     "statistical_profile": {
@@ -1897,13 +1897,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.4415,
-      "driving_dist_shap": 4.5468,
+      "driving_acc_shap": 29.5184,
+      "driving_dist_shap": 4.5198,
       "n_events": 2,
       "n_player_events": 311,
-      "sg_app_shap": 13.8389,
-      "sg_arg_shap": 7.2702,
-      "sg_putt_shap": 13.7455
+      "sg_app_shap": 13.9137,
+      "sg_arg_shap": 7.3634,
+      "sg_putt_shap": 14.109
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2017,13 +2017,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 13.9239,
-      "driving_dist_shap": 5.4733,
+      "driving_acc_shap": 13.6287,
+      "driving_dist_shap": 5.6681,
       "n_events": 1,
       "n_player_events": 54,
-      "sg_app_shap": 11.3654,
-      "sg_arg_shap": 6.6256,
-      "sg_putt_shap": 10.3532
+      "sg_app_shap": 10.9995,
+      "sg_arg_shap": 6.4866,
+      "sg_putt_shap": 11.3791
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2053,13 +2053,13 @@
     "par": 72,
     "region": "Europe",
     "shap_profile": {
-      "driving_acc_shap": 39.2326,
-      "driving_dist_shap": 1.9999,
+      "driving_acc_shap": 38.9248,
+      "driving_dist_shap": 1.9307,
       "n_events": 1,
       "n_player_events": 60,
-      "sg_app_shap": 10.5889,
-      "sg_arg_shap": 5.6276,
-      "sg_putt_shap": 10.7927
+      "sg_app_shap": 10.6329,
+      "sg_arg_shap": 5.6997,
+      "sg_putt_shap": 10.9041
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2089,13 +2089,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.4154,
-      "driving_dist_shap": 1.7808,
+      "driving_acc_shap": 29.9242,
+      "driving_dist_shap": 1.5502,
       "n_events": 2,
       "n_player_events": 243,
-      "sg_app_shap": 13.6585,
-      "sg_arg_shap": 7.9852,
-      "sg_putt_shap": 12.7504
+      "sg_app_shap": 13.5764,
+      "sg_arg_shap": 8.0692,
+      "sg_putt_shap": 12.8858
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2140,13 +2140,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 15.2384,
-      "driving_dist_shap": 3.7861,
+      "driving_acc_shap": 16.1748,
+      "driving_dist_shap": 3.3584,
       "n_events": 1,
       "n_player_events": 54,
-      "sg_app_shap": 11.3954,
-      "sg_arg_shap": 6.9421,
-      "sg_putt_shap": 10.106
+      "sg_app_shap": 11.4306,
+      "sg_arg_shap": 7.3925,
+      "sg_putt_shap": 10.6112
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2176,13 +2176,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 35.2793,
-      "driving_dist_shap": 2.4774,
+      "driving_acc_shap": 34.5107,
+      "driving_dist_shap": 2.4837,
       "n_events": 1,
       "n_player_events": 69,
-      "sg_app_shap": 9.8322,
-      "sg_arg_shap": 5.3732,
-      "sg_putt_shap": 11.0134
+      "sg_app_shap": 9.4086,
+      "sg_arg_shap": 5.177,
+      "sg_putt_shap": 11.288
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2212,13 +2212,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 22.5071,
-      "driving_dist_shap": 3.6475,
+      "driving_acc_shap": 20.7098,
+      "driving_dist_shap": 3.4997,
       "n_events": 6,
       "n_player_events": 828,
-      "sg_app_shap": 13.9471,
-      "sg_arg_shap": 8.9902,
-      "sg_putt_shap": 13.6081
+      "sg_app_shap": 13.8699,
+      "sg_arg_shap": 8.8597,
+      "sg_putt_shap": 13.703
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2248,13 +2248,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 21.4958,
-      "driving_dist_shap": 5.0213,
+      "driving_acc_shap": 20.1771,
+      "driving_dist_shap": 4.7517,
       "n_events": 1,
       "n_player_events": 130,
-      "sg_app_shap": 15.8945,
-      "sg_arg_shap": 9.454,
-      "sg_putt_shap": 15.5208
+      "sg_app_shap": 15.6844,
+      "sg_arg_shap": 9.2143,
+      "sg_putt_shap": 16.2145
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2327,13 +2327,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.7613,
-      "driving_dist_shap": 2.0987,
+      "driving_acc_shap": 30.4206,
+      "driving_dist_shap": 1.9868,
       "n_events": 12,
       "n_player_events": 1388,
-      "sg_app_shap": 14.2029,
-      "sg_arg_shap": 8.6921,
-      "sg_putt_shap": 13.6893
+      "sg_app_shap": 14.1634,
+      "sg_arg_shap": 8.6414,
+      "sg_putt_shap": 13.7228
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2390,13 +2390,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 36.4453,
-      "driving_dist_shap": 2.8507,
+      "driving_acc_shap": 36.3385,
+      "driving_dist_shap": 2.5768,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 12.2306,
-      "sg_arg_shap": 8.6207,
-      "sg_putt_shap": 12.8111
+      "sg_app_shap": 12.0049,
+      "sg_arg_shap": 8.4321,
+      "sg_putt_shap": 13.1388
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2426,13 +2426,13 @@
     "par": 72,
     "region": "Other",
     "shap_profile": {
-      "driving_acc_shap": 29.1039,
-      "driving_dist_shap": 4.2224,
+      "driving_acc_shap": 29.8491,
+      "driving_dist_shap": 4.1677,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 11.463,
-      "sg_arg_shap": 8.3461,
-      "sg_putt_shap": 13.0359
+      "sg_app_shap": 11.5878,
+      "sg_arg_shap": 8.2783,
+      "sg_putt_shap": 12.9357
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2462,13 +2462,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 31.8874,
-      "driving_dist_shap": 2.8559,
+      "driving_acc_shap": 31.4183,
+      "driving_dist_shap": 2.8824,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 12.9152,
-      "sg_arg_shap": 10.0871,
-      "sg_putt_shap": 13.423
+      "sg_app_shap": 12.5168,
+      "sg_arg_shap": 9.7787,
+      "sg_putt_shap": 13.485
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2498,13 +2498,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 29.3201,
-      "driving_dist_shap": 2.4764,
+      "driving_acc_shap": 28.8291,
+      "driving_dist_shap": 2.5113,
       "n_events": 1,
       "n_player_events": 155,
-      "sg_app_shap": 15.2352,
-      "sg_arg_shap": 10.8351,
-      "sg_putt_shap": 12.6668
+      "sg_app_shap": 15.2592,
+      "sg_arg_shap": 10.793,
+      "sg_putt_shap": 12.7256
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2534,13 +2534,13 @@
     "par": 72,
     "region": "UK",
     "shap_profile": {
-      "driving_acc_shap": 25.5577,
-      "driving_dist_shap": 3.6365,
+      "driving_acc_shap": 21.4683,
+      "driving_dist_shap": 4.516,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 10.6152,
-      "sg_arg_shap": 8.4518,
-      "sg_putt_shap": 14.5907
+      "sg_app_shap": 10.9204,
+      "sg_arg_shap": 8.5456,
+      "sg_putt_shap": 15.3518
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2570,13 +2570,13 @@
     "par": 70,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.8992,
-      "driving_dist_shap": 3.5804,
+      "driving_acc_shap": 34.7017,
+      "driving_dist_shap": 3.5394,
       "n_events": 2,
       "n_player_events": 119,
-      "sg_app_shap": 10.8656,
-      "sg_arg_shap": 6.131,
-      "sg_putt_shap": 10.8345
+      "sg_app_shap": 10.4153,
+      "sg_arg_shap": 6.3849,
+      "sg_putt_shap": 10.852
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2606,13 +2606,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 31.6311,
-      "driving_dist_shap": 3.8118,
+      "driving_acc_shap": 31.309,
+      "driving_dist_shap": 3.7032,
       "n_events": 12,
       "n_player_events": 1699,
-      "sg_app_shap": 14.1519,
-      "sg_arg_shap": 8.1903,
-      "sg_putt_shap": 14.0324
+      "sg_app_shap": 14.1431,
+      "sg_arg_shap": 8.2043,
+      "sg_putt_shap": 13.9681
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2642,13 +2642,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 23.3739,
-      "driving_dist_shap": 4.3151,
+      "driving_acc_shap": 24.3436,
+      "driving_dist_shap": 4.2139,
       "n_events": 3,
       "n_player_events": 315,
-      "sg_app_shap": 13.392,
-      "sg_arg_shap": 8.4332,
-      "sg_putt_shap": 12.1112
+      "sg_app_shap": 13.6604,
+      "sg_arg_shap": 8.492,
+      "sg_putt_shap": 11.9068
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2678,13 +2678,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 37.3565,
-      "driving_dist_shap": 2.624,
+      "driving_acc_shap": 36.6438,
+      "driving_dist_shap": 2.6598,
       "n_events": 3,
       "n_player_events": 432,
-      "sg_app_shap": 16.261,
-      "sg_arg_shap": 9.9625,
-      "sg_putt_shap": 15.6192
+      "sg_app_shap": 16.1388,
+      "sg_arg_shap": 9.9494,
+      "sg_putt_shap": 15.688
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2714,13 +2714,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 28.3862,
-      "driving_dist_shap": 2.5323,
+      "driving_acc_shap": 27.7738,
+      "driving_dist_shap": 2.6835,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 11.8888,
-      "sg_arg_shap": 12.204,
-      "sg_putt_shap": 13.3803
+      "sg_app_shap": 12.1745,
+      "sg_arg_shap": 11.9398,
+      "sg_putt_shap": 13.7087
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2750,13 +2750,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 34.2476,
-      "driving_dist_shap": 2.6084,
+      "driving_acc_shap": 34.0586,
+      "driving_dist_shap": 2.6059,
       "n_events": 1,
       "n_player_events": 119,
-      "sg_app_shap": 12.9374,
-      "sg_arg_shap": 7.5975,
-      "sg_putt_shap": 14.7372
+      "sg_app_shap": 12.5687,
+      "sg_arg_shap": 7.618,
+      "sg_putt_shap": 14.8379
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2786,13 +2786,13 @@
     "par": 73,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 22.8879,
-      "driving_dist_shap": 3.7929,
+      "driving_acc_shap": 20.0473,
+      "driving_dist_shap": 3.8863,
       "n_events": 11,
       "n_player_events": 436,
-      "sg_app_shap": 11.6551,
-      "sg_arg_shap": 6.6041,
-      "sg_putt_shap": 11.5903
+      "sg_app_shap": 11.9365,
+      "sg_arg_shap": 6.5457,
+      "sg_putt_shap": 12.02
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2837,13 +2837,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 31.4271,
-      "driving_dist_shap": 3.9104,
+      "driving_acc_shap": 31.2251,
+      "driving_dist_shap": 3.9704,
       "n_events": 10,
       "n_player_events": 1385,
-      "sg_app_shap": 12.818,
-      "sg_arg_shap": 8.4913,
-      "sg_putt_shap": 12.8942
+      "sg_app_shap": 12.6871,
+      "sg_arg_shap": 8.4332,
+      "sg_putt_shap": 13.1032
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2873,13 +2873,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 27.9919,
-      "driving_dist_shap": 3.12,
+      "driving_acc_shap": 27.6457,
+      "driving_dist_shap": 3.0282,
       "n_events": 3,
       "n_player_events": 394,
-      "sg_app_shap": 14.7684,
-      "sg_arg_shap": 7.2843,
-      "sg_putt_shap": 13.7408
+      "sg_app_shap": 14.8864,
+      "sg_arg_shap": 7.3817,
+      "sg_putt_shap": 13.591
     },
     "source": "web_search",
     "statistical_profile": {
@@ -2993,13 +2993,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 32.1771,
-      "driving_dist_shap": 2.7288,
+      "driving_acc_shap": 31.5312,
+      "driving_dist_shap": 2.4997,
       "n_events": 1,
       "n_player_events": 119,
-      "sg_app_shap": 11.533,
-      "sg_arg_shap": 7.7857,
-      "sg_putt_shap": 14.8356
+      "sg_app_shap": 11.4427,
+      "sg_arg_shap": 7.8454,
+      "sg_putt_shap": 14.9028
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3045,13 +3045,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 34.0073,
-      "driving_dist_shap": 3.3566,
+      "driving_acc_shap": 33.8466,
+      "driving_dist_shap": 3.1759,
       "n_events": 11,
       "n_player_events": 1350,
-      "sg_app_shap": 11.8019,
-      "sg_arg_shap": 8.5818,
-      "sg_putt_shap": 14.0335
+      "sg_app_shap": 11.5647,
+      "sg_arg_shap": 8.5775,
+      "sg_putt_shap": 14.0386
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3081,13 +3081,13 @@
     "par": 72,
     "region": "Middle East",
     "shap_profile": {
-      "driving_acc_shap": 24.5939,
-      "driving_dist_shap": 6.0087,
+      "driving_acc_shap": 23.2281,
+      "driving_dist_shap": 6.4904,
       "n_events": 2,
       "n_player_events": 111,
-      "sg_app_shap": 10.4643,
-      "sg_arg_shap": 6.2485,
-      "sg_putt_shap": 10.4097
+      "sg_app_shap": 10.2381,
+      "sg_arg_shap": 6.2708,
+      "sg_putt_shap": 10.8794
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3117,13 +3117,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 27.46,
-      "driving_dist_shap": 3.4153,
+      "driving_acc_shap": 27.1191,
+      "driving_dist_shap": 3.3344,
       "n_events": 2,
       "n_player_events": 174,
-      "sg_app_shap": 13.6912,
-      "sg_arg_shap": 6.6415,
-      "sg_putt_shap": 13.1627
+      "sg_app_shap": 13.8769,
+      "sg_arg_shap": 6.6198,
+      "sg_putt_shap": 13.4795
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3213,13 +3213,13 @@
     "par": 72,
     "region": "Middle East",
     "shap_profile": {
-      "driving_acc_shap": 19.8406,
-      "driving_dist_shap": 6.9558,
+      "driving_acc_shap": 20.0994,
+      "driving_dist_shap": 9.3675,
       "n_events": 1,
       "n_player_events": 54,
-      "sg_app_shap": 11.2477,
-      "sg_arg_shap": 6.2948,
-      "sg_putt_shap": 11.1837
+      "sg_app_shap": 11.1882,
+      "sg_arg_shap": 5.9534,
+      "sg_putt_shap": 12.2674
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3249,13 +3249,13 @@
     "par": 71,
     "region": "UK",
     "shap_profile": {
-      "driving_acc_shap": 32.2402,
-      "driving_dist_shap": 5.1672,
+      "driving_acc_shap": 31.7683,
+      "driving_dist_shap": 5.1889,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 11.9252,
-      "sg_arg_shap": 9.9312,
-      "sg_putt_shap": 13.7295
+      "sg_app_shap": 11.9601,
+      "sg_arg_shap": 9.9374,
+      "sg_putt_shap": 13.2275
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3327,13 +3327,13 @@
     "par": 71,
     "region": "UK",
     "shap_profile": {
-      "driving_acc_shap": 33.6593,
-      "driving_dist_shap": 2.7087,
+      "driving_acc_shap": 32.8093,
+      "driving_dist_shap": 2.8374,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 13.3011,
-      "sg_arg_shap": 7.9785,
-      "sg_putt_shap": 13.6985
+      "sg_app_shap": 13.2307,
+      "sg_arg_shap": 7.8378,
+      "sg_putt_shap": 13.7773
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3363,13 +3363,13 @@
     "par": 71,
     "region": "UK",
     "shap_profile": {
-      "driving_acc_shap": 34.7702,
-      "driving_dist_shap": 4.6787,
+      "driving_acc_shap": 34.0995,
+      "driving_dist_shap": 4.7425,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 13.3616,
-      "sg_arg_shap": 7.8187,
-      "sg_putt_shap": 13.4434
+      "sg_app_shap": 13.2774,
+      "sg_arg_shap": 7.6412,
+      "sg_putt_shap": 13.576
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3426,13 +3426,13 @@
     "par": 70,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.5232,
-      "driving_dist_shap": 3.4604,
+      "driving_acc_shap": 29.2353,
+      "driving_dist_shap": 3.2633,
       "n_events": 3,
       "n_player_events": 441,
-      "sg_app_shap": 13.3821,
-      "sg_arg_shap": 7.8712,
-      "sg_putt_shap": 15.1689
+      "sg_app_shap": 13.3771,
+      "sg_arg_shap": 8.0873,
+      "sg_putt_shap": 15.2553
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3494,13 +3494,13 @@
     "par": 70,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.9435,
-      "driving_dist_shap": 2.6509,
+      "driving_acc_shap": 30.2379,
+      "driving_dist_shap": 2.5583,
       "n_events": 11,
       "n_player_events": 1712,
-      "sg_app_shap": 12.9472,
-      "sg_arg_shap": 7.4863,
-      "sg_putt_shap": 14.7371
+      "sg_app_shap": 12.9534,
+      "sg_arg_shap": 7.5282,
+      "sg_putt_shap": 14.8124
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3530,13 +3530,13 @@
     "par": 72,
     "region": "Asia/Pacific",
     "shap_profile": {
-      "driving_acc_shap": 21.7693,
-      "driving_dist_shap": 4.4956,
+      "driving_acc_shap": 21.7641,
+      "driving_dist_shap": 4.6204,
       "n_events": 3,
       "n_player_events": 165,
-      "sg_app_shap": 10.6638,
-      "sg_arg_shap": 5.959,
-      "sg_putt_shap": 11.1269
+      "sg_app_shap": 10.9705,
+      "sg_arg_shap": 6.0021,
+      "sg_putt_shap": 11.7661
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3566,13 +3566,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 35.5579,
-      "driving_dist_shap": 3.3185,
+      "driving_acc_shap": 36.3964,
+      "driving_dist_shap": 3.3134,
       "n_events": 1,
       "n_player_events": 78,
-      "sg_app_shap": 10.1503,
-      "sg_arg_shap": 6.5356,
-      "sg_putt_shap": 9.4729
+      "sg_app_shap": 9.9761,
+      "sg_arg_shap": 6.4199,
+      "sg_putt_shap": 9.4937
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3629,13 +3629,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 20.164,
-      "driving_dist_shap": 2.8227,
+      "driving_acc_shap": 16.0529,
+      "driving_dist_shap": 2.7405,
       "n_events": 1,
       "n_player_events": 77,
-      "sg_app_shap": 13.2553,
-      "sg_arg_shap": 7.2943,
-      "sg_putt_shap": 13.3111
+      "sg_app_shap": 13.9591,
+      "sg_arg_shap": 6.9336,
+      "sg_putt_shap": 14.4607
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3696,13 +3696,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 34.2607,
-      "driving_dist_shap": 3.2856,
+      "driving_acc_shap": 33.7701,
+      "driving_dist_shap": 3.1574,
       "n_events": 11,
       "n_player_events": 1619,
-      "sg_app_shap": 12.0906,
-      "sg_arg_shap": 8.0641,
-      "sg_putt_shap": 14.2133
+      "sg_app_shap": 11.8954,
+      "sg_arg_shap": 8.1231,
+      "sg_putt_shap": 14.1996
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3748,13 +3748,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.0575,
-      "driving_dist_shap": 4.0877,
+      "driving_acc_shap": 29.8048,
+      "driving_dist_shap": 4.1298,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 13.8781,
-      "sg_arg_shap": 8.3278,
-      "sg_putt_shap": 12.968
+      "sg_app_shap": 13.8906,
+      "sg_arg_shap": 8.465,
+      "sg_putt_shap": 13.3805
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3784,13 +3784,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 49.6928,
-      "driving_dist_shap": 3.8251,
+      "driving_acc_shap": 48.8068,
+      "driving_dist_shap": 3.8374,
       "n_events": 2,
       "n_player_events": 160,
-      "sg_app_shap": 13.7603,
-      "sg_arg_shap": 14.8142,
-      "sg_putt_shap": 14.6992
+      "sg_app_shap": 13.3122,
+      "sg_arg_shap": 14.4365,
+      "sg_putt_shap": 14.2832
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3820,13 +3820,13 @@
     "par": 71,
     "region": "Other",
     "shap_profile": {
-      "driving_acc_shap": 19.7831,
-      "driving_dist_shap": 2.8325,
+      "driving_acc_shap": 18.3164,
+      "driving_dist_shap": 2.8053,
       "n_events": 1,
       "n_player_events": 155,
-      "sg_app_shap": 14.042,
-      "sg_arg_shap": 8.1296,
-      "sg_putt_shap": 14.2548
+      "sg_app_shap": 14.2342,
+      "sg_arg_shap": 8.0986,
+      "sg_putt_shap": 14.5545
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3887,13 +3887,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 31.7536,
-      "driving_dist_shap": 1.8353,
+      "driving_acc_shap": 31.3323,
+      "driving_dist_shap": 1.797,
       "n_events": 5,
       "n_player_events": 509,
-      "sg_app_shap": 13.2925,
-      "sg_arg_shap": 7.1836,
-      "sg_putt_shap": 13.3834
+      "sg_app_shap": 13.3359,
+      "sg_arg_shap": 7.0975,
+      "sg_putt_shap": 13.551
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3923,13 +3923,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.2495,
-      "driving_dist_shap": 2.7826,
-      "n_events": 5,
-      "n_player_events": 780,
-      "sg_app_shap": 13.6582,
-      "sg_arg_shap": 7.526,
-      "sg_putt_shap": 13.8382
+      "driving_acc_shap": 29.6552,
+      "driving_dist_shap": 2.723,
+      "n_events": 6,
+      "n_player_events": 927,
+      "sg_app_shap": 13.6717,
+      "sg_arg_shap": 7.6247,
+      "sg_putt_shap": 13.8068
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3959,13 +3959,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 26.167,
-      "driving_dist_shap": 2.8036,
+      "driving_acc_shap": 25.511,
+      "driving_dist_shap": 2.7595,
       "n_events": 10,
       "n_player_events": 1554,
-      "sg_app_shap": 14.7484,
-      "sg_arg_shap": 7.8324,
-      "sg_putt_shap": 14.7185
+      "sg_app_shap": 14.8107,
+      "sg_arg_shap": 7.8073,
+      "sg_putt_shap": 14.7618
     },
     "source": "web_search",
     "statistical_profile": {
@@ -3995,13 +3995,13 @@
     "par": 70,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.682,
-      "driving_dist_shap": 3.5549,
+      "driving_acc_shap": 33.3368,
+      "driving_dist_shap": 3.4531,
       "n_events": 2,
       "n_player_events": 312,
-      "sg_app_shap": 13.2171,
-      "sg_arg_shap": 8.1307,
-      "sg_putt_shap": 13.7663
+      "sg_app_shap": 13.0066,
+      "sg_arg_shap": 8.3455,
+      "sg_putt_shap": 13.8513
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4031,13 +4031,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 34.3161,
-      "driving_dist_shap": 3.2796,
+      "driving_acc_shap": 34.0774,
+      "driving_dist_shap": 3.369,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 12.1511,
-      "sg_arg_shap": 8.0552,
-      "sg_putt_shap": 12.8498
+      "sg_app_shap": 12.0047,
+      "sg_arg_shap": 7.975,
+      "sg_putt_shap": 13.2111
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4094,13 +4094,13 @@
     "par": 70,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 32.3163,
-      "driving_dist_shap": 3.7207,
+      "driving_acc_shap": 31.7193,
+      "driving_dist_shap": 3.6535,
       "n_events": 3,
       "n_player_events": 393,
-      "sg_app_shap": 14.0418,
-      "sg_arg_shap": 8.271,
-      "sg_putt_shap": 12.9269
+      "sg_app_shap": 13.7681,
+      "sg_arg_shap": 8.2361,
+      "sg_putt_shap": 12.883
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4130,13 +4130,13 @@
     "par": 70,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 28.7116,
-      "driving_dist_shap": 2.4813,
+      "driving_acc_shap": 28.0674,
+      "driving_dist_shap": 2.3499,
       "n_events": 11,
       "n_player_events": 1543,
-      "sg_app_shap": 13.3881,
-      "sg_arg_shap": 8.1099,
-      "sg_putt_shap": 14.7595
+      "sg_app_shap": 13.3686,
+      "sg_arg_shap": 8.1233,
+      "sg_putt_shap": 14.7386
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4198,13 +4198,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 32.5661,
-      "driving_dist_shap": 3.1344,
+      "driving_acc_shap": 32.0867,
+      "driving_dist_shap": 3.0741,
       "n_events": 11,
       "n_player_events": 1612,
-      "sg_app_shap": 13.1846,
-      "sg_arg_shap": 8.7075,
-      "sg_putt_shap": 13.6391
+      "sg_app_shap": 12.9998,
+      "sg_arg_shap": 8.7395,
+      "sg_putt_shap": 13.6767
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4250,13 +4250,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 31.6287,
-      "driving_dist_shap": 2.6944,
+      "driving_acc_shap": 31.1803,
+      "driving_dist_shap": 2.5559,
       "n_events": 11,
       "n_player_events": 1568,
-      "sg_app_shap": 14.2705,
-      "sg_arg_shap": 8.3585,
-      "sg_putt_shap": 13.6536
+      "sg_app_shap": 14.2936,
+      "sg_arg_shap": 8.3379,
+      "sg_putt_shap": 13.8336
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4302,13 +4302,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 31.8163,
-      "driving_dist_shap": 4.3597,
+      "driving_acc_shap": 31.4311,
+      "driving_dist_shap": 4.3508,
       "n_events": 12,
       "n_player_events": 1574,
-      "sg_app_shap": 12.757,
-      "sg_arg_shap": 7.5466,
-      "sg_putt_shap": 13.1349
+      "sg_app_shap": 12.5547,
+      "sg_arg_shap": 7.5148,
+      "sg_putt_shap": 13.3823
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4354,13 +4354,13 @@
     "par": 70,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.7908,
-      "driving_dist_shap": 2.4011,
+      "driving_acc_shap": 33.6565,
+      "driving_dist_shap": 2.3128,
       "n_events": 11,
       "n_player_events": 1159,
-      "sg_app_shap": 12.2654,
-      "sg_arg_shap": 7.6007,
-      "sg_putt_shap": 12.3669
+      "sg_app_shap": 12.2524,
+      "sg_arg_shap": 7.6103,
+      "sg_putt_shap": 12.5474
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4390,13 +4390,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.1016,
-      "driving_dist_shap": 3.1533,
+      "driving_acc_shap": 29.4843,
+      "driving_dist_shap": 3.0329,
       "n_events": 10,
       "n_player_events": 1412,
-      "sg_app_shap": 13.3298,
-      "sg_arg_shap": 8.1565,
-      "sg_putt_shap": 13.9123
+      "sg_app_shap": 13.2063,
+      "sg_arg_shap": 8.171,
+      "sg_putt_shap": 14.1364
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4426,13 +4426,13 @@
     "par": 72,
     "region": "Other",
     "shap_profile": {
-      "driving_acc_shap": 27.5312,
-      "driving_dist_shap": 2.9457,
+      "driving_acc_shap": 27.2005,
+      "driving_dist_shap": 2.737,
       "n_events": 1,
       "n_player_events": 155,
-      "sg_app_shap": 14.0036,
-      "sg_arg_shap": 7.3106,
-      "sg_putt_shap": 14.4912
+      "sg_app_shap": 13.9731,
+      "sg_arg_shap": 7.084,
+      "sg_putt_shap": 14.9663
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4462,13 +4462,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 29.2378,
-      "driving_dist_shap": 2.2789,
+      "driving_acc_shap": 28.7554,
+      "driving_dist_shap": 2.2133,
       "n_events": 7,
       "n_player_events": 1088,
-      "sg_app_shap": 15.3915,
-      "sg_arg_shap": 7.415,
-      "sg_putt_shap": 14.1
+      "sg_app_shap": 15.3587,
+      "sg_arg_shap": 7.3903,
+      "sg_putt_shap": 14.1737
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4525,13 +4525,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 15.4114,
-      "driving_dist_shap": 7.2767,
+      "driving_acc_shap": 13.9491,
+      "driving_dist_shap": 6.5063,
       "n_events": 1,
       "n_player_events": 54,
-      "sg_app_shap": 9.4472,
-      "sg_arg_shap": 4.0013,
-      "sg_putt_shap": 7.7901
+      "sg_app_shap": 9.7317,
+      "sg_arg_shap": 3.8591,
+      "sg_putt_shap": 7.8636
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4561,13 +4561,13 @@
     "par": 72,
     "region": "Africa",
     "shap_profile": {
-      "driving_acc_shap": 33.8343,
-      "driving_dist_shap": 3.0775,
+      "driving_acc_shap": 33.414,
+      "driving_dist_shap": 2.9464,
       "n_events": 1,
       "n_player_events": 57,
-      "sg_app_shap": 10.2626,
-      "sg_arg_shap": 5.362,
-      "sg_putt_shap": 9.4496
+      "sg_app_shap": 10.3288,
+      "sg_arg_shap": 5.245,
+      "sg_putt_shap": 9.7581
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4597,13 +4597,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.4853,
-      "driving_dist_shap": 1.8319,
+      "driving_acc_shap": 30.3728,
+      "driving_dist_shap": 1.4175,
       "n_events": 1,
       "n_player_events": 72,
-      "sg_app_shap": 9.9787,
-      "sg_arg_shap": 8.9632,
-      "sg_putt_shap": 13.9298
+      "sg_app_shap": 10.1177,
+      "sg_arg_shap": 9.1451,
+      "sg_putt_shap": 13.9587
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4633,13 +4633,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.7663,
-      "driving_dist_shap": 5.0802,
+      "driving_acc_shap": 30.4062,
+      "driving_dist_shap": 4.9353,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 13.1591,
-      "sg_arg_shap": 10.0442,
-      "sg_putt_shap": 13.0943
+      "sg_app_shap": 12.8356,
+      "sg_arg_shap": 9.9856,
+      "sg_putt_shap": 13.2456
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4685,13 +4685,13 @@
     "par": 72,
     "region": "Asia/Pacific",
     "shap_profile": {
-      "driving_acc_shap": 22.3028,
-      "driving_dist_shap": 3.6287,
+      "driving_acc_shap": 23.4539,
+      "driving_dist_shap": 3.7815,
       "n_events": 3,
       "n_player_events": 165,
-      "sg_app_shap": 9.3463,
-      "sg_arg_shap": 7.9407,
-      "sg_putt_shap": 11.9797
+      "sg_app_shap": 9.5796,
+      "sg_arg_shap": 7.7836,
+      "sg_putt_shap": 12.262
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4721,13 +4721,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 14.6262,
-      "driving_dist_shap": 5.1052,
+      "driving_acc_shap": 13.9479,
+      "driving_dist_shap": 4.7615,
       "n_events": 1,
       "n_player_events": 54,
-      "sg_app_shap": 10.1911,
-      "sg_arg_shap": 6.6645,
-      "sg_putt_shap": 10.7168
+      "sg_app_shap": 9.7519,
+      "sg_arg_shap": 6.5425,
+      "sg_putt_shap": 11.5923
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4757,13 +4757,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 17.657,
-      "driving_dist_shap": 2.6562,
+      "driving_acc_shap": 15.0198,
+      "driving_dist_shap": 2.4508,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 14.9254,
-      "sg_arg_shap": 9.4654,
-      "sg_putt_shap": 15.7655
+      "sg_app_shap": 15.3333,
+      "sg_arg_shap": 9.1216,
+      "sg_putt_shap": 16.5676
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4793,13 +4793,13 @@
     "par": 70,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 27.1039,
-      "driving_dist_shap": 2.898,
+      "driving_acc_shap": 26.4764,
+      "driving_dist_shap": 2.8078,
       "n_events": 5,
       "n_player_events": 676,
-      "sg_app_shap": 13.278,
-      "sg_arg_shap": 7.5505,
-      "sg_putt_shap": 14.0955
+      "sg_app_shap": 13.2239,
+      "sg_arg_shap": 7.5892,
+      "sg_putt_shap": 14.2015
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4844,13 +4844,13 @@
     "par": 70,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.466,
-      "driving_dist_shap": 3.3015,
+      "driving_acc_shap": 33.429,
+      "driving_dist_shap": 3.0111,
       "n_events": 1,
       "n_player_events": 72,
-      "sg_app_shap": 10.867,
-      "sg_arg_shap": 5.7332,
-      "sg_putt_shap": 10.0017
+      "sg_app_shap": 10.4905,
+      "sg_arg_shap": 5.8562,
+      "sg_putt_shap": 10.0317
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4880,13 +4880,13 @@
     "par": 70,
     "region": "UK",
     "shap_profile": {
-      "driving_acc_shap": 24.3033,
-      "driving_dist_shap": 3.4727,
+      "driving_acc_shap": 23.3486,
+      "driving_dist_shap": 3.3851,
       "n_events": 4,
       "n_player_events": 626,
-      "sg_app_shap": 13.8501,
-      "sg_arg_shap": 8.3935,
-      "sg_putt_shap": 15.289
+      "sg_app_shap": 13.9197,
+      "sg_arg_shap": 8.3619,
+      "sg_putt_shap": 15.2989
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4932,13 +4932,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 31.2405,
-      "driving_dist_shap": 2.9372,
+      "driving_acc_shap": 31.5644,
+      "driving_dist_shap": 2.7558,
       "n_events": 1,
       "n_player_events": 78,
-      "sg_app_shap": 10.6223,
-      "sg_arg_shap": 6.104,
-      "sg_putt_shap": 11.1677
+      "sg_app_shap": 10.5274,
+      "sg_arg_shap": 6.2548,
+      "sg_putt_shap": 10.945
     },
     "source": "web_search",
     "statistical_profile": {
@@ -4995,13 +4995,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.2241,
-      "driving_dist_shap": 3.511,
+      "driving_acc_shap": 33.2464,
+      "driving_dist_shap": 3.6727,
       "n_events": 5,
       "n_player_events": 680,
-      "sg_app_shap": 13.0479,
-      "sg_arg_shap": 8.7681,
-      "sg_putt_shap": 14.7303
+      "sg_app_shap": 12.9892,
+      "sg_arg_shap": 8.6434,
+      "sg_putt_shap": 15.1958
     },
     "source": "web_search",
     "statistical_profile": {
@@ -5031,13 +5031,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 19.1386,
-      "driving_dist_shap": 2.5301,
+      "driving_acc_shap": 17.999,
+      "driving_dist_shap": 2.728,
       "n_events": 2,
       "n_player_events": 311,
-      "sg_app_shap": 14.6058,
-      "sg_arg_shap": 8.9151,
-      "sg_putt_shap": 17.9508
+      "sg_app_shap": 14.7653,
+      "sg_arg_shap": 8.8047,
+      "sg_putt_shap": 17.8942
     },
     "source": "web_search",
     "statistical_profile": {
@@ -5067,13 +5067,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 29.4036,
-      "driving_dist_shap": 4.4592,
+      "driving_acc_shap": 29.0408,
+      "driving_dist_shap": 4.4375,
       "n_events": 5,
       "n_player_events": 319,
-      "sg_app_shap": 11.175,
-      "sg_arg_shap": 6.821,
-      "sg_putt_shap": 11.4397
+      "sg_app_shap": 11.1605,
+      "sg_arg_shap": 6.9976,
+      "sg_putt_shap": 11.6063
     },
     "source": "web_search",
     "statistical_profile": {
@@ -5103,13 +5103,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 34.713,
-      "driving_dist_shap": 4.2688,
+      "driving_acc_shap": 34.3944,
+      "driving_dist_shap": 4.493,
       "n_events": 1,
       "n_player_events": 57,
-      "sg_app_shap": 8.9803,
-      "sg_arg_shap": 6.3172,
-      "sg_putt_shap": 10.8573
+      "sg_app_shap": 8.8007,
+      "sg_arg_shap": 6.3084,
+      "sg_putt_shap": 11.1116
     },
     "source": "web_search",
     "statistical_profile": {
@@ -5154,13 +5154,13 @@
     "par": 71,
     "region": "Europe",
     "shap_profile": {
-      "driving_acc_shap": 18.9767,
-      "driving_dist_shap": 6.5844,
+      "driving_acc_shap": 20.3089,
+      "driving_dist_shap": 7.7928,
       "n_events": 2,
       "n_player_events": 108,
-      "sg_app_shap": 10.3225,
-      "sg_arg_shap": 6.9413,
-      "sg_putt_shap": 10.3228
+      "sg_app_shap": 10.3848,
+      "sg_arg_shap": 7.0137,
+      "sg_putt_shap": 10.9299
     },
     "source": "web_search",
     "statistical_profile": {
@@ -5190,13 +5190,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 28.1157,
-      "driving_dist_shap": 2.1443,
+      "driving_acc_shap": 27.6807,
+      "driving_dist_shap": 1.9164,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 14.7883,
-      "sg_arg_shap": 7.9457,
-      "sg_putt_shap": 14.0637
+      "sg_app_shap": 14.8084,
+      "sg_arg_shap": 7.9793,
+      "sg_putt_shap": 14.117
     },
     "source": "web_search",
     "statistical_profile": {
@@ -5226,13 +5226,13 @@
     "par": 73,
     "region": "Other",
     "shap_profile": {
-      "driving_acc_shap": 19.4853,
-      "driving_dist_shap": 2.8263,
+      "driving_acc_shap": 16.6273,
+      "driving_dist_shap": 2.686,
       "n_events": 4,
       "n_player_events": 552,
-      "sg_app_shap": 15.018,
-      "sg_arg_shap": 8.8945,
-      "sg_putt_shap": 14.1495
+      "sg_app_shap": 15.3206,
+      "sg_arg_shap": 8.8465,
+      "sg_putt_shap": 14.5867
     },
     "source": "web_search",
     "statistical_profile": {
@@ -5278,13 +5278,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 31.4139,
-      "driving_dist_shap": 2.5878,
+      "driving_acc_shap": 30.8962,
+      "driving_dist_shap": 2.4855,
       "n_events": 12,
       "n_player_events": 1703,
-      "sg_app_shap": 13.0997,
-      "sg_arg_shap": 7.2461,
-      "sg_putt_shap": 13.9855
+      "sg_app_shap": 12.9057,
+      "sg_arg_shap": 7.3184,
+      "sg_putt_shap": 14.0987
     },
     "source": "web_search",
     "statistical_profile": {
@@ -5372,13 +5372,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 30.5748,
-      "driving_dist_shap": 2.8937,
+      "driving_acc_shap": 30.3218,
+      "driving_dist_shap": 2.5919,
       "n_events": 1,
       "n_player_events": 156,
-      "sg_app_shap": 12.7897,
-      "sg_arg_shap": 10.0541,
-      "sg_putt_shap": 15.0683
+      "sg_app_shap": 12.6938,
+      "sg_arg_shap": 9.9484,
+      "sg_putt_shap": 14.7279
     },
     "source": "web_search",
     "statistical_profile": {
@@ -5408,13 +5408,13 @@
     "par": 71,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 32.3364,
-      "driving_dist_shap": 6.96,
+      "driving_acc_shap": 35.3545,
+      "driving_dist_shap": 7.5781,
       "n_events": 1,
       "n_player_events": 68,
-      "sg_app_shap": 10.4736,
-      "sg_arg_shap": 6.4151,
-      "sg_putt_shap": 12.6081
+      "sg_app_shap": 10.1062,
+      "sg_arg_shap": 5.8564,
+      "sg_putt_shap": 12.6114
     },
     "source": "web_search",
     "statistical_profile": {
@@ -5444,13 +5444,13 @@
     "par": 72,
     "region": "USA",
     "shap_profile": {
-      "driving_acc_shap": 33.5529,
-      "driving_dist_shap": 3.2163,
+      "driving_acc_shap": 33.5415,
+      "driving_dist_shap": 2.8651,
       "n_events": 1,
       "n_player_events": 144,
-      "sg_app_shap": 12.2851,
-      "sg_arg_shap": 9.5728,
-      "sg_putt_shap": 14.9461
+      "sg_app_shap": 12.1362,
+      "sg_arg_shap": 9.5306,
+      "sg_putt_shap": 14.6506
     },
     "source": "web_search",
     "statistical_profile": {
