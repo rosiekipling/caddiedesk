@@ -679,14 +679,17 @@
     grid-template-columns: 1fr;
     gap: 24px;
     margin: 40px 0;
+    /* each scrolly section is its own stacking/sticky context */
+    position: relative;
   }
   
   .scrolly-graphic {
     position: sticky;
     top: 8vh;
-    height: 55vh;       /* fixed height keeps it pinned — not auto */
+    height: 50vh;
     min-height: 0;
     z-index: 1;
+    background: var(--paper);   /* so a pinned chart from the previous section doesn't show through */
   }
   
   .scrolly-graphic svg {
