@@ -74,7 +74,7 @@
     renderStep(config.defaultStep, config);
     
     const isMobile = window.matchMedia("(max-width: 780px)").matches;
-    
+
     const scroller = scrollama();
     scroller
       .setup({
@@ -186,8 +186,8 @@
     
     d3.select(`#${config.svgId}-active`)
       .transition()
-      .duration(800)
-      .ease(d3.easeCubicInOut)
+      .duration(600)
+      .ease(d3.easeBackOut.overshoot(1.4))
       .attr("points", newPoints.map(p => p.join(",")).join(" "))
       .attr("fill", `${color}40`)
       .attr("stroke", color)

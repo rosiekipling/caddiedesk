@@ -694,20 +694,29 @@
   .scrolly-graphic svg {
     max-width: 280px;
   }
-  
-  /* Critical: shorter steps so multiple fit beneath the chart */
-  .scrolly-step {
-    min-height: 70vh;
-    padding: 30px 0;
+
+  .scrolly-steps {
+    scroll-snap-type: y mandatory;
   }
   
-  /* First step needs extra top padding so it doesn't trigger immediately on load */
+  .scrolly-step {
+    min-height: 50vh;     /* was 70vh */
+    padding: 20px 0;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+  
   .scrolly-step:first-child {
-    padding-top: 20vh;
+    padding-top: 10vh;    /* was 20vh */
   }
   
   .scrolly-spacer {
-    height: 15vh;
+    height: 8vh;          /* was 15vh */
+  }
+  
+  .scrolly-step p {
+    font-size: 15px;      /* slightly tighter prose */
+    line-height: 1.5;
   }
 }
 
