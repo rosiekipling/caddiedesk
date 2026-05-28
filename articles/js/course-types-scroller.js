@@ -77,7 +77,7 @@
     scroller
       .setup({
         step: `#${config.containerId} .scrolly-step`,
-        offset: 0.5,
+        offset: isMobile ? 0.7 : 0.5,
         debug: false,
       })
       .onStepEnter(({ element }) => {
