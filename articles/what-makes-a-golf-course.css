@@ -701,17 +701,17 @@
   
   .scrolly-step {
     min-height: 50vh;     /* was 70vh */
-    padding: 20px 0;
+    padding: 5px 0;
     scroll-snap-align: start;
     scroll-snap-stop: always;
   }
   
   .scrolly-step:first-child {
-    padding-top: 10vh;    /* was 20vh */
+    padding-top: 5vh;    /* was 20vh */
   }
   
   .scrolly-spacer {
-    height: 8vh;          /* was 15vh */
+    height: 5vh;          /* was 15vh */
   }
   
   .scrolly-step p {
