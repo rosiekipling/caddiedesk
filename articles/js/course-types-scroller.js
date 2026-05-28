@@ -73,9 +73,9 @@
     drawBaseRadar(config.svgId);
     renderStep(config.defaultStep, config);
     
-    const scroller = scrollama();
     const isMobile = window.matchMedia("(max-width: 780px)").matches;
-
+    
+    const scroller = scrollama();
     scroller
       .setup({
         step: `#${config.containerId} .scrolly-step`,
