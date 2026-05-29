@@ -375,120 +375,29 @@
   height: 25vh;
 }
 
-/* --- Scatter chart elements --- */
-.scatter-dot.dimmed {
-  opacity: 0.15;
-  transition: opacity 0.4s ease;
-}
-
-.scatter-dot.highlighted {
-  opacity: 1;
-  stroke: var(--ink);
-  stroke-width: 2;
-  transition: all 0.4s ease;
-}
-
-.scatter-tooltip {
-  position: absolute;
+.island-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
   background: var(--paper);
-  border: 1.5px solid var(--ink);
-  padding: 12px 16px;
+  z-index: 50;
   pointer-events: none;
   opacity: 0;
-  transition: opacity 0.15s ease;
-  font-family: 'Archivo', sans-serif;
-  font-size: 12px;
-  color: var(--ink);
-  z-index: 100;
-  max-width: 260px;
-  box-shadow: 4px 4px 0 var(--ink);
-  width: max-content;
-  flex: none;
+  transition: opacity 0.2s ease;
 }
 
-.scatter-tooltip .tooltip-name {
-  font-family: 'Fraunces', serif;
-  font-style: italic;
-  font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 6px;
-  line-height: 1.2;
+/* Show only when a scrolly section is active */
+body.scrolly-active .island-cover {
+  opacity: 1;
 }
 
-.scatter-tooltip .tooltip-kicker {
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-  color: var(--ink-mute);
-  margin-bottom: 4px;
-}
-
-.scatter-tooltip .tooltip-meta {
-  margin: 4px 0;
-  font-size: 11px;
-}
-
-.scatter-tooltip .tooltip-stats {
-  font-family: 'Archivo', sans-serif;
-  font-size: 11px;
-  color: var(--ink-mute);
-  margin-top: 8px;
-  padding-top: 8px;
-  border-top: 1px solid var(--ink-line);
-}
-
-.scatter-quadrant {
-  stroke: var(--ink);
-  stroke-opacity: 0.15;
-  stroke-dasharray: 4 4;
-}
-
-.scatter-annotation {
-  font-family: 'Fraunces', serif;
-  font-style: italic;
-  font-weight: 700;
-  font-size: 12px;
-  fill: var(--ink);
-  pointer-events: none;
-}
-
-.scatter-annotation-line {
-  stroke: var(--ink);
-  stroke-width: 1;
-  fill: none;
-}
-
-.scatter-annotation-group {
-  transition: opacity 0.4s ease;
-}
-
-/* --- D3 chart defaults --- */
-.chart-text {
-  font-family: 'Archivo', sans-serif;
-  font-weight: 700;
-  font-size: 11px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  fill: var(--ink-mute);
-}
-.chart-axis path,
-.chart-axis line {
-  stroke: var(--ink);
-  stroke-opacity: 0.4;
-}
-.chart-axis text {
-  font-family: 'Archivo', sans-serif;
-  font-size: 11px;
-  fill: var(--ink-mute);
-}
-.chart-dot {
-  fill: var(--ink);
-  stroke: var(--paper);
-  stroke-width: 1.5;
-}
-.chart-dot.highlighted {
-  fill: var(--ink);
-  stroke-width: 3;
+/* Hide on desktop entirely */
+@media (min-width: 781px) {
+  .island-cover {
+    display: none;
+  }
 }
 
 /* --- Course explorer (standalone interactive tool) --- */
@@ -657,23 +566,12 @@
     margin: 40px 0;
     position: relative;
   }
-  
-  /* .scrolly-graphic {
-    position: sticky;
-    top: 0;
-    height: calc(50vh + env(safe-area-inset-top, 0px));
-    padding-top: calc(2vh + env(safe-area-inset-top, 0px));
-    padding-bottom: 2vh;
-    background: var(--paper);
-    z-index: 2;
-    min-height: 0;
-  } */
 
   .scrolly-graphic {
     position: sticky;
     top: 0;
-    height: calc(50vh + 60px);    /* hardcoded 60px instead of env() */
-    padding-top: calc(2vh + 60px);
+    height: 50vh; 
+    padding-top: 2vh;
     padding-bottom: 2vh;
     background: var(--paper);
     z-index: 2;

@@ -197,4 +197,28 @@
       .attr("stroke", color)
       .attr("stroke-width", 2.5);
   }
+
+})();
+
+(function() {
+  const scrollyGraphics = document.querySelectorAll('.scrolly-graphic');
+  if (!scrollyGraphics.length) return;
+  
+  const activeSet = new Set();
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        activeSet.add(entry.target);
+      } else {
+        activeSet.delete(entry.target);
+      }
+    });
+    document.body.classList.toggle('scrolly-active', activeSet.size > 0);
+  }, {
+    rootMargin: '0px 0px -50% 0px',  // only "active" when graphic is in top half of viewport
+    threshold: 0,
+  });
+  
+  scrollyGraphics.forEach(g => observer.observe(g));
 })();
