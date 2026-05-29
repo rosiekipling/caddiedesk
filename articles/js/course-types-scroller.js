@@ -116,7 +116,7 @@
     
     features.forEach((feat, i) => {
       const isMobile = window.matchMedia("(max-width: 780px)").matches;
-      const labelSize = isMobile ? 15 : 13;
+      const labelSize = isMobile ? 25 : 13;
       const labelOffset = isMobile ? 32 : 30;
       
       const x = center.x + (radius + labelOffset) * Math.cos(angle(i));
