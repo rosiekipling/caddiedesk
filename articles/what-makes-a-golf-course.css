@@ -375,7 +375,7 @@
   height: 25vh;
 }
 
-.island-cover {
+/* .island-cover {
   position: fixed;
   top: 0;
   left: 0;
@@ -389,9 +389,9 @@
 }
 
 /* Show only when a scrolly section is active */
-body.scrolly-active .island-cover {
+/* body.scrolly-active .island-cover {
   opacity: 1;
-}
+} */
 
 /* Hide on desktop entirely */
 @media (min-width: 781px) {
@@ -570,8 +570,8 @@ body.scrolly-active .island-cover {
   .scrolly-graphic {
     position: sticky;
     top: 0;
-    height: 50vh; 
-    padding-top: 2vh;
+    height: calc(50vh + env(safe-area-inset-top, 0px));
+    padding-top: calc(2vh + env(safe-area-inset-top, 0px));
     padding-bottom: 2vh;
     background: var(--paper);
     z-index: 2;
@@ -619,7 +619,7 @@ body.scrolly-active .island-cover {
   .article-lead { margin: 16px 0 28px; }
 }
 
-#debug-indicator {
+/* #debug-indicator {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -635,4 +635,4 @@ body.scrolly-active .island-cover {
 
 @media (min-width: 781px) {
   #debug-indicator { display: none; }
-}
+} */
