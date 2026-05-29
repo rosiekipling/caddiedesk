@@ -201,24 +201,40 @@
 })();
 
 (function() {
-  const scrollySections = document.querySelectorAll('.scrolly');
-  if (!scrollySections.length) return;
+  const scrollyGraphics = document.querySelectorAll('.scrolly-graphic');
+  if (!scrollyGraphics.length) return;
   
-  const activeSet = new Set();
+  let isActive = false;
   
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        activeSet.add(entry.target);
-      } else {
-        activeSet.delete(entry.target);
+  function checkActive() {
+    let active = false;
+    
+    scrollyGraphics.forEach(graphic => {
+      const rect = graphic.getBoundingClientRect();
+      // The graphic is "pinned at top" if its top edge is at or above the viewport top
+      // AND its bottom edge is still below the top of the viewport
+      if (rect.top <= 5 && rect.bottom > 100) {
+        active = true;
       }
     });
-    document.body.classList.toggle('scrolly-active', activeSet.size > 0);
-  }, {
-    rootMargin: '0px 0px -80% 0px',  // activates when section enters top 20% of viewport
-    threshold: 0,
-  });
+    
+    if (active !== isActive) {
+      isActive = active;
+      document.body.classList.toggle('scrolly-active', isActive);
+    }
+  }
   
-  scrollySections.forEach(s => observer.observe(s));
+  // Throttle scroll handler
+  let rafId = null;
+  function onScroll() {
+    if (rafId) return;
+    rafId = requestAnimationFrame(() => {
+      checkActive();
+      rafId = null;
+    });
+  }
+  
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', checkActive, { passive: true });
+  checkActive();  // initial check
 })();
