@@ -18,13 +18,14 @@
     links: "#3a7d44",
     coastal: "#5a8ca8",
     stadium: "#c1666b",
-    augusta: "#5b3924",
-    kapalua: "#d4a373",
-    standrews: "#6f5d8e",
     // Parkland eras
     golden_age: "#8b6f47",
     modern: "#5a8ca8",
     contemporary: "#3a7d44",
+    // Outliers
+    augusta: "#5b3924",
+    kapalua: "#d4a373",
+    standrews: "#6f5d8e",
   };
 
   const INK = "#363334";

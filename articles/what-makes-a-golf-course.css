@@ -251,6 +251,17 @@
   max-width: 480px;
 }
 
+.scrolly-fade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2vh;          /* sits just below the graphic's bottom edge */
+  height: 2vh;
+  background: linear-gradient(to bottom, var(--paper), transparent);
+  z-index: 3;
+  pointer-events: none;
+}
+
 /* Scatter charts are larger */
 .scrolly--scatter .scrolly-graphic svg {
   max-width: 700px;
@@ -687,6 +698,7 @@
     top: 0;
     height: 50vh;
     padding-top: 2vh;
+    padding-bottom: 2vh;
     background: var(--paper);
     z-index: 2;
     min-height: 0;
@@ -694,11 +706,7 @@
   
   .scrolly-graphic svg {
     max-width: 280px;
-    width: 100%;
-    height: auto;
-    flex-shrink: 0;     
   }
-
   
   .scrolly-steps {
     scroll-snap-type: y mandatory;
