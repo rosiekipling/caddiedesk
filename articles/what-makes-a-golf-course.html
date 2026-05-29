@@ -19,12 +19,12 @@
   <link rel="stylesheet" href="/articles/what-makes-a-golf-course.css">
 
   <!-- Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-  <script src="https://unpkg.com/scrollama@3"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://unpkg.com/scrollama@3"></script> -->
 
   <!-- Before </body> -->
-  <script src="/articles/js/course-types-scroller.js"></script>
-  <script src="/articles/js/course-explorer.js"></script>
+  <!-- <script src="/articles/js/course-types-scroller.js"></script>
+  <script src="/articles/js/course-explorer.js"></script> -->
   <!-- <script src="/articles/js/course-scatters.js"></script> -->
 
   <!-- Open Graph -->
@@ -221,6 +221,53 @@
 
   </div>
 
-
+  <!-- Load external scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://unpkg.com/scrollama@3"></script>
+  <script src="/articles/js/course-types-scroller.js"></script>
+  <script src="/articles/js/course-explorer.js"></script>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const scrollyGraphics = document.querySelectorAll('.scrolly-graphic');
+      const indicator = document.getElementById('debug-indicator');
+      
+      if (indicator) {
+        indicator.innerHTML = 'JS loaded · ' + scrollyGraphics.length + ' graphics';
+      }
+      
+      if (!scrollyGraphics.length) return;
+      
+      function checkActive() {
+        let active = false;
+        let info = [];
+        
+        scrollyGraphics.forEach((graphic, i) => {
+          const rect = graphic.getBoundingClientRect();
+          const pinned = rect.top <= 5 && rect.bottom > 100;
+          info.push(`#${i}: t=${rect.top.toFixed(0)} b=${rect.bottom.toFixed(0)} ${pinned ? '📌' : ''}`);
+          if (pinned) active = true;
+        });
+        
+        document.body.classList.toggle('scrolly-active', active);
+        
+        if (indicator) {
+          indicator.innerHTML = `cover: ${active ? 'ON' : 'OFF'}<br>${info.join('<br>')}`;
+        }
+      }
+      
+      let rafId = null;
+      function onScroll() {
+        if (rafId) return;
+        rafId = requestAnimationFrame(function() {
+          checkActive();
+          rafId = null;
+        });
+      }
+      
+      window.addEventListener('scroll', onScroll, { passive: true });
+      checkActive();
+    });
+  </script>
 
 </body></html>

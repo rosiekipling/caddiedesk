@@ -199,38 +199,3 @@
   }
 
 })();
-(function() {
-  const scrollyGraphics = document.querySelectorAll('.scrolly-graphic');
-  const indicator = document.getElementById('debug-indicator');
-  if (!scrollyGraphics.length) return;
-  
-  function checkActive() {
-    let active = false;
-    let info = [];
-    
-    scrollyGraphics.forEach((graphic, i) => {
-      const rect = graphic.getBoundingClientRect();
-      const pinned = rect.top <= 5 && rect.bottom > 100;
-      info.push(`#${i}: t=${rect.top.toFixed(0)} b=${rect.bottom.toFixed(0)} ${pinned ? '📌' : ''}`);
-      if (pinned) active = true;
-    });
-    
-    document.body.classList.toggle('scrolly-active', active);
-    
-    if (indicator) {
-      indicator.innerHTML = `cover: ${active ? 'ON' : 'OFF'}<br>${info.join('<br>')}`;
-    }
-  }
-  
-  let rafId = null;
-  function onScroll() {
-    if (rafId) return;
-    rafId = requestAnimationFrame(() => {
-      checkActive();
-      rafId = null;
-    });
-  }
-  
-  window.addEventListener('scroll', onScroll, { passive: true });
-  checkActive();
-})();
