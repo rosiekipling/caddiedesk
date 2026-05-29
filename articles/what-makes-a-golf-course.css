@@ -694,13 +694,11 @@
   
   .scrolly-graphic svg {
     max-width: 280px;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;     
   }
-  
-  .radar-caption {
-    flex-shrink: 1;     /* let the caption shrink instead */
-    max-height: 80px;
-    overflow: hidden;
-  }
+
   
   .scrolly-steps {
     scroll-snap-type: y mandatory;
