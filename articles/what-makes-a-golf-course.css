@@ -686,7 +686,7 @@
     position: sticky;
     top: 0;
     height: 50vh;
-    padding-top: 0;
+    padding-top: 2vh;
     background: var(--paper);
     z-index: 2;
     min-height: 0;
