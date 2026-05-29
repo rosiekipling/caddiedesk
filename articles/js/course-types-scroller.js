@@ -115,15 +115,18 @@
     });
     
     features.forEach((feat, i) => {
-      const offset = 28;
-      const x = center.x + (radius + offset) * Math.cos(angle(i));
-      const y = center.y + (radius + offset) * Math.sin(angle(i));
+      const isMobile = window.matchMedia("(max-width: 780px)").matches;
+      const labelSize = isMobile ? 15 : 13;
+      const labelOffset = isMobile ? 32 : 30;
+      
+      const x = center.x + (radius + labelOffset) * Math.cos(angle(i));
+      const y = center.y + (radius + labelOffset) * Math.sin(angle(i));
       svg.append("text")
         .attr("x", x).attr("y", y)
         .attr("text-anchor", "middle")
         .attr("dominant-baseline", "central")
         .attr("font-family", "Archivo, sans-serif")
-        .attr("font-size", 11)
+        .attr("font-size", labelSize)
         .attr("font-weight", 600)
         .attr("fill", INK)
         .text(featureLabels[feat]);
