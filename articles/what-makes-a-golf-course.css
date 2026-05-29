@@ -201,8 +201,7 @@
   color: var(--ink);
   background: var(--paper);
   
-  /* This is critical — make sure the divider is positioned 
-     ABOVE the sticky graphic from the previous scrolly section */
+  /* Ensures divider sits above sticky graphic from the previous scrolly section */
   position: relative;
   z-index: 2;
 }
@@ -222,7 +221,7 @@
   transform: translateX(-50%);
 }
 
-/* Modifier: scatter scrollers use 60/40 split for more chart room */
+/* Scatter scrollers use 60/40 split for more chart room */
 .scrolly.scrolly--scatter {
   grid-template-columns: 60% 40%;
   max-width: 1200px;
@@ -244,27 +243,27 @@
   height: auto;
 }
 
-/* Radar charts are smaller */
+/* Radar charts are smaller than scatter charts */
 .scrolly-graphic #course-type-radar,
 .scrolly-graphic #parkland-era-radar,
 .scrolly-graphic #outlier-radar {
   max-width: 480px;
 }
 
+.scrolly--scatter .scrolly-graphic svg {
+  max-width: 700px;
+}
+
+/* Bottom fade strip on each chart */
 .scrolly-fade {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -2vh;          /* sits just below the graphic's bottom edge */
+  bottom: -2vh;
   height: 2vh;
   background: linear-gradient(to bottom, var(--paper), transparent);
   z-index: 3;
   pointer-events: none;
-}
-
-/* Scatter charts are larger */
-.scrolly--scatter .scrolly-graphic svg {
-  max-width: 700px;
 }
 
 /* Header above the chart (used for scatters) */
@@ -331,7 +330,7 @@
   display: block;
 }
 
-/* Steps (scrolling text column) */
+/* Scrolling text column */
 .scrolly-steps {
   position: relative;
 }
@@ -376,7 +375,7 @@
   height: 25vh;
 }
 
-/* --- Scatter dot highlight states --- */
+/* --- Scatter chart elements --- */
 .scatter-dot.dimmed {
   opacity: 0.15;
   transition: opacity 0.4s ease;
@@ -389,7 +388,6 @@
   transition: all 0.4s ease;
 }
 
-/* --- Scatter tooltip --- */
 .scatter-tooltip {
   position: absolute;
   background: var(--paper);
@@ -439,7 +437,6 @@
   border-top: 1px solid var(--ink-line);
 }
 
-/* --- Scatter chart elements (axes, annotations) --- */
 .scatter-quadrant {
   stroke: var(--ink);
   stroke-opacity: 0.15;
@@ -461,42 +458,9 @@
   fill: none;
 }
 
-/* --- Mobile breakpoints --- */
-@media (max-width: 920px) {
-  .scrolly,
-  .scrolly.scrolly--scatter {
-    width: 100%;
-    left: 0;
-    transform: none;
-    grid-template-columns: 1fr;
-    gap: 24px;
-    margin: 40px 0;
-  }
-  
-  .scrolly-graphic {
-    position: relative;
-    top: 0;
-    height: auto;
-    min-height: 40vh;
-  }
-  
-  .scrolly-graphic #course-type-radar,
-  .scrolly-graphic #parkland-era-radar,
-  .scrolly-graphic #outlier-radar {
-    max-width: 320px;
-  }
-  
-  .scrolly--scatter .scrolly-graphic svg {
-    max-width: 100%;
-  }
+.scatter-annotation-group {
+  transition: opacity 0.4s ease;
 }
-
-@media (max-width: 600px) {
-  .article-page { padding: 20px 22px 60px; }
-  .article-header { padding: 32px 0 24px; }
-  .article-lead { margin: 16px 0 28px; }
-}
-
 
 /* --- D3 chart defaults --- */
 .chart-text {
@@ -683,7 +647,8 @@
 
 /* --- Mobile --- */
 @media (max-width: 780px) {
-  .scrolly {
+  .scrolly,
+  .scrolly.scrolly--scatter {
     width: 100%;
     left: 0;
     transform: none;
@@ -704,8 +669,14 @@
     min-height: 0;
   }
   
-  .scrolly-graphic svg {
+  .scrolly-graphic #course-type-radar,
+  .scrolly-graphic #parkland-era-radar,
+  .scrolly-graphic #outlier-radar {
     max-width: 280px;
+  }
+  
+  .scrolly--scatter .scrolly-graphic svg {
+    max-width: 100%;
   }
   
   .scrolly-steps {
@@ -713,28 +684,24 @@
   }
   
   .scrolly-step {
-    min-height: 50vh;     /* was 70vh */
+    min-height: 50vh;
     padding: 5px 0;
     scroll-snap-align: start;
     scroll-snap-stop: always;
   }
   
   .scrolly-step:first-child {
-    padding-top: 0vh;    /* was 20vh */
-  }
-  
-  .scrolly-spacer {
-    height: 5vh;          /* was 15vh */
+    padding-top: 0;
   }
   
   .scrolly-step p {
-    font-size: 15px;      /* slightly tighter prose */
+    font-size: 15px;
     line-height: 1.5;
   }
-}
-
-.scatter-annotation-group {
-  transition: opacity 0.4s ease;
+  
+  .scrolly-spacer {
+    height: 5vh;
+  }
 }
 
 @media (max-width: 600px) {
@@ -742,4 +709,3 @@
   .article-header { padding: 32px 0 24px; }
   .article-lead { margin: 16px 0 28px; }
 }
-
