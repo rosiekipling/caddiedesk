@@ -201,8 +201,8 @@
 })();
 
 (function() {
-  const scrollyGraphics = document.querySelectorAll('.scrolly-graphic');
-  if (!scrollyGraphics.length) return;
+  const scrollySections = document.querySelectorAll('.scrolly');
+  if (!scrollySections.length) return;
   
   const activeSet = new Set();
   
@@ -216,9 +216,9 @@
     });
     document.body.classList.toggle('scrolly-active', activeSet.size > 0);
   }, {
-    rootMargin: '0px 0px -50% 0px',  // only "active" when graphic is in top half of viewport
+    rootMargin: '0px 0px -80% 0px',  // activates when section enters top 20% of viewport
     threshold: 0,
   });
   
-  scrollyGraphics.forEach(g => observer.observe(g));
+  scrollySections.forEach(s => observer.observe(s));
 })();
