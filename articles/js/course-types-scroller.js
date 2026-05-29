@@ -199,32 +199,29 @@
   }
 
 })();
-
 (function() {
   const scrollyGraphics = document.querySelectorAll('.scrolly-graphic');
+  const indicator = document.getElementById('debug-indicator');
   if (!scrollyGraphics.length) return;
-  
-  let isActive = false;
   
   function checkActive() {
     let active = false;
+    let info = [];
     
-    scrollyGraphics.forEach(graphic => {
+    scrollyGraphics.forEach((graphic, i) => {
       const rect = graphic.getBoundingClientRect();
-      // The graphic is "pinned at top" if its top edge is at or above the viewport top
-      // AND its bottom edge is still below the top of the viewport
-      if (rect.top <= 5 && rect.bottom > 100) {
-        active = true;
-      }
+      const pinned = rect.top <= 5 && rect.bottom > 100;
+      info.push(`#${i}: t=${rect.top.toFixed(0)} b=${rect.bottom.toFixed(0)} ${pinned ? '📌' : ''}`);
+      if (pinned) active = true;
     });
     
-    if (active !== isActive) {
-      isActive = active;
-      document.body.classList.toggle('scrolly-active', isActive);
+    document.body.classList.toggle('scrolly-active', active);
+    
+    if (indicator) {
+      indicator.innerHTML = `cover: ${active ? 'ON' : 'OFF'}<br>${info.join('<br>')}`;
     }
   }
   
-  // Throttle scroll handler
   let rafId = null;
   function onScroll() {
     if (rafId) return;
@@ -235,6 +232,5 @@
   }
   
   window.addEventListener('scroll', onScroll, { passive: true });
-  window.addEventListener('resize', checkActive, { passive: true });
-  checkActive();  // initial check
+  checkActive();
 })();

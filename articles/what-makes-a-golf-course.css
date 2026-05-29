@@ -618,3 +618,21 @@ body.scrolly-active .island-cover {
   .article-header { padding: 32px 0 24px; }
   .article-lead { margin: 16px 0 28px; }
 }
+
+#debug-indicator {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  color: white;
+  padding: 8px 12px;
+  font-family: monospace;
+  font-size: 14px;
+  z-index: 9999;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+@media (min-width: 781px) {
+  #debug-indicator { display: none; }
+}
