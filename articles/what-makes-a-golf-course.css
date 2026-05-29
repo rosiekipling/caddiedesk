@@ -658,11 +658,22 @@
     position: relative;
   }
   
-  .scrolly-graphic {
+  /* .scrolly-graphic {
     position: sticky;
     top: 0;
     height: calc(50vh + env(safe-area-inset-top, 0px));
     padding-top: calc(2vh + env(safe-area-inset-top, 0px));
+    padding-bottom: 2vh;
+    background: var(--paper);
+    z-index: 2;
+    min-height: 0;
+  } */
+
+  .scrolly-graphic {
+    position: sticky;
+    top: 0;
+    height: calc(50vh + 60px);    /* hardcoded 60px instead of env() */
+    padding-top: calc(2vh + 60px);
     padding-bottom: 2vh;
     background: var(--paper);
     z-index: 2;
